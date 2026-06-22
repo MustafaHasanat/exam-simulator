@@ -78,6 +78,12 @@ import { BANK_LPIC2 } from "./bankLPIC2";
 import { BANK_RHCSA } from "./bankRHCSA";
 import { BANK_RHCE } from "./bankRHCE";
 import { BANK_LINUXPLUS } from "./bankLinuxPlus";
+import { BANK_CTFL } from "./bankCTFL";
+import { BANK_CTALTM } from "./bankCTALTM";
+import { BANK_CTALTA } from "./bankCTALTA";
+import { BANK_CTALTTA } from "./bankCTALTTA";
+import { BANK_CTALTAE } from "./bankCTALTAE";
+import { BANK_CTMAT } from "./bankCTMAT";
 
 type ExamMeta = Omit<ExamConfig, "bank"> & { bankKey: keyof typeof BANKS };
 
@@ -160,6 +166,12 @@ const BANKS = {
     BANK_RHCSA,
     BANK_RHCE,
     BANK_LINUXPLUS,
+    BANK_CTFL,
+    BANK_CTALTM,
+    BANK_CTALTA,
+    BANK_CTALTTA,
+    BANK_CTALTAE,
+    BANK_CTMAT,
 };
 
 const META: ExamMeta[] = [
@@ -1446,7 +1458,7 @@ const META: ExamMeta[] = [
 
     // ── Enterprise Architecture ──
     {
-        id: "101",
+        id: "OGEA_101",
         label: "OGEA-101",
         fullName: "TOGAF® Enterprise Architecture Foundation",
         level: "Foundation",
@@ -1471,7 +1483,7 @@ const META: ExamMeta[] = [
         ],
     },
     {
-        id: "102",
+        id: "OGEA_102",
         label: "OGEA-102",
         fullName: "TOGAF® Enterprise Architecture Practitioner",
         level: "Practitioner",
@@ -2165,6 +2177,156 @@ const META: ExamMeta[] = [
             { name: "Security", weight: 21 },
             { name: "Scripting, Containers & Automation", weight: 19 },
             { name: "Troubleshooting & Diagnostics", weight: 28 },
+        ],
+    },
+
+    // ── ISTQB ──
+    {
+        id: "CTFL",
+        label: "CTFL",
+        fullName: "ISTQB Certified Tester Foundation Level",
+        level: "Foundation",
+        questions: 40,
+        minutes: 60,
+        pass: 65,
+        bankKey: "BANK_CTFL",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/certified-tester-foundation-level",
+        price: "$250 USD",
+        prerequisites: "None required",
+        description:
+            "Entry-level software testing certification covering fundamentals, SDLC testing, static testing, and test management.",
+        about: "The ISTQB Certified Tester Foundation Level (CTFL) is the globally recognized entry point for software testers, validating knowledge of testing principles, techniques, and the testing lifecycle.",
+        examDomains: [
+            { name: "Fundamentals of Testing", weight: 18 },
+            { name: "Testing Throughout the SDLC", weight: 17 },
+            { name: "Static Testing", weight: 18 },
+            { name: "Test Analysis & Design", weight: 20 },
+            { name: "Managing Test Activities", weight: 17 },
+            { name: "Test Tools", weight: 10 },
+        ],
+    },
+    {
+        id: "CTAL-TM",
+        label: "CTAL-TM",
+        fullName: "ISTQB Advanced Level – Test Manager",
+        level: "Advanced",
+        questions: 65,
+        minutes: 180,
+        pass: 65,
+        bankKey: "BANK_CTALTM",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/certified-tester-advanced-level-test-management",
+        price: "$375 USD",
+        prerequisites: "CTFL required",
+        description:
+            "Advanced certification for test managers covering risk-based testing, process improvement, metrics, and team leadership.",
+        about: "CTAL Test Manager validates advanced skills in planning, monitoring, and controlling test activities, managing test teams, and aligning testing with business objectives.",
+        examDomains: [
+            { name: "Manage Testing Activities", weight: 20 },
+            { name: "Risk-Based Testing", weight: 18 },
+            { name: "Defect Management", weight: 15 },
+            { name: "Improving the Test Process", weight: 17 },
+            { name: "Test Tools & Automation Strategy", weight: 15 },
+            { name: "Managing the Test Team", weight: 15 },
+        ],
+    },
+    {
+        id: "CTAL-TA",
+        label: "CTAL-TA",
+        fullName: "ISTQB Advanced Level – Technical Test Analyst",
+        level: "Advanced",
+        questions: 65,
+        minutes: 180,
+        pass: 65,
+        bankKey: "BANK_CTALTA",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/certified-tester-advanced-level-technical-test-analyst",
+        price: "$375 USD",
+        prerequisites: "CTFL required",
+        description:
+            "Advanced technical testing including structure-based, analytical techniques, quality characteristics, and test automation.",
+        about: "CTAL Technical Test Analyst focuses on white-box testing, performance, security, reliability testing, and technical review techniques for complex systems.",
+        examDomains: [
+            { name: "Risk-Based Testing", weight: 15 },
+            { name: "Structure-Based Testing", weight: 20 },
+            { name: "Analytical Testing", weight: 18 },
+            { name: "Testing Software Quality Characteristics", weight: 20 },
+            { name: "Reviews", weight: 12 },
+            { name: "Test Tools & Automation", weight: 15 },
+        ],
+    },
+    {
+        id: "CTAL-TTA",
+        label: "CTAL-TTA",
+        fullName: "ISTQB Advanced Level – Test Analyst",
+        level: "Advanced",
+        questions: 65,
+        minutes: 180,
+        pass: 65,
+        bankKey: "BANK_CTALTTA",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/certified-tester-advanced-level-test-analyst",
+        price: "$375 USD",
+        prerequisites: "CTFL required",
+        description:
+            "Advanced black-box testing techniques, test management, quality characteristics, and defect management.",
+        about: "CTAL Test Analyst validates expertise in test analysis, design, execution, and evaluation using advanced black-box and experience-based techniques.",
+        examDomains: [
+            { name: "Testing Process", weight: 18 },
+            { name: "Test Management", weight: 17 },
+            { name: "Test Techniques", weight: 25 },
+            { name: "Testing Software Quality Characteristics", weight: 20 },
+            { name: "Defect Management", weight: 10 },
+            { name: "Test Tools", weight: 10 },
+        ],
+    },
+    {
+        id: "CTAL-TAE",
+        label: "CTAL-TAE",
+        fullName: "ISTQB Advanced Level – Test Automation Engineer",
+        level: "Advanced",
+        questions: 40,
+        minutes: 90,
+        pass: 65,
+        bankKey: "BANK_CTALTAE",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/certified-tester-advanced-level-test-automation-engineer",
+        price: "$375 USD",
+        prerequisites: "CTFL required",
+        description:
+            "Design, development, and maintenance of test automation solutions including frameworks, deployment, and reporting.",
+        about: "CTAL Test Automation Engineer validates skills in planning, designing, implementing, and maintaining automated test solutions aligned with project goals.",
+        examDomains: [
+            { name: "Introduction & Objectives for Test Automation", weight: 10 },
+            { name: "Preparing for Test Automation", weight: 15 },
+            { name: "Analysis & Design for Test Automation", weight: 20 },
+            { name: "Implementation of Test Automation", weight: 25 },
+            { name: "Deployment & Reporting", weight: 20 },
+            { name: "Verification & Validation", weight: 10 },
+        ],
+    },
+    {
+        id: "CT-MAT",
+        label: "CT-MAT",
+        fullName: "ISTQB Certified Tester – Agile Tester",
+        level: "Specialist",
+        questions: 40,
+        minutes: 60,
+        pass: 65,
+        bankKey: "BANK_CTMAT",
+        provider: "ISTQB",
+        registrationUrl: "https://istqb.org/certifications/agile-tester",
+        price: "$250 USD",
+        prerequisites: "CTFL required",
+        description:
+            "Testing in Agile projects including Agile fundamentals, methods, techniques, and tool support.",
+        about: "The ISTQB Agile Tester extension validates understanding of Agile development and the role of testing in Agile teams using Scrum, Kanban, and other frameworks.",
+        examDomains: [
+            { name: "Agile Software Development Fundamentals", weight: 25 },
+            { name: "Testing in Agile Projects", weight: 30 },
+            { name: "Agile Testing Methods & Techniques", weight: 30 },
+            { name: "Tools in Agile Projects", weight: 15 },
         ],
     },
 ];

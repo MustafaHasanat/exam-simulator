@@ -1096,4 +1096,566 @@ export const BANK_DVA: Question[] = [
     a: 1,
     exp: 'API Gateway has a maximum integration timeout of 29 seconds. If the Lambda function takes longer than 29 seconds to respond, API Gateway returns a 504 Gateway Timeout. The Lambda function may still be running, but API Gateway will not wait. Solutions include optimizing the function to complete within 29 seconds or switching to an asynchronous pattern.',
   },
+
+  // ── Additional DVA-C02 practice questions (40 added) ──
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "For AWS Certified Developer – Associate certification, Development with AWS Services knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test development with aws services configurations in one environment",
+      "Store sensitive development with aws services credentials in plain text configuration files",
+      "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements",
+      "Skip development with aws services testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A team at a high-traffic e-commerce platform debates Security options while studying AWS Certified Developer – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive security credentials in plain text configuration files",
+      "Skip security testing before production rollout",
+      "Implement security without change management or rollback plans",
+      "Use the certified security methodology specified for AWS Certified Developer – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security methodology specified for AWS Certified Developer – Associate candidates. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment capability is validated by AWS Certified Developer – Associate for organizations such as a government agency?",
+    opts: [
+      "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials",
+      "Skip deployment testing before production rollout",
+      "Implement deployment without change management or rollback plans",
+      "Use default deployment settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "When evaluating Troubleshooting & Optimization tools for AWS Certified Developer – Associate, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement troubleshooting & optimization without change management or rollback plans",
+      "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations",
+      "Use default troubleshooting & optimization settings without hardening",
+      "Centralize all troubleshooting & optimization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "A manufacturing company modernizing IT must document Development with AWS Services procedures for AWS Certified Developer – Associate compliance. Which standard applies?",
+    opts: [
+      "Use default development with aws services settings without hardening",
+      "Centralize all development with aws services decisions without stakeholder review",
+      "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards",
+      "Deprecate development with aws services controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A AWS Certified Developer – Associate instructor asks about Security in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all security decisions without stakeholder review",
+      "Deprecate security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security policies",
+      "Design security using patterns validated in AWS Certified Developer – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security using patterns validated in AWS Certified Developer – Associate practice assessments. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment metric best indicates AWS Certified Developer – Associate readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives",
+      "Deprecate deployment controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deployment policies",
+      "Disable monitoring for deployment to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A regulated financial institution is troubleshooting a Troubleshooting & Optimization issue while preparing for AWS Certified Developer – Associate. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses troubleshooting & optimization policies",
+      "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge",
+      "Disable monitoring for troubleshooting & optimization to improve performance",
+      "Grant excessive privileges that violate troubleshooting & optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "In AWS Certified Developer – Associate, how should a healthcare organization handle a trade-off involving Development with AWS Services?",
+    opts: [
+      "Disable monitoring for development with aws services to improve performance",
+      "Grant excessive privileges that violate development with aws services least-privilege principles",
+      "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements",
+      "Rely solely on manual processes with no development with aws services automation",
+    ],
+    a: 2,
+    exp: "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "Which Security pattern is commonly tested on AWS Certified Developer – Associate for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate security least-privilege principles",
+      "Rely solely on manual processes with no security automation",
+      "Ignore security compliance requirements for faster deployment",
+      "Use the certified security methodology specified for AWS Certified Developer – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security methodology specified for AWS Certified Developer – Associate candidates. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "A government agency is preparing for AWS Certified Developer – Associate and must strengthen Deployment. Which option is BEST?",
+    opts: [
+      "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials",
+      "Rely solely on manual processes with no deployment automation",
+      "Ignore deployment compliance requirements for faster deployment",
+      "Mix production and test deployment configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "During a AWS Certified Developer – Associate readiness review at a SaaS startup scaling rapidly, which Troubleshooting & Optimization approach meets certification objectives?",
+    opts: [
+      "Ignore troubleshooting & optimization compliance requirements for faster deployment",
+      "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations",
+      "Mix production and test troubleshooting & optimization configurations in one environment",
+      "Store sensitive troubleshooting & optimization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Developer – Associate recommends improvements to Development with AWS Services. What should they implement?",
+    opts: [
+      "Mix production and test development with aws services configurations in one environment",
+      "Store sensitive development with aws services credentials in plain text configuration files",
+      "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards",
+      "Skip development with aws services testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "Which Security strategy is MOST appropriate when a media company with global users adopts AWS Certified Developer – Associate standards?",
+    opts: [
+      "Store sensitive security credentials in plain text configuration files",
+      "Skip security testing before production rollout",
+      "Implement security without change management or rollback plans",
+      "Design security using patterns validated in AWS Certified Developer – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security using patterns validated in AWS Certified Developer – Associate practice assessments. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "An audit of a multinational enterprise reveals gaps in Deployment for AWS Certified Developer – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives",
+      "Skip deployment testing before production rollout",
+      "Implement deployment without change management or rollback plans",
+      "Use default deployment settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A regulated financial institution is designing a AWS Certified Developer – Associate study plan focused on Troubleshooting & Optimization. Which resource topic is essential?",
+    opts: [
+      "Implement troubleshooting & optimization without change management or rollback plans",
+      "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge",
+      "Use default troubleshooting & optimization settings without hardening",
+      "Centralize all troubleshooting & optimization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "When a healthcare organization implements AWS Certified Developer – Associate controls for Development with AWS Services, which practice reduces operational risk?",
+    opts: [
+      "Use default development with aws services settings without hardening",
+      "Centralize all development with aws services decisions without stakeholder review",
+      "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements",
+      "Deprecate development with aws services controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A AWS Certified Developer – Associate practice exam scenario covers Security for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all security decisions without stakeholder review",
+      "Deprecate security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security policies",
+      "Use the certified security methodology specified for AWS Certified Developer – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security methodology specified for AWS Certified Developer – Associate candidates. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment principle is emphasized in AWS Certified Developer – Associate when supporting a government agency?",
+    opts: [
+      "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials",
+      "Deprecate deployment controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deployment policies",
+      "Disable monitoring for deployment to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Developer – Associate question on Troubleshooting & Optimization. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses troubleshooting & optimization policies",
+      "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations",
+      "Disable monitoring for troubleshooting & optimization to improve performance",
+      "Grant excessive privileges that violate troubleshooting & optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "For AWS Certified Developer – Associate certification, Development with AWS Services knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for development with aws services to improve performance",
+      "Grant excessive privileges that violate development with aws services least-privilege principles",
+      "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards",
+      "Rely solely on manual processes with no development with aws services automation",
+    ],
+    a: 2,
+    exp: "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A team at a media company with global users debates Security options while studying AWS Certified Developer – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate security least-privilege principles",
+      "Rely solely on manual processes with no security automation",
+      "Ignore security compliance requirements for faster deployment",
+      "Design security using patterns validated in AWS Certified Developer – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security using patterns validated in AWS Certified Developer – Associate practice assessments. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment capability is validated by AWS Certified Developer – Associate for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives",
+      "Rely solely on manual processes with no deployment automation",
+      "Ignore deployment compliance requirements for faster deployment",
+      "Mix production and test deployment configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "When evaluating Troubleshooting & Optimization tools for AWS Certified Developer – Associate, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore troubleshooting & optimization compliance requirements for faster deployment",
+      "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge",
+      "Mix production and test troubleshooting & optimization configurations in one environment",
+      "Store sensitive troubleshooting & optimization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "A healthcare organization must document Development with AWS Services procedures for AWS Certified Developer – Associate compliance. Which standard applies?",
+    opts: [
+      "Mix production and test development with aws services configurations in one environment",
+      "Store sensitive development with aws services credentials in plain text configuration files",
+      "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements",
+      "Skip development with aws services testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A AWS Certified Developer – Associate instructor asks about Security in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive security credentials in plain text configuration files",
+      "Skip security testing before production rollout",
+      "Implement security without change management or rollback plans",
+      "Use the certified security methodology specified for AWS Certified Developer – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security methodology specified for AWS Certified Developer – Associate candidates. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment metric best indicates AWS Certified Developer – Associate readiness for a government agency?",
+    opts: [
+      "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials",
+      "Skip deployment testing before production rollout",
+      "Implement deployment without change management or rollback plans",
+      "Use default deployment settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Troubleshooting & Optimization issue while preparing for AWS Certified Developer – Associate. What is the first step?",
+    opts: [
+      "Implement troubleshooting & optimization without change management or rollback plans",
+      "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations",
+      "Use default troubleshooting & optimization settings without hardening",
+      "Centralize all troubleshooting & optimization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "In AWS Certified Developer – Associate, how should a manufacturing company modernizing IT handle a trade-off involving Development with AWS Services?",
+    opts: [
+      "Use default development with aws services settings without hardening",
+      "Centralize all development with aws services decisions without stakeholder review",
+      "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards",
+      "Deprecate development with aws services controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "Which Security pattern is commonly tested on AWS Certified Developer – Associate for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all security decisions without stakeholder review",
+      "Deprecate security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security policies",
+      "Design security using patterns validated in AWS Certified Developer – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security using patterns validated in AWS Certified Developer – Associate practice assessments. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "A multinational enterprise is preparing for AWS Certified Developer – Associate and must strengthen Deployment. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives",
+      "Deprecate deployment controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deployment policies",
+      "Disable monitoring for deployment to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "During a AWS Certified Developer – Associate readiness review at a regulated financial institution, which Troubleshooting & Optimization approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses troubleshooting & optimization policies",
+      "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge",
+      "Disable monitoring for troubleshooting & optimization to improve performance",
+      "Grant excessive privileges that violate troubleshooting & optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "A consultant advising a healthcare organization on AWS Certified Developer – Associate recommends improvements to Development with AWS Services. What should they implement?",
+    opts: [
+      "Disable monitoring for development with aws services to improve performance",
+      "Grant excessive privileges that violate development with aws services least-privilege principles",
+      "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements",
+      "Rely solely on manual processes with no development with aws services automation",
+    ],
+    a: 2,
+    exp: "Implement the standard development with aws services solution that satisfies AWS Certified Developer – Associate domain requirements. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "Which Security strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Developer – Associate standards?",
+    opts: [
+      "Grant excessive privileges that violate security least-privilege principles",
+      "Rely solely on manual processes with no security automation",
+      "Ignore security compliance requirements for faster deployment",
+      "Use the certified security methodology specified for AWS Certified Developer – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security methodology specified for AWS Certified Developer – Associate candidates. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "An audit of a government agency reveals gaps in Deployment for AWS Certified Developer – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials",
+      "Rely solely on manual processes with no deployment automation",
+      "Ignore deployment compliance requirements for faster deployment",
+      "Mix production and test deployment configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the deployment control framework referenced in AWS Certified Developer – Associate study materials. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Developer – Associate study plan focused on Troubleshooting & Optimization. Which resource topic is essential?",
+    opts: [
+      "Ignore troubleshooting & optimization compliance requirements for faster deployment",
+      "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations",
+      "Mix production and test troubleshooting & optimization configurations in one environment",
+      "Store sensitive troubleshooting & optimization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure troubleshooting & optimization according to AWS Certified Developer – Associate exam blueprint recommendations. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Development with AWS Services ──
+  {
+    domain: "Development with AWS Services",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Developer – Associate controls for Development with AWS Services, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test development with aws services configurations in one environment",
+      "Store sensitive development with aws services credentials in plain text configuration files",
+      "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards",
+      "Skip development with aws services testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the development with aws services option that meets AWS Certified Developer – Associate security and governance standards. This is the recommended approach for the Development with AWS Services domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security ──
+  {
+    domain: "Security",
+    q: "A AWS Certified Developer – Associate practice exam scenario covers Security for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive security credentials in plain text configuration files",
+      "Skip security testing before production rollout",
+      "Implement security without change management or rollback plans",
+      "Design security using patterns validated in AWS Certified Developer – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security using patterns validated in AWS Certified Developer – Associate practice assessments. This is the recommended approach for the Security domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment ──
+  {
+    domain: "Deployment",
+    q: "Which Deployment principle is emphasized in AWS Certified Developer – Associate when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives",
+      "Skip deployment testing before production rollout",
+      "Implement deployment without change management or rollback plans",
+      "Use default deployment settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Developer – Associate-aligned deployment approach recommended in official exam objectives. This is the recommended approach for the Deployment domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Troubleshooting & Optimization ──
+  {
+    domain: "Troubleshooting & Optimization",
+    q: "A regulated financial institution failed a mock AWS Certified Developer – Associate question on Troubleshooting & Optimization. What concept should they review?",
+    opts: [
+      "Implement troubleshooting & optimization without change management or rollback plans",
+      "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge",
+      "Use default troubleshooting & optimization settings without hardening",
+      "Centralize all troubleshooting & optimization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for troubleshooting & optimization as defined in the AWS Certified Developer – Associate body of knowledge. This is the recommended approach for the Troubleshooting & Optimization domain on the AWS Certified Developer – Associate exam and reflects current certification objectives.",
+  },
 ];

@@ -860,4 +860,832 @@ export const BANK_MLS: Question[] = [
     a: 1,
     exp: 'SageMaker Pipelines publishes execution state change events (Succeeded, Failed, Stopped) to Amazon EventBridge. An EventBridge rule can match these events and route them to an SNS topic. AWS Chatbot can subscribe to the SNS topic and deliver formatted notifications to a Slack channel. This is the standard event-driven notification pattern for SageMaker Pipelines without requiring polling or custom monitoring code.',
   },
+
+  // ── Additional MLS-C01 practice questions (59 added) ──
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A team at a media company with global users debates Data Engineering options while studying AWS Certified Machine Learning – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all data engineering decisions without stakeholder review",
+      "Deprecate data engineering controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses data engineering policies",
+      "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis capability is validated by AWS Certified Machine Learning – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives",
+      "Deprecate exploratory data analysis controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses exploratory data analysis policies",
+      "Disable monitoring for exploratory data analysis to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "When evaluating Modeling tools for AWS Certified Machine Learning – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses modeling policies",
+      "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Disable monitoring for modeling to improve performance",
+      "Grant excessive privileges that violate modeling least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A healthcare organization must document ML Implementation & Operations procedures for AWS Certified Machine Learning – Specialty compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for ml implementation & operations to improve performance",
+      "Grant excessive privileges that violate ml implementation & operations least-privilege principles",
+      "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Rely solely on manual processes with no ml implementation & operations automation",
+    ],
+    a: 2,
+    exp: "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A AWS Certified Machine Learning – Specialty instructor asks about Data Engineering in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate data engineering least-privilege principles",
+      "Rely solely on manual processes with no data engineering automation",
+      "Ignore data engineering compliance requirements for faster deployment",
+      "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis metric best indicates AWS Certified Machine Learning – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Rely solely on manual processes with no exploratory data analysis automation",
+      "Ignore exploratory data analysis compliance requirements for faster deployment",
+      "Mix production and test exploratory data analysis configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Modeling issue while preparing for AWS Certified Machine Learning – Specialty. What is the first step?",
+    opts: [
+      "Ignore modeling compliance requirements for faster deployment",
+      "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Mix production and test modeling configurations in one environment",
+      "Store sensitive modeling credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "In AWS Certified Machine Learning – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving ML Implementation & Operations?",
+    opts: [
+      "Mix production and test ml implementation & operations configurations in one environment",
+      "Store sensitive ml implementation & operations credentials in plain text configuration files",
+      "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Skip ml implementation & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering pattern is commonly tested on AWS Certified Machine Learning – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive data engineering credentials in plain text configuration files",
+      "Skip data engineering testing before production rollout",
+      "Implement data engineering without change management or rollback plans",
+      "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "A multinational enterprise is preparing for AWS Certified Machine Learning – Specialty and must strengthen Exploratory Data Analysis. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives",
+      "Skip exploratory data analysis testing before production rollout",
+      "Implement exploratory data analysis without change management or rollback plans",
+      "Use default exploratory data analysis settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "During a AWS Certified Machine Learning – Specialty readiness review at a regulated financial institution, which Modeling approach meets certification objectives?",
+    opts: [
+      "Implement modeling without change management or rollback plans",
+      "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Use default modeling settings without hardening",
+      "Centralize all modeling decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A consultant advising a healthcare organization on AWS Certified Machine Learning – Specialty recommends improvements to ML Implementation & Operations. What should they implement?",
+    opts: [
+      "Use default ml implementation & operations settings without hardening",
+      "Centralize all ml implementation & operations decisions without stakeholder review",
+      "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Deprecate ml implementation & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Machine Learning – Specialty standards?",
+    opts: [
+      "Centralize all data engineering decisions without stakeholder review",
+      "Deprecate data engineering controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses data engineering policies",
+      "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "An audit of a government agency reveals gaps in Exploratory Data Analysis for AWS Certified Machine Learning – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Deprecate exploratory data analysis controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses exploratory data analysis policies",
+      "Disable monitoring for exploratory data analysis to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Machine Learning – Specialty study plan focused on Modeling. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses modeling policies",
+      "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Disable monitoring for modeling to improve performance",
+      "Grant excessive privileges that violate modeling least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Machine Learning – Specialty controls for ML Implementation & Operations, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for ml implementation & operations to improve performance",
+      "Grant excessive privileges that violate ml implementation & operations least-privilege principles",
+      "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Rely solely on manual processes with no ml implementation & operations automation",
+    ],
+    a: 2,
+    exp: "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A AWS Certified Machine Learning – Specialty practice exam scenario covers Data Engineering for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate data engineering least-privilege principles",
+      "Rely solely on manual processes with no data engineering automation",
+      "Ignore data engineering compliance requirements for faster deployment",
+      "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis principle is emphasized in AWS Certified Machine Learning – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives",
+      "Rely solely on manual processes with no exploratory data analysis automation",
+      "Ignore exploratory data analysis compliance requirements for faster deployment",
+      "Mix production and test exploratory data analysis configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A regulated financial institution failed a mock AWS Certified Machine Learning – Specialty question on Modeling. What concept should they review?",
+    opts: [
+      "Ignore modeling compliance requirements for faster deployment",
+      "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Mix production and test modeling configurations in one environment",
+      "Store sensitive modeling credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "For AWS Certified Machine Learning – Specialty certification, ML Implementation & Operations knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test ml implementation & operations configurations in one environment",
+      "Store sensitive ml implementation & operations credentials in plain text configuration files",
+      "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Skip ml implementation & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A team at a high-traffic e-commerce platform debates Data Engineering options while studying AWS Certified Machine Learning – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive data engineering credentials in plain text configuration files",
+      "Skip data engineering testing before production rollout",
+      "Implement data engineering without change management or rollback plans",
+      "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis capability is validated by AWS Certified Machine Learning – Specialty for organizations such as a government agency?",
+    opts: [
+      "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Skip exploratory data analysis testing before production rollout",
+      "Implement exploratory data analysis without change management or rollback plans",
+      "Use default exploratory data analysis settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "When evaluating Modeling tools for AWS Certified Machine Learning – Specialty, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement modeling without change management or rollback plans",
+      "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Use default modeling settings without hardening",
+      "Centralize all modeling decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A manufacturing company modernizing IT must document ML Implementation & Operations procedures for AWS Certified Machine Learning – Specialty compliance. Which standard applies?",
+    opts: [
+      "Use default ml implementation & operations settings without hardening",
+      "Centralize all ml implementation & operations decisions without stakeholder review",
+      "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Deprecate ml implementation & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A AWS Certified Machine Learning – Specialty instructor asks about Data Engineering in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all data engineering decisions without stakeholder review",
+      "Deprecate data engineering controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses data engineering policies",
+      "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis metric best indicates AWS Certified Machine Learning – Specialty readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives",
+      "Deprecate exploratory data analysis controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses exploratory data analysis policies",
+      "Disable monitoring for exploratory data analysis to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A regulated financial institution is troubleshooting a Modeling issue while preparing for AWS Certified Machine Learning – Specialty. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses modeling policies",
+      "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Disable monitoring for modeling to improve performance",
+      "Grant excessive privileges that violate modeling least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "In AWS Certified Machine Learning – Specialty, how should a healthcare organization handle a trade-off involving ML Implementation & Operations?",
+    opts: [
+      "Disable monitoring for ml implementation & operations to improve performance",
+      "Grant excessive privileges that violate ml implementation & operations least-privilege principles",
+      "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Rely solely on manual processes with no ml implementation & operations automation",
+    ],
+    a: 2,
+    exp: "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering pattern is commonly tested on AWS Certified Machine Learning – Specialty for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate data engineering least-privilege principles",
+      "Rely solely on manual processes with no data engineering automation",
+      "Ignore data engineering compliance requirements for faster deployment",
+      "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "A government agency is preparing for AWS Certified Machine Learning – Specialty and must strengthen Exploratory Data Analysis. Which option is BEST?",
+    opts: [
+      "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Rely solely on manual processes with no exploratory data analysis automation",
+      "Ignore exploratory data analysis compliance requirements for faster deployment",
+      "Mix production and test exploratory data analysis configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "During a AWS Certified Machine Learning – Specialty readiness review at a SaaS startup scaling rapidly, which Modeling approach meets certification objectives?",
+    opts: [
+      "Ignore modeling compliance requirements for faster deployment",
+      "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Mix production and test modeling configurations in one environment",
+      "Store sensitive modeling credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Machine Learning – Specialty recommends improvements to ML Implementation & Operations. What should they implement?",
+    opts: [
+      "Mix production and test ml implementation & operations configurations in one environment",
+      "Store sensitive ml implementation & operations credentials in plain text configuration files",
+      "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Skip ml implementation & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering strategy is MOST appropriate when a media company with global users adopts AWS Certified Machine Learning – Specialty standards?",
+    opts: [
+      "Store sensitive data engineering credentials in plain text configuration files",
+      "Skip data engineering testing before production rollout",
+      "Implement data engineering without change management or rollback plans",
+      "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data engineering using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "An audit of a multinational enterprise reveals gaps in Exploratory Data Analysis for AWS Certified Machine Learning – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives",
+      "Skip exploratory data analysis testing before production rollout",
+      "Implement exploratory data analysis without change management or rollback plans",
+      "Use default exploratory data analysis settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned exploratory data analysis approach recommended in official exam objectives. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A regulated financial institution is designing a AWS Certified Machine Learning – Specialty study plan focused on Modeling. Which resource topic is essential?",
+    opts: [
+      "Implement modeling without change management or rollback plans",
+      "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Use default modeling settings without hardening",
+      "Centralize all modeling decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for modeling as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "When a healthcare organization implements AWS Certified Machine Learning – Specialty controls for ML Implementation & Operations, which practice reduces operational risk?",
+    opts: [
+      "Use default ml implementation & operations settings without hardening",
+      "Centralize all ml implementation & operations decisions without stakeholder review",
+      "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Deprecate ml implementation & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard ml implementation & operations solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A AWS Certified Machine Learning – Specialty practice exam scenario covers Data Engineering for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all data engineering decisions without stakeholder review",
+      "Deprecate data engineering controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses data engineering policies",
+      "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data engineering methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "Which Exploratory Data Analysis principle is emphasized in AWS Certified Machine Learning – Specialty when supporting a government agency?",
+    opts: [
+      "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Deprecate exploratory data analysis controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses exploratory data analysis policies",
+      "Disable monitoring for exploratory data analysis to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the exploratory data analysis control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Machine Learning – Specialty question on Modeling. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses modeling policies",
+      "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Disable monitoring for modeling to improve performance",
+      "Grant excessive privileges that violate modeling least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure modeling according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "For AWS Certified Machine Learning – Specialty certification, ML Implementation & Operations knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for ml implementation & operations to improve performance",
+      "Grant excessive privileges that violate ml implementation & operations least-privilege principles",
+      "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Rely solely on manual processes with no ml implementation & operations automation",
+    ],
+    a: 2,
+    exp: "Select the ml implementation & operations option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering capability is validated by AWS Certified Machine Learning – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives",
+      "Rely solely on manual processes with no data engineering automation",
+      "Ignore data engineering compliance requirements for faster deployment",
+      "Mix production and test data engineering configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "When evaluating Exploratory Data Analysis tools for AWS Certified Machine Learning – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore exploratory data analysis compliance requirements for faster deployment",
+      "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Mix production and test exploratory data analysis configurations in one environment",
+      "Store sensitive exploratory data analysis credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A healthcare organization must document Modeling procedures for AWS Certified Machine Learning – Specialty compliance. Which standard applies?",
+    opts: [
+      "Mix production and test modeling configurations in one environment",
+      "Store sensitive modeling credentials in plain text configuration files",
+      "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Skip modeling testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A AWS Certified Machine Learning – Specialty instructor asks about ML Implementation & Operations in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive ml implementation & operations credentials in plain text configuration files",
+      "Skip ml implementation & operations testing before production rollout",
+      "Implement ml implementation & operations without change management or rollback plans",
+      "Use the certified ml implementation & operations methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified ml implementation & operations methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering metric best indicates AWS Certified Machine Learning – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the data engineering control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Skip data engineering testing before production rollout",
+      "Implement data engineering without change management or rollback plans",
+      "Use default data engineering settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the data engineering control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Exploratory Data Analysis issue while preparing for AWS Certified Machine Learning – Specialty. What is the first step?",
+    opts: [
+      "Implement exploratory data analysis without change management or rollback plans",
+      "Configure exploratory data analysis according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Use default exploratory data analysis settings without hardening",
+      "Centralize all exploratory data analysis decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure exploratory data analysis according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "In AWS Certified Machine Learning – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Modeling?",
+    opts: [
+      "Use default modeling settings without hardening",
+      "Centralize all modeling decisions without stakeholder review",
+      "Select the modeling option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Deprecate modeling controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the modeling option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "Which ML Implementation & Operations pattern is commonly tested on AWS Certified Machine Learning – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all ml implementation & operations decisions without stakeholder review",
+      "Deprecate ml implementation & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses ml implementation & operations policies",
+      "Design ml implementation & operations using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design ml implementation & operations using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "A multinational enterprise is preparing for AWS Certified Machine Learning – Specialty and must strengthen Data Engineering. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives",
+      "Deprecate data engineering controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses data engineering policies",
+      "Disable monitoring for data engineering to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "During a AWS Certified Machine Learning – Specialty readiness review at a regulated financial institution, which Exploratory Data Analysis approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses exploratory data analysis policies",
+      "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Disable monitoring for exploratory data analysis to improve performance",
+      "Grant excessive privileges that violate exploratory data analysis least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "A consultant advising a healthcare organization on AWS Certified Machine Learning – Specialty recommends improvements to Modeling. What should they implement?",
+    opts: [
+      "Disable monitoring for modeling to improve performance",
+      "Grant excessive privileges that violate modeling least-privilege principles",
+      "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Rely solely on manual processes with no modeling automation",
+    ],
+    a: 2,
+    exp: "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "Which ML Implementation & Operations strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Machine Learning – Specialty standards?",
+    opts: [
+      "Grant excessive privileges that violate ml implementation & operations least-privilege principles",
+      "Rely solely on manual processes with no ml implementation & operations automation",
+      "Ignore ml implementation & operations compliance requirements for faster deployment",
+      "Use the certified ml implementation & operations methodology specified for AWS Certified Machine Learning – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified ml implementation & operations methodology specified for AWS Certified Machine Learning – Specialty candidates. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "An audit of a government agency reveals gaps in Data Engineering for AWS Certified Machine Learning – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the data engineering control framework referenced in AWS Certified Machine Learning – Specialty study materials",
+      "Rely solely on manual processes with no data engineering automation",
+      "Ignore data engineering compliance requirements for faster deployment",
+      "Mix production and test data engineering configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the data engineering control framework referenced in AWS Certified Machine Learning – Specialty study materials. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Machine Learning – Specialty study plan focused on Exploratory Data Analysis. Which resource topic is essential?",
+    opts: [
+      "Ignore exploratory data analysis compliance requirements for faster deployment",
+      "Configure exploratory data analysis according to AWS Certified Machine Learning – Specialty exam blueprint recommendations",
+      "Mix production and test exploratory data analysis configurations in one environment",
+      "Store sensitive exploratory data analysis credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure exploratory data analysis according to AWS Certified Machine Learning – Specialty exam blueprint recommendations. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Machine Learning – Specialty controls for Modeling, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test modeling configurations in one environment",
+      "Store sensitive modeling credentials in plain text configuration files",
+      "Select the modeling option that meets AWS Certified Machine Learning – Specialty security and governance standards",
+      "Skip modeling testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the modeling option that meets AWS Certified Machine Learning – Specialty security and governance standards. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── ML Implementation & Operations ──
+  {
+    domain: "ML Implementation & Operations",
+    q: "A AWS Certified Machine Learning – Specialty practice exam scenario covers ML Implementation & Operations for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive ml implementation & operations credentials in plain text configuration files",
+      "Skip ml implementation & operations testing before production rollout",
+      "Implement ml implementation & operations without change management or rollback plans",
+      "Design ml implementation & operations using patterns validated in AWS Certified Machine Learning – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design ml implementation & operations using patterns validated in AWS Certified Machine Learning – Specialty practice assessments. This is the recommended approach for the ML Implementation & Operations domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Engineering ──
+  {
+    domain: "Data Engineering",
+    q: "Which Data Engineering principle is emphasized in AWS Certified Machine Learning – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives",
+      "Skip data engineering testing before production rollout",
+      "Implement data engineering without change management or rollback plans",
+      "Use default data engineering settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Machine Learning – Specialty-aligned data engineering approach recommended in official exam objectives. This is the recommended approach for the Data Engineering domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Exploratory Data Analysis ──
+  {
+    domain: "Exploratory Data Analysis",
+    q: "A regulated financial institution failed a mock AWS Certified Machine Learning – Specialty question on Exploratory Data Analysis. What concept should they review?",
+    opts: [
+      "Implement exploratory data analysis without change management or rollback plans",
+      "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge",
+      "Use default exploratory data analysis settings without hardening",
+      "Centralize all exploratory data analysis decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for exploratory data analysis as defined in the AWS Certified Machine Learning – Specialty body of knowledge. This is the recommended approach for the Exploratory Data Analysis domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Modeling ──
+  {
+    domain: "Modeling",
+    q: "For AWS Certified Machine Learning – Specialty certification, Modeling knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default modeling settings without hardening",
+      "Centralize all modeling decisions without stakeholder review",
+      "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements",
+      "Deprecate modeling controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard modeling solution that satisfies AWS Certified Machine Learning – Specialty domain requirements. This is the recommended approach for the Modeling domain on the AWS Certified Machine Learning – Specialty exam and reflects current certification objectives.",
+  },
 ];

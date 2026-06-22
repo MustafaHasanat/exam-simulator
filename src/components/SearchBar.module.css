@@ -1,0 +1,83 @@
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
+  pointer-events: none;
+  transition: color 0.2s;
+}
+
+.wrap:focus-within .icon {
+  color: var(--accent);
+}
+
+.input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 9px 36px 9px 36px;
+  font-size: 13px;
+  color: var(--text);
+  font-family: 'IBM Plex Sans', sans-serif;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input::placeholder {
+  color: var(--muted);
+}
+
+.input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08);
+}
+
+.clear {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: color 0.15s;
+}
+
+.clear:hover {
+  color: var(--text);
+}
+
+/* Hero variant — larger padding/radius */
+.heroInput {
+  border-radius: 10px;
+  padding: 13px 44px;
+  font-size: 14px;
+}
+
+.heroInput:focus {
+  box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.08), 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.heroWrap .icon {
+  left: 15px;
+  width: 16px;
+  height: 16px;
+}
+
+.heroWrap .clear {
+  right: 12px;
+  font-size: 12px;
+}

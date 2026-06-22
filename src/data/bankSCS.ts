@@ -876,4 +876,832 @@ export const BANK_SCS: Question[] = [
     a: 1,
     exp: 'AWS Config records continuous configuration changes and compliance evaluations, providing a 12-month historical record of resource configurations and Config rule compliance status. Security Hub aggregates compliance findings over time. Together, these provide continuous evidence that security controls have been in place and evaluated throughout the audit period.',
   },
+
+  // ── Additional SCS-C02 practice questions (59 added) ──
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A team at a media company with global users debates Threat Detection & Incident Response options while studying AWS Certified Security – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all threat detection & incident response decisions without stakeholder review",
+      "Deprecate threat detection & incident response controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses threat detection & incident response policies",
+      "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "Which Security Logging & Monitoring capability is validated by AWS Certified Security – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives",
+      "Deprecate security logging & monitoring controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security logging & monitoring policies",
+      "Disable monitoring for security logging & monitoring to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "When evaluating Infrastructure Security tools for AWS Certified Security – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure security policies",
+      "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Disable monitoring for infrastructure security to improve performance",
+      "Grant excessive privileges that violate infrastructure security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "A healthcare organization must document Identity & Access Management procedures for AWS Certified Security – Specialty compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for identity & access management to improve performance",
+      "Grant excessive privileges that violate identity & access management least-privilege principles",
+      "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Rely solely on manual processes with no identity & access management automation",
+    ],
+    a: 2,
+    exp: "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A AWS Certified Security – Specialty instructor asks about Data Protection in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate data protection least-privilege principles",
+      "Rely solely on manual processes with no data protection automation",
+      "Ignore data protection compliance requirements for faster deployment",
+      "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "Which Management & Security Governance metric best indicates AWS Certified Security – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials",
+      "Rely solely on manual processes with no management & security governance automation",
+      "Ignore management & security governance compliance requirements for faster deployment",
+      "Mix production and test management & security governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Threat Detection & Incident Response issue while preparing for AWS Certified Security – Specialty. What is the first step?",
+    opts: [
+      "Ignore threat detection & incident response compliance requirements for faster deployment",
+      "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Mix production and test threat detection & incident response configurations in one environment",
+      "Store sensitive threat detection & incident response credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "In AWS Certified Security – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Security Logging & Monitoring?",
+    opts: [
+      "Mix production and test security logging & monitoring configurations in one environment",
+      "Store sensitive security logging & monitoring credentials in plain text configuration files",
+      "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards",
+      "Skip security logging & monitoring testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "Which Infrastructure Security pattern is commonly tested on AWS Certified Security – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive infrastructure security credentials in plain text configuration files",
+      "Skip infrastructure security testing before production rollout",
+      "Implement infrastructure security without change management or rollback plans",
+      "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "A multinational enterprise is preparing for AWS Certified Security – Specialty and must strengthen Identity & Access Management. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives",
+      "Skip identity & access management testing before production rollout",
+      "Implement identity & access management without change management or rollback plans",
+      "Use default identity & access management settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "During a AWS Certified Security – Specialty readiness review at a regulated financial institution, which Data Protection approach meets certification objectives?",
+    opts: [
+      "Implement data protection without change management or rollback plans",
+      "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Use default data protection settings without hardening",
+      "Centralize all data protection decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "A consultant advising a healthcare organization on AWS Certified Security – Specialty recommends improvements to Management & Security Governance. What should they implement?",
+    opts: [
+      "Use default management & security governance settings without hardening",
+      "Centralize all management & security governance decisions without stakeholder review",
+      "Implement the standard management & security governance solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Deprecate management & security governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard management & security governance solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "Which Threat Detection & Incident Response strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Security – Specialty standards?",
+    opts: [
+      "Centralize all threat detection & incident response decisions without stakeholder review",
+      "Deprecate threat detection & incident response controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses threat detection & incident response policies",
+      "Use the certified threat detection & incident response methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified threat detection & incident response methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "An audit of a government agency reveals gaps in Security Logging & Monitoring for AWS Certified Security – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the security logging & monitoring control framework referenced in AWS Certified Security – Specialty study materials",
+      "Deprecate security logging & monitoring controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security logging & monitoring policies",
+      "Disable monitoring for security logging & monitoring to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the security logging & monitoring control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Security – Specialty study plan focused on Infrastructure Security. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure security policies",
+      "Configure infrastructure security according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Disable monitoring for infrastructure security to improve performance",
+      "Grant excessive privileges that violate infrastructure security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure infrastructure security according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Security – Specialty controls for Identity & Access Management, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for identity & access management to improve performance",
+      "Grant excessive privileges that violate identity & access management least-privilege principles",
+      "Select the identity & access management option that meets AWS Certified Security – Specialty security and governance standards",
+      "Rely solely on manual processes with no identity & access management automation",
+    ],
+    a: 2,
+    exp: "Select the identity & access management option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A AWS Certified Security – Specialty practice exam scenario covers Data Protection for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate data protection least-privilege principles",
+      "Rely solely on manual processes with no data protection automation",
+      "Ignore data protection compliance requirements for faster deployment",
+      "Design data protection using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data protection using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "Which Management & Security Governance principle is emphasized in AWS Certified Security – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned management & security governance approach recommended in official exam objectives",
+      "Rely solely on manual processes with no management & security governance automation",
+      "Ignore management & security governance compliance requirements for faster deployment",
+      "Mix production and test management & security governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned management & security governance approach recommended in official exam objectives. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A regulated financial institution failed a mock AWS Certified Security – Specialty question on Threat Detection & Incident Response. What concept should they review?",
+    opts: [
+      "Ignore threat detection & incident response compliance requirements for faster deployment",
+      "Follow industry best practices for threat detection & incident response as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Mix production and test threat detection & incident response configurations in one environment",
+      "Store sensitive threat detection & incident response credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for threat detection & incident response as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "For AWS Certified Security – Specialty certification, Security Logging & Monitoring knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test security logging & monitoring configurations in one environment",
+      "Store sensitive security logging & monitoring credentials in plain text configuration files",
+      "Implement the standard security logging & monitoring solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Skip security logging & monitoring testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard security logging & monitoring solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A team at a high-traffic e-commerce platform debates Infrastructure Security options while studying AWS Certified Security – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive infrastructure security credentials in plain text configuration files",
+      "Skip infrastructure security testing before production rollout",
+      "Implement infrastructure security without change management or rollback plans",
+      "Use the certified infrastructure security methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified infrastructure security methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "Which Identity & Access Management capability is validated by AWS Certified Security – Specialty for organizations such as a government agency?",
+    opts: [
+      "Adopt the identity & access management control framework referenced in AWS Certified Security – Specialty study materials",
+      "Skip identity & access management testing before production rollout",
+      "Implement identity & access management without change management or rollback plans",
+      "Use default identity & access management settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the identity & access management control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "When evaluating Data Protection tools for AWS Certified Security – Specialty, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement data protection without change management or rollback plans",
+      "Configure data protection according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Use default data protection settings without hardening",
+      "Centralize all data protection decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure data protection according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "A manufacturing company modernizing IT must document Management & Security Governance procedures for AWS Certified Security – Specialty compliance. Which standard applies?",
+    opts: [
+      "Use default management & security governance settings without hardening",
+      "Centralize all management & security governance decisions without stakeholder review",
+      "Select the management & security governance option that meets AWS Certified Security – Specialty security and governance standards",
+      "Deprecate management & security governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the management & security governance option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A AWS Certified Security – Specialty instructor asks about Threat Detection & Incident Response in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all threat detection & incident response decisions without stakeholder review",
+      "Deprecate threat detection & incident response controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses threat detection & incident response policies",
+      "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "Which Security Logging & Monitoring metric best indicates AWS Certified Security – Specialty readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives",
+      "Deprecate security logging & monitoring controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security logging & monitoring policies",
+      "Disable monitoring for security logging & monitoring to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A regulated financial institution is troubleshooting a Infrastructure Security issue while preparing for AWS Certified Security – Specialty. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure security policies",
+      "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Disable monitoring for infrastructure security to improve performance",
+      "Grant excessive privileges that violate infrastructure security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "In AWS Certified Security – Specialty, how should a healthcare organization handle a trade-off involving Identity & Access Management?",
+    opts: [
+      "Disable monitoring for identity & access management to improve performance",
+      "Grant excessive privileges that violate identity & access management least-privilege principles",
+      "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Rely solely on manual processes with no identity & access management automation",
+    ],
+    a: 2,
+    exp: "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "Which Data Protection pattern is commonly tested on AWS Certified Security – Specialty for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate data protection least-privilege principles",
+      "Rely solely on manual processes with no data protection automation",
+      "Ignore data protection compliance requirements for faster deployment",
+      "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "A government agency is preparing for AWS Certified Security – Specialty and must strengthen Management & Security Governance. Which option is BEST?",
+    opts: [
+      "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials",
+      "Rely solely on manual processes with no management & security governance automation",
+      "Ignore management & security governance compliance requirements for faster deployment",
+      "Mix production and test management & security governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "During a AWS Certified Security – Specialty readiness review at a SaaS startup scaling rapidly, which Threat Detection & Incident Response approach meets certification objectives?",
+    opts: [
+      "Ignore threat detection & incident response compliance requirements for faster deployment",
+      "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Mix production and test threat detection & incident response configurations in one environment",
+      "Store sensitive threat detection & incident response credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Security – Specialty recommends improvements to Security Logging & Monitoring. What should they implement?",
+    opts: [
+      "Mix production and test security logging & monitoring configurations in one environment",
+      "Store sensitive security logging & monitoring credentials in plain text configuration files",
+      "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards",
+      "Skip security logging & monitoring testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "Which Infrastructure Security strategy is MOST appropriate when a media company with global users adopts AWS Certified Security – Specialty standards?",
+    opts: [
+      "Store sensitive infrastructure security credentials in plain text configuration files",
+      "Skip infrastructure security testing before production rollout",
+      "Implement infrastructure security without change management or rollback plans",
+      "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "An audit of a multinational enterprise reveals gaps in Identity & Access Management for AWS Certified Security – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives",
+      "Skip identity & access management testing before production rollout",
+      "Implement identity & access management without change management or rollback plans",
+      "Use default identity & access management settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A regulated financial institution is designing a AWS Certified Security – Specialty study plan focused on Data Protection. Which resource topic is essential?",
+    opts: [
+      "Implement data protection without change management or rollback plans",
+      "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Use default data protection settings without hardening",
+      "Centralize all data protection decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "When a healthcare organization implements AWS Certified Security – Specialty controls for Management & Security Governance, which practice reduces operational risk?",
+    opts: [
+      "Use default management & security governance settings without hardening",
+      "Centralize all management & security governance decisions without stakeholder review",
+      "Implement the standard management & security governance solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Deprecate management & security governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard management & security governance solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A AWS Certified Security – Specialty practice exam scenario covers Threat Detection & Incident Response for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all threat detection & incident response decisions without stakeholder review",
+      "Deprecate threat detection & incident response controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses threat detection & incident response policies",
+      "Use the certified threat detection & incident response methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified threat detection & incident response methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "Which Security Logging & Monitoring principle is emphasized in AWS Certified Security – Specialty when supporting a government agency?",
+    opts: [
+      "Adopt the security logging & monitoring control framework referenced in AWS Certified Security – Specialty study materials",
+      "Deprecate security logging & monitoring controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security logging & monitoring policies",
+      "Disable monitoring for security logging & monitoring to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the security logging & monitoring control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Security – Specialty question on Infrastructure Security. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure security policies",
+      "Configure infrastructure security according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Disable monitoring for infrastructure security to improve performance",
+      "Grant excessive privileges that violate infrastructure security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure infrastructure security according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "For AWS Certified Security – Specialty certification, Identity & Access Management knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for identity & access management to improve performance",
+      "Grant excessive privileges that violate identity & access management least-privilege principles",
+      "Select the identity & access management option that meets AWS Certified Security – Specialty security and governance standards",
+      "Rely solely on manual processes with no identity & access management automation",
+    ],
+    a: 2,
+    exp: "Select the identity & access management option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A team at a media company with global users debates Data Protection options while studying AWS Certified Security – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate data protection least-privilege principles",
+      "Rely solely on manual processes with no data protection automation",
+      "Ignore data protection compliance requirements for faster deployment",
+      "Design data protection using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design data protection using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "Which Management & Security Governance capability is validated by AWS Certified Security – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned management & security governance approach recommended in official exam objectives",
+      "Rely solely on manual processes with no management & security governance automation",
+      "Ignore management & security governance compliance requirements for faster deployment",
+      "Mix production and test management & security governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned management & security governance approach recommended in official exam objectives. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "When evaluating Threat Detection & Incident Response tools for AWS Certified Security – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore threat detection & incident response compliance requirements for faster deployment",
+      "Follow industry best practices for threat detection & incident response as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Mix production and test threat detection & incident response configurations in one environment",
+      "Store sensitive threat detection & incident response credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for threat detection & incident response as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "A healthcare organization must document Security Logging & Monitoring procedures for AWS Certified Security – Specialty compliance. Which standard applies?",
+    opts: [
+      "Mix production and test security logging & monitoring configurations in one environment",
+      "Store sensitive security logging & monitoring credentials in plain text configuration files",
+      "Implement the standard security logging & monitoring solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Skip security logging & monitoring testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard security logging & monitoring solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A AWS Certified Security – Specialty instructor asks about Infrastructure Security in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive infrastructure security credentials in plain text configuration files",
+      "Skip infrastructure security testing before production rollout",
+      "Implement infrastructure security without change management or rollback plans",
+      "Use the certified infrastructure security methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified infrastructure security methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "Which Identity & Access Management metric best indicates AWS Certified Security – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the identity & access management control framework referenced in AWS Certified Security – Specialty study materials",
+      "Skip identity & access management testing before production rollout",
+      "Implement identity & access management without change management or rollback plans",
+      "Use default identity & access management settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the identity & access management control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Data Protection issue while preparing for AWS Certified Security – Specialty. What is the first step?",
+    opts: [
+      "Implement data protection without change management or rollback plans",
+      "Configure data protection according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Use default data protection settings without hardening",
+      "Centralize all data protection decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure data protection according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "In AWS Certified Security – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Management & Security Governance?",
+    opts: [
+      "Use default management & security governance settings without hardening",
+      "Centralize all management & security governance decisions without stakeholder review",
+      "Select the management & security governance option that meets AWS Certified Security – Specialty security and governance standards",
+      "Deprecate management & security governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the management & security governance option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "Which Threat Detection & Incident Response pattern is commonly tested on AWS Certified Security – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all threat detection & incident response decisions without stakeholder review",
+      "Deprecate threat detection & incident response controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses threat detection & incident response policies",
+      "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design threat detection & incident response using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "A multinational enterprise is preparing for AWS Certified Security – Specialty and must strengthen Security Logging & Monitoring. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives",
+      "Deprecate security logging & monitoring controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security logging & monitoring policies",
+      "Disable monitoring for security logging & monitoring to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned security logging & monitoring approach recommended in official exam objectives. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "During a AWS Certified Security – Specialty readiness review at a regulated financial institution, which Infrastructure Security approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure security policies",
+      "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Disable monitoring for infrastructure security to improve performance",
+      "Grant excessive privileges that violate infrastructure security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure security as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "A consultant advising a healthcare organization on AWS Certified Security – Specialty recommends improvements to Identity & Access Management. What should they implement?",
+    opts: [
+      "Disable monitoring for identity & access management to improve performance",
+      "Grant excessive privileges that violate identity & access management least-privilege principles",
+      "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements",
+      "Rely solely on manual processes with no identity & access management automation",
+    ],
+    a: 2,
+    exp: "Implement the standard identity & access management solution that satisfies AWS Certified Security – Specialty domain requirements. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "Which Data Protection strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Security – Specialty standards?",
+    opts: [
+      "Grant excessive privileges that violate data protection least-privilege principles",
+      "Rely solely on manual processes with no data protection automation",
+      "Ignore data protection compliance requirements for faster deployment",
+      "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified data protection methodology specified for AWS Certified Security – Specialty candidates. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Security Governance ──
+  {
+    domain: "Management & Security Governance",
+    q: "An audit of a government agency reveals gaps in Management & Security Governance for AWS Certified Security – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials",
+      "Rely solely on manual processes with no management & security governance automation",
+      "Ignore management & security governance compliance requirements for faster deployment",
+      "Mix production and test management & security governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the management & security governance control framework referenced in AWS Certified Security – Specialty study materials. This is the recommended approach for the Management & Security Governance domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Threat Detection & Incident Response ──
+  {
+    domain: "Threat Detection & Incident Response",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Security – Specialty study plan focused on Threat Detection & Incident Response. Which resource topic is essential?",
+    opts: [
+      "Ignore threat detection & incident response compliance requirements for faster deployment",
+      "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations",
+      "Mix production and test threat detection & incident response configurations in one environment",
+      "Store sensitive threat detection & incident response credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure threat detection & incident response according to AWS Certified Security – Specialty exam blueprint recommendations. This is the recommended approach for the Threat Detection & Incident Response domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Security Logging & Monitoring ──
+  {
+    domain: "Security Logging & Monitoring",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Security – Specialty controls for Security Logging & Monitoring, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test security logging & monitoring configurations in one environment",
+      "Store sensitive security logging & monitoring credentials in plain text configuration files",
+      "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards",
+      "Skip security logging & monitoring testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the security logging & monitoring option that meets AWS Certified Security – Specialty security and governance standards. This is the recommended approach for the Security Logging & Monitoring domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure Security ──
+  {
+    domain: "Infrastructure Security",
+    q: "A AWS Certified Security – Specialty practice exam scenario covers Infrastructure Security for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive infrastructure security credentials in plain text configuration files",
+      "Skip infrastructure security testing before production rollout",
+      "Implement infrastructure security without change management or rollback plans",
+      "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design infrastructure security using patterns validated in AWS Certified Security – Specialty practice assessments. This is the recommended approach for the Infrastructure Security domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Identity & Access Management ──
+  {
+    domain: "Identity & Access Management",
+    q: "Which Identity & Access Management principle is emphasized in AWS Certified Security – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives",
+      "Skip identity & access management testing before production rollout",
+      "Implement identity & access management without change management or rollback plans",
+      "Use default identity & access management settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Security – Specialty-aligned identity & access management approach recommended in official exam objectives. This is the recommended approach for the Identity & Access Management domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Data Protection ──
+  {
+    domain: "Data Protection",
+    q: "A regulated financial institution failed a mock AWS Certified Security – Specialty question on Data Protection. What concept should they review?",
+    opts: [
+      "Implement data protection without change management or rollback plans",
+      "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge",
+      "Use default data protection settings without hardening",
+      "Centralize all data protection decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for data protection as defined in the AWS Certified Security – Specialty body of knowledge. This is the recommended approach for the Data Protection domain on the AWS Certified Security – Specialty exam and reflects current certification objectives.",
+  },
 ];

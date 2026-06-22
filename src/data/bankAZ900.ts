@@ -798,4 +798,202 @@ export const BANK_AZ900: Question[] = [
     a: 2,
     exp: 'Azure Advisor continuously analyzes your Azure resource configurations and provides tailored, actionable recommendations across five categories: Cost, Security, Reliability, Operational Excellence, and Performance, helping optimize your Azure environment.',
   },
+
+  // ── Additional AZ-900 practice questions (14 added) ──
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "When a healthcare organization implements Microsoft Azure Fundamentals controls for Cloud Concepts, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test cloud concepts configurations in one environment",
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Implement the standard cloud concepts solution that satisfies Microsoft Azure Fundamentals domain requirements",
+      "Skip cloud concepts testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies Microsoft Azure Fundamentals domain requirements. This is the recommended approach for the Cloud Concepts domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Architecture & Services ──
+  {
+    domain: "Azure Architecture & Services",
+    q: "A Microsoft Azure Fundamentals practice exam scenario covers Azure Architecture & Services for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive azure architecture & services credentials in plain text configuration files",
+      "Skip azure architecture & services testing before production rollout",
+      "Implement azure architecture & services without change management or rollback plans",
+      "Use the certified azure architecture & services methodology specified for Microsoft Azure Fundamentals candidates",
+    ],
+    a: 3,
+    exp: "Use the certified azure architecture & services methodology specified for Microsoft Azure Fundamentals candidates. This is the recommended approach for the Azure Architecture & Services domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Management & Governance ──
+  {
+    domain: "Azure Management & Governance",
+    q: "Which Azure Management & Governance principle is emphasized in Microsoft Azure Fundamentals when supporting a government agency?",
+    opts: [
+      "Adopt the azure management & governance control framework referenced in Microsoft Azure Fundamentals study materials",
+      "Skip azure management & governance testing before production rollout",
+      "Implement azure management & governance without change management or rollback plans",
+      "Use default azure management & governance settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the azure management & governance control framework referenced in Microsoft Azure Fundamentals study materials. This is the recommended approach for the Azure Management & Governance domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A SaaS startup scaling rapidly failed a mock Microsoft Azure Fundamentals question on Cloud Concepts. What concept should they review?",
+    opts: [
+      "Implement cloud concepts without change management or rollback plans",
+      "Configure cloud concepts according to Microsoft Azure Fundamentals exam blueprint recommendations",
+      "Use default cloud concepts settings without hardening",
+      "Centralize all cloud concepts decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure cloud concepts according to Microsoft Azure Fundamentals exam blueprint recommendations. This is the recommended approach for the Cloud Concepts domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Architecture & Services ──
+  {
+    domain: "Azure Architecture & Services",
+    q: "For Microsoft Azure Fundamentals certification, Azure Architecture & Services knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default azure architecture & services settings without hardening",
+      "Centralize all azure architecture & services decisions without stakeholder review",
+      "Select the azure architecture & services option that meets Microsoft Azure Fundamentals security and governance standards",
+      "Deprecate azure architecture & services controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the azure architecture & services option that meets Microsoft Azure Fundamentals security and governance standards. This is the recommended approach for the Azure Architecture & Services domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Management & Governance ──
+  {
+    domain: "Azure Management & Governance",
+    q: "A team at a media company with global users debates Azure Management & Governance options while studying Microsoft Azure Fundamentals. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all azure management & governance decisions without stakeholder review",
+      "Deprecate azure management & governance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses azure management & governance policies",
+      "Design azure management & governance using patterns validated in Microsoft Azure Fundamentals practice assessments",
+    ],
+    a: 3,
+    exp: "Design azure management & governance using patterns validated in Microsoft Azure Fundamentals practice assessments. This is the recommended approach for the Azure Management & Governance domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "Which Cloud Concepts capability is validated by Microsoft Azure Fundamentals for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the Microsoft Azure Fundamentals-aligned cloud concepts approach recommended in official exam objectives",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud concepts policies",
+      "Disable monitoring for cloud concepts to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Microsoft Azure Fundamentals-aligned cloud concepts approach recommended in official exam objectives. This is the recommended approach for the Cloud Concepts domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Architecture & Services ──
+  {
+    domain: "Azure Architecture & Services",
+    q: "When evaluating Azure Architecture & Services tools for Microsoft Azure Fundamentals, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses azure architecture & services policies",
+      "Follow industry best practices for azure architecture & services as defined in the Microsoft Azure Fundamentals body of knowledge",
+      "Disable monitoring for azure architecture & services to improve performance",
+      "Grant excessive privileges that violate azure architecture & services least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for azure architecture & services as defined in the Microsoft Azure Fundamentals body of knowledge. This is the recommended approach for the Azure Architecture & Services domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Management & Governance ──
+  {
+    domain: "Azure Management & Governance",
+    q: "A healthcare organization must document Azure Management & Governance procedures for Microsoft Azure Fundamentals compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for azure management & governance to improve performance",
+      "Grant excessive privileges that violate azure management & governance least-privilege principles",
+      "Implement the standard azure management & governance solution that satisfies Microsoft Azure Fundamentals domain requirements",
+      "Rely solely on manual processes with no azure management & governance automation",
+    ],
+    a: 2,
+    exp: "Implement the standard azure management & governance solution that satisfies Microsoft Azure Fundamentals domain requirements. This is the recommended approach for the Azure Management & Governance domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A Microsoft Azure Fundamentals instructor asks about Cloud Concepts in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Rely solely on manual processes with no cloud concepts automation",
+      "Ignore cloud concepts compliance requirements for faster deployment",
+      "Use the certified cloud concepts methodology specified for Microsoft Azure Fundamentals candidates",
+    ],
+    a: 3,
+    exp: "Use the certified cloud concepts methodology specified for Microsoft Azure Fundamentals candidates. This is the recommended approach for the Cloud Concepts domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Architecture & Services ──
+  {
+    domain: "Azure Architecture & Services",
+    q: "Which Azure Architecture & Services metric best indicates Microsoft Azure Fundamentals readiness for a government agency?",
+    opts: [
+      "Adopt the azure architecture & services control framework referenced in Microsoft Azure Fundamentals study materials",
+      "Rely solely on manual processes with no azure architecture & services automation",
+      "Ignore azure architecture & services compliance requirements for faster deployment",
+      "Mix production and test azure architecture & services configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the azure architecture & services control framework referenced in Microsoft Azure Fundamentals study materials. This is the recommended approach for the Azure Architecture & Services domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Management & Governance ──
+  {
+    domain: "Azure Management & Governance",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Azure Management & Governance issue while preparing for Microsoft Azure Fundamentals. What is the first step?",
+    opts: [
+      "Ignore azure management & governance compliance requirements for faster deployment",
+      "Configure azure management & governance according to Microsoft Azure Fundamentals exam blueprint recommendations",
+      "Mix production and test azure management & governance configurations in one environment",
+      "Store sensitive azure management & governance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure azure management & governance according to Microsoft Azure Fundamentals exam blueprint recommendations. This is the recommended approach for the Azure Management & Governance domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "In Microsoft Azure Fundamentals, how should a manufacturing company modernizing IT handle a trade-off involving Cloud Concepts?",
+    opts: [
+      "Mix production and test cloud concepts configurations in one environment",
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Select the cloud concepts option that meets Microsoft Azure Fundamentals security and governance standards",
+      "Skip cloud concepts testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets Microsoft Azure Fundamentals security and governance standards. This is the recommended approach for the Cloud Concepts domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
+
+  // ── Azure Architecture & Services ──
+  {
+    domain: "Azure Architecture & Services",
+    q: "Which Azure Architecture & Services pattern is commonly tested on Microsoft Azure Fundamentals for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive azure architecture & services credentials in plain text configuration files",
+      "Skip azure architecture & services testing before production rollout",
+      "Implement azure architecture & services without change management or rollback plans",
+      "Design azure architecture & services using patterns validated in Microsoft Azure Fundamentals practice assessments",
+    ],
+    a: 3,
+    exp: "Design azure architecture & services using patterns validated in Microsoft Azure Fundamentals practice assessments. This is the recommended approach for the Azure Architecture & Services domain on the Microsoft Azure Fundamentals exam and reflects current certification objectives.",
+  },
 ];

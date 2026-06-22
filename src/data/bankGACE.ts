@@ -795,4 +795,496 @@ export const BANK_GACE: Question[] = [
     a: 1,
     exp: 'Cloud Armor rate-limiting rules use a "throttle" or "rate_based_ban" action. When the threshold is exceeded, Cloud Armor can return a 429 response, redirect the client, or ban the IP for a configured duration. The excess requests are not transparently queued or forwarded.',
   },
+
+  // ── Additional Associate Cloud Engineer practice questions (35 added) ──
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "A regulated financial institution is designing a Google Associate Cloud Engineer study plan focused on Setting up a Cloud Solution Environment. Which resource topic is essential?",
+    opts: [
+      "Ignore setting up a cloud solution environment compliance requirements for faster deployment",
+      "Follow industry best practices for setting up a cloud solution environment as defined in the Google Associate Cloud Engineer body of knowledge",
+      "Mix production and test setting up a cloud solution environment configurations in one environment",
+      "Store sensitive setting up a cloud solution environment credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for setting up a cloud solution environment as defined in the Google Associate Cloud Engineer body of knowledge. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "When a healthcare organization implements Google Associate Cloud Engineer controls for Planning & Configuring a Cloud Solution, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test planning & configuring a cloud solution configurations in one environment",
+      "Store sensitive planning & configuring a cloud solution credentials in plain text configuration files",
+      "Implement the standard planning & configuring a cloud solution solution that satisfies Google Associate Cloud Engineer domain requirements",
+      "Skip planning & configuring a cloud solution testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard planning & configuring a cloud solution solution that satisfies Google Associate Cloud Engineer domain requirements. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "A Google Associate Cloud Engineer practice exam scenario covers Deploying & Implementing Cloud Solutions for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive deploying & implementing cloud solutions credentials in plain text configuration files",
+      "Skip deploying & implementing cloud solutions testing before production rollout",
+      "Implement deploying & implementing cloud solutions without change management or rollback plans",
+      "Use the certified deploying & implementing cloud solutions methodology specified for Google Associate Cloud Engineer candidates",
+    ],
+    a: 3,
+    exp: "Use the certified deploying & implementing cloud solutions methodology specified for Google Associate Cloud Engineer candidates. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "Which Ensuring Successful Operation principle is emphasized in Google Associate Cloud Engineer when supporting a government agency?",
+    opts: [
+      "Adopt the ensuring successful operation control framework referenced in Google Associate Cloud Engineer study materials",
+      "Skip ensuring successful operation testing before production rollout",
+      "Implement ensuring successful operation without change management or rollback plans",
+      "Use default ensuring successful operation settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the ensuring successful operation control framework referenced in Google Associate Cloud Engineer study materials. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "A SaaS startup scaling rapidly failed a mock Google Associate Cloud Engineer question on Configuring Access & Security. What concept should they review?",
+    opts: [
+      "Implement configuring access & security without change management or rollback plans",
+      "Configure configuring access & security according to Google Associate Cloud Engineer exam blueprint recommendations",
+      "Use default configuring access & security settings without hardening",
+      "Centralize all configuring access & security decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure configuring access & security according to Google Associate Cloud Engineer exam blueprint recommendations. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "For Google Associate Cloud Engineer certification, Setting up a Cloud Solution Environment knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default setting up a cloud solution environment settings without hardening",
+      "Centralize all setting up a cloud solution environment decisions without stakeholder review",
+      "Select the setting up a cloud solution environment option that meets Google Associate Cloud Engineer security and governance standards",
+      "Deprecate setting up a cloud solution environment controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the setting up a cloud solution environment option that meets Google Associate Cloud Engineer security and governance standards. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "A team at a media company with global users debates Planning & Configuring a Cloud Solution options while studying Google Associate Cloud Engineer. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all planning & configuring a cloud solution decisions without stakeholder review",
+      "Deprecate planning & configuring a cloud solution controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses planning & configuring a cloud solution policies",
+      "Design planning & configuring a cloud solution using patterns validated in Google Associate Cloud Engineer practice assessments",
+    ],
+    a: 3,
+    exp: "Design planning & configuring a cloud solution using patterns validated in Google Associate Cloud Engineer practice assessments. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "Which Deploying & Implementing Cloud Solutions capability is validated by Google Associate Cloud Engineer for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the Google Associate Cloud Engineer-aligned deploying & implementing cloud solutions approach recommended in official exam objectives",
+      "Deprecate deploying & implementing cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deploying & implementing cloud solutions policies",
+      "Disable monitoring for deploying & implementing cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Associate Cloud Engineer-aligned deploying & implementing cloud solutions approach recommended in official exam objectives. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "When evaluating Ensuring Successful Operation tools for Google Associate Cloud Engineer, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses ensuring successful operation policies",
+      "Follow industry best practices for ensuring successful operation as defined in the Google Associate Cloud Engineer body of knowledge",
+      "Disable monitoring for ensuring successful operation to improve performance",
+      "Grant excessive privileges that violate ensuring successful operation least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for ensuring successful operation as defined in the Google Associate Cloud Engineer body of knowledge. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "A healthcare organization must document Configuring Access & Security procedures for Google Associate Cloud Engineer compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for configuring access & security to improve performance",
+      "Grant excessive privileges that violate configuring access & security least-privilege principles",
+      "Implement the standard configuring access & security solution that satisfies Google Associate Cloud Engineer domain requirements",
+      "Rely solely on manual processes with no configuring access & security automation",
+    ],
+    a: 2,
+    exp: "Implement the standard configuring access & security solution that satisfies Google Associate Cloud Engineer domain requirements. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "A Google Associate Cloud Engineer instructor asks about Setting up a Cloud Solution Environment in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate setting up a cloud solution environment least-privilege principles",
+      "Rely solely on manual processes with no setting up a cloud solution environment automation",
+      "Ignore setting up a cloud solution environment compliance requirements for faster deployment",
+      "Use the certified setting up a cloud solution environment methodology specified for Google Associate Cloud Engineer candidates",
+    ],
+    a: 3,
+    exp: "Use the certified setting up a cloud solution environment methodology specified for Google Associate Cloud Engineer candidates. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "Which Planning & Configuring a Cloud Solution metric best indicates Google Associate Cloud Engineer readiness for a government agency?",
+    opts: [
+      "Adopt the planning & configuring a cloud solution control framework referenced in Google Associate Cloud Engineer study materials",
+      "Rely solely on manual processes with no planning & configuring a cloud solution automation",
+      "Ignore planning & configuring a cloud solution compliance requirements for faster deployment",
+      "Mix production and test planning & configuring a cloud solution configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the planning & configuring a cloud solution control framework referenced in Google Associate Cloud Engineer study materials. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Deploying & Implementing Cloud Solutions issue while preparing for Google Associate Cloud Engineer. What is the first step?",
+    opts: [
+      "Ignore deploying & implementing cloud solutions compliance requirements for faster deployment",
+      "Configure deploying & implementing cloud solutions according to Google Associate Cloud Engineer exam blueprint recommendations",
+      "Mix production and test deploying & implementing cloud solutions configurations in one environment",
+      "Store sensitive deploying & implementing cloud solutions credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure deploying & implementing cloud solutions according to Google Associate Cloud Engineer exam blueprint recommendations. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "In Google Associate Cloud Engineer, how should a manufacturing company modernizing IT handle a trade-off involving Ensuring Successful Operation?",
+    opts: [
+      "Mix production and test ensuring successful operation configurations in one environment",
+      "Store sensitive ensuring successful operation credentials in plain text configuration files",
+      "Select the ensuring successful operation option that meets Google Associate Cloud Engineer security and governance standards",
+      "Skip ensuring successful operation testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the ensuring successful operation option that meets Google Associate Cloud Engineer security and governance standards. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "Which Configuring Access & Security pattern is commonly tested on Google Associate Cloud Engineer for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive configuring access & security credentials in plain text configuration files",
+      "Skip configuring access & security testing before production rollout",
+      "Implement configuring access & security without change management or rollback plans",
+      "Design configuring access & security using patterns validated in Google Associate Cloud Engineer practice assessments",
+    ],
+    a: 3,
+    exp: "Design configuring access & security using patterns validated in Google Associate Cloud Engineer practice assessments. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "A multinational enterprise is preparing for Google Associate Cloud Engineer and must strengthen Setting up a Cloud Solution Environment. Which option is BEST?",
+    opts: [
+      "Apply the Google Associate Cloud Engineer-aligned setting up a cloud solution environment approach recommended in official exam objectives",
+      "Skip setting up a cloud solution environment testing before production rollout",
+      "Implement setting up a cloud solution environment without change management or rollback plans",
+      "Use default setting up a cloud solution environment settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the Google Associate Cloud Engineer-aligned setting up a cloud solution environment approach recommended in official exam objectives. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "During a Google Associate Cloud Engineer readiness review at a regulated financial institution, which Planning & Configuring a Cloud Solution approach meets certification objectives?",
+    opts: [
+      "Implement planning & configuring a cloud solution without change management or rollback plans",
+      "Follow industry best practices for planning & configuring a cloud solution as defined in the Google Associate Cloud Engineer body of knowledge",
+      "Use default planning & configuring a cloud solution settings without hardening",
+      "Centralize all planning & configuring a cloud solution decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for planning & configuring a cloud solution as defined in the Google Associate Cloud Engineer body of knowledge. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "A consultant advising a healthcare organization on Google Associate Cloud Engineer recommends improvements to Deploying & Implementing Cloud Solutions. What should they implement?",
+    opts: [
+      "Use default deploying & implementing cloud solutions settings without hardening",
+      "Centralize all deploying & implementing cloud solutions decisions without stakeholder review",
+      "Implement the standard deploying & implementing cloud solutions solution that satisfies Google Associate Cloud Engineer domain requirements",
+      "Deprecate deploying & implementing cloud solutions controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard deploying & implementing cloud solutions solution that satisfies Google Associate Cloud Engineer domain requirements. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "Which Ensuring Successful Operation strategy is MOST appropriate when a high-traffic e-commerce platform adopts Google Associate Cloud Engineer standards?",
+    opts: [
+      "Centralize all ensuring successful operation decisions without stakeholder review",
+      "Deprecate ensuring successful operation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses ensuring successful operation policies",
+      "Use the certified ensuring successful operation methodology specified for Google Associate Cloud Engineer candidates",
+    ],
+    a: 3,
+    exp: "Use the certified ensuring successful operation methodology specified for Google Associate Cloud Engineer candidates. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "An audit of a government agency reveals gaps in Configuring Access & Security for Google Associate Cloud Engineer. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the configuring access & security control framework referenced in Google Associate Cloud Engineer study materials",
+      "Deprecate configuring access & security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuring access & security policies",
+      "Disable monitoring for configuring access & security to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the configuring access & security control framework referenced in Google Associate Cloud Engineer study materials. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "A SaaS startup scaling rapidly is designing a Google Associate Cloud Engineer study plan focused on Setting up a Cloud Solution Environment. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses setting up a cloud solution environment policies",
+      "Configure setting up a cloud solution environment according to Google Associate Cloud Engineer exam blueprint recommendations",
+      "Disable monitoring for setting up a cloud solution environment to improve performance",
+      "Grant excessive privileges that violate setting up a cloud solution environment least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure setting up a cloud solution environment according to Google Associate Cloud Engineer exam blueprint recommendations. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "When a manufacturing company modernizing IT implements Google Associate Cloud Engineer controls for Planning & Configuring a Cloud Solution, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for planning & configuring a cloud solution to improve performance",
+      "Grant excessive privileges that violate planning & configuring a cloud solution least-privilege principles",
+      "Select the planning & configuring a cloud solution option that meets Google Associate Cloud Engineer security and governance standards",
+      "Rely solely on manual processes with no planning & configuring a cloud solution automation",
+    ],
+    a: 2,
+    exp: "Select the planning & configuring a cloud solution option that meets Google Associate Cloud Engineer security and governance standards. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "A Google Associate Cloud Engineer practice exam scenario covers Deploying & Implementing Cloud Solutions for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate deploying & implementing cloud solutions least-privilege principles",
+      "Rely solely on manual processes with no deploying & implementing cloud solutions automation",
+      "Ignore deploying & implementing cloud solutions compliance requirements for faster deployment",
+      "Design deploying & implementing cloud solutions using patterns validated in Google Associate Cloud Engineer practice assessments",
+    ],
+    a: 3,
+    exp: "Design deploying & implementing cloud solutions using patterns validated in Google Associate Cloud Engineer practice assessments. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "Which Ensuring Successful Operation principle is emphasized in Google Associate Cloud Engineer when supporting a multinational enterprise?",
+    opts: [
+      "Apply the Google Associate Cloud Engineer-aligned ensuring successful operation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no ensuring successful operation automation",
+      "Ignore ensuring successful operation compliance requirements for faster deployment",
+      "Mix production and test ensuring successful operation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the Google Associate Cloud Engineer-aligned ensuring successful operation approach recommended in official exam objectives. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "A regulated financial institution failed a mock Google Associate Cloud Engineer question on Configuring Access & Security. What concept should they review?",
+    opts: [
+      "Ignore configuring access & security compliance requirements for faster deployment",
+      "Follow industry best practices for configuring access & security as defined in the Google Associate Cloud Engineer body of knowledge",
+      "Mix production and test configuring access & security configurations in one environment",
+      "Store sensitive configuring access & security credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for configuring access & security as defined in the Google Associate Cloud Engineer body of knowledge. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "For Google Associate Cloud Engineer certification, Setting up a Cloud Solution Environment knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test setting up a cloud solution environment configurations in one environment",
+      "Store sensitive setting up a cloud solution environment credentials in plain text configuration files",
+      "Implement the standard setting up a cloud solution environment solution that satisfies Google Associate Cloud Engineer domain requirements",
+      "Skip setting up a cloud solution environment testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard setting up a cloud solution environment solution that satisfies Google Associate Cloud Engineer domain requirements. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "A team at a high-traffic e-commerce platform debates Planning & Configuring a Cloud Solution options while studying Google Associate Cloud Engineer. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive planning & configuring a cloud solution credentials in plain text configuration files",
+      "Skip planning & configuring a cloud solution testing before production rollout",
+      "Implement planning & configuring a cloud solution without change management or rollback plans",
+      "Use the certified planning & configuring a cloud solution methodology specified for Google Associate Cloud Engineer candidates",
+    ],
+    a: 3,
+    exp: "Use the certified planning & configuring a cloud solution methodology specified for Google Associate Cloud Engineer candidates. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "Which Deploying & Implementing Cloud Solutions capability is validated by Google Associate Cloud Engineer for organizations such as a government agency?",
+    opts: [
+      "Adopt the deploying & implementing cloud solutions control framework referenced in Google Associate Cloud Engineer study materials",
+      "Skip deploying & implementing cloud solutions testing before production rollout",
+      "Implement deploying & implementing cloud solutions without change management or rollback plans",
+      "Use default deploying & implementing cloud solutions settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the deploying & implementing cloud solutions control framework referenced in Google Associate Cloud Engineer study materials. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "When evaluating Ensuring Successful Operation tools for Google Associate Cloud Engineer, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement ensuring successful operation without change management or rollback plans",
+      "Configure ensuring successful operation according to Google Associate Cloud Engineer exam blueprint recommendations",
+      "Use default ensuring successful operation settings without hardening",
+      "Centralize all ensuring successful operation decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure ensuring successful operation according to Google Associate Cloud Engineer exam blueprint recommendations. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "A manufacturing company modernizing IT must document Configuring Access & Security procedures for Google Associate Cloud Engineer compliance. Which standard applies?",
+    opts: [
+      "Use default configuring access & security settings without hardening",
+      "Centralize all configuring access & security decisions without stakeholder review",
+      "Select the configuring access & security option that meets Google Associate Cloud Engineer security and governance standards",
+      "Deprecate configuring access & security controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the configuring access & security option that meets Google Associate Cloud Engineer security and governance standards. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Setting up a Cloud Solution Environment ──
+  {
+    domain: "Setting up a Cloud Solution Environment",
+    q: "A Google Associate Cloud Engineer instructor asks about Setting up a Cloud Solution Environment in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all setting up a cloud solution environment decisions without stakeholder review",
+      "Deprecate setting up a cloud solution environment controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses setting up a cloud solution environment policies",
+      "Design setting up a cloud solution environment using patterns validated in Google Associate Cloud Engineer practice assessments",
+    ],
+    a: 3,
+    exp: "Design setting up a cloud solution environment using patterns validated in Google Associate Cloud Engineer practice assessments. This is the recommended approach for the Setting up a Cloud Solution Environment domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Planning & Configuring a Cloud Solution ──
+  {
+    domain: "Planning & Configuring a Cloud Solution",
+    q: "Which Planning & Configuring a Cloud Solution metric best indicates Google Associate Cloud Engineer readiness for a multinational enterprise?",
+    opts: [
+      "Apply the Google Associate Cloud Engineer-aligned planning & configuring a cloud solution approach recommended in official exam objectives",
+      "Deprecate planning & configuring a cloud solution controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses planning & configuring a cloud solution policies",
+      "Disable monitoring for planning & configuring a cloud solution to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Associate Cloud Engineer-aligned planning & configuring a cloud solution approach recommended in official exam objectives. This is the recommended approach for the Planning & Configuring a Cloud Solution domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Deploying & Implementing Cloud Solutions ──
+  {
+    domain: "Deploying & Implementing Cloud Solutions",
+    q: "A regulated financial institution is troubleshooting a Deploying & Implementing Cloud Solutions issue while preparing for Google Associate Cloud Engineer. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses deploying & implementing cloud solutions policies",
+      "Follow industry best practices for deploying & implementing cloud solutions as defined in the Google Associate Cloud Engineer body of knowledge",
+      "Disable monitoring for deploying & implementing cloud solutions to improve performance",
+      "Grant excessive privileges that violate deploying & implementing cloud solutions least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for deploying & implementing cloud solutions as defined in the Google Associate Cloud Engineer body of knowledge. This is the recommended approach for the Deploying & Implementing Cloud Solutions domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Successful Operation ──
+  {
+    domain: "Ensuring Successful Operation",
+    q: "In Google Associate Cloud Engineer, how should a healthcare organization handle a trade-off involving Ensuring Successful Operation?",
+    opts: [
+      "Disable monitoring for ensuring successful operation to improve performance",
+      "Grant excessive privileges that violate ensuring successful operation least-privilege principles",
+      "Implement the standard ensuring successful operation solution that satisfies Google Associate Cloud Engineer domain requirements",
+      "Rely solely on manual processes with no ensuring successful operation automation",
+    ],
+    a: 2,
+    exp: "Implement the standard ensuring successful operation solution that satisfies Google Associate Cloud Engineer domain requirements. This is the recommended approach for the Ensuring Successful Operation domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
+
+  // ── Configuring Access & Security ──
+  {
+    domain: "Configuring Access & Security",
+    q: "Which Configuring Access & Security pattern is commonly tested on Google Associate Cloud Engineer for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate configuring access & security least-privilege principles",
+      "Rely solely on manual processes with no configuring access & security automation",
+      "Ignore configuring access & security compliance requirements for faster deployment",
+      "Use the certified configuring access & security methodology specified for Google Associate Cloud Engineer candidates",
+    ],
+    a: 3,
+    exp: "Use the certified configuring access & security methodology specified for Google Associate Cloud Engineer candidates. This is the recommended approach for the Configuring Access & Security domain on the Google Associate Cloud Engineer exam and reflects current certification objectives.",
+  },
 ];

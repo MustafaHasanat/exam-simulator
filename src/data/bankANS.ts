@@ -852,4 +852,846 @@ export const BANK_ANS: Question[] = [
     a: 2,
     exp: 'Shield Advanced includes the AWS DDoS Response Team (DRT) who can apply upstream mitigations at the AWS network edge, including BGP blackholing and custom network-level ACLs, to drop volumetric attack traffic before it reaches the customer\'s EC2 instance. This is more effective than instance-level mitigations for large-scale volumetric attacks. Automatic application layer mitigation applies to HTTP/HTTPS floods, not UDP floods.',
   },
+
+  // ── Additional ANS-C01 practice questions (60 added) ──
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "For AWS Certified Advanced Networking – Specialty certification, Network Design knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default network design settings without hardening",
+      "Centralize all network design decisions without stakeholder review",
+      "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Deprecate network design controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A team at a media company with global users debates Network Implementation options while studying AWS Certified Advanced Networking – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all network implementation decisions without stakeholder review",
+      "Deprecate network implementation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network implementation policies",
+      "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations capability is validated by AWS Certified Advanced Networking – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives",
+      "Deprecate network management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network management & operations policies",
+      "Disable monitoring for network management & operations to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "When evaluating Network Security Compliance & Governance tools for AWS Certified Advanced Networking – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses network security compliance & governance policies",
+      "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Disable monitoring for network security compliance & governance to improve performance",
+      "Grant excessive privileges that violate network security compliance & governance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A healthcare organization must document Network Design procedures for AWS Certified Advanced Networking – Specialty compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for network design to improve performance",
+      "Grant excessive privileges that violate network design least-privilege principles",
+      "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Rely solely on manual processes with no network design automation",
+    ],
+    a: 2,
+    exp: "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A AWS Certified Advanced Networking – Specialty instructor asks about Network Implementation in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate network implementation least-privilege principles",
+      "Rely solely on manual processes with no network implementation automation",
+      "Ignore network implementation compliance requirements for faster deployment",
+      "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations metric best indicates AWS Certified Advanced Networking – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Rely solely on manual processes with no network management & operations automation",
+      "Ignore network management & operations compliance requirements for faster deployment",
+      "Mix production and test network management & operations configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Network Security Compliance & Governance issue while preparing for AWS Certified Advanced Networking – Specialty. What is the first step?",
+    opts: [
+      "Ignore network security compliance & governance compliance requirements for faster deployment",
+      "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Mix production and test network security compliance & governance configurations in one environment",
+      "Store sensitive network security compliance & governance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "In AWS Certified Advanced Networking – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Network Design?",
+    opts: [
+      "Mix production and test network design configurations in one environment",
+      "Store sensitive network design credentials in plain text configuration files",
+      "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Skip network design testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation pattern is commonly tested on AWS Certified Advanced Networking – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive network implementation credentials in plain text configuration files",
+      "Skip network implementation testing before production rollout",
+      "Implement network implementation without change management or rollback plans",
+      "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "A multinational enterprise is preparing for AWS Certified Advanced Networking – Specialty and must strengthen Network Management & Operations. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives",
+      "Skip network management & operations testing before production rollout",
+      "Implement network management & operations without change management or rollback plans",
+      "Use default network management & operations settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "During a AWS Certified Advanced Networking – Specialty readiness review at a regulated financial institution, which Network Security Compliance & Governance approach meets certification objectives?",
+    opts: [
+      "Implement network security compliance & governance without change management or rollback plans",
+      "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Use default network security compliance & governance settings without hardening",
+      "Centralize all network security compliance & governance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A consultant advising a healthcare organization on AWS Certified Advanced Networking – Specialty recommends improvements to Network Design. What should they implement?",
+    opts: [
+      "Use default network design settings without hardening",
+      "Centralize all network design decisions without stakeholder review",
+      "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Deprecate network design controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Advanced Networking – Specialty standards?",
+    opts: [
+      "Centralize all network implementation decisions without stakeholder review",
+      "Deprecate network implementation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network implementation policies",
+      "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "An audit of a government agency reveals gaps in Network Management & Operations for AWS Certified Advanced Networking – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Deprecate network management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network management & operations policies",
+      "Disable monitoring for network management & operations to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Advanced Networking – Specialty study plan focused on Network Security Compliance & Governance. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses network security compliance & governance policies",
+      "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Disable monitoring for network security compliance & governance to improve performance",
+      "Grant excessive privileges that violate network security compliance & governance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Advanced Networking – Specialty controls for Network Design, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for network design to improve performance",
+      "Grant excessive privileges that violate network design least-privilege principles",
+      "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Rely solely on manual processes with no network design automation",
+    ],
+    a: 2,
+    exp: "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A AWS Certified Advanced Networking – Specialty practice exam scenario covers Network Implementation for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate network implementation least-privilege principles",
+      "Rely solely on manual processes with no network implementation automation",
+      "Ignore network implementation compliance requirements for faster deployment",
+      "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations principle is emphasized in AWS Certified Advanced Networking – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives",
+      "Rely solely on manual processes with no network management & operations automation",
+      "Ignore network management & operations compliance requirements for faster deployment",
+      "Mix production and test network management & operations configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A regulated financial institution failed a mock AWS Certified Advanced Networking – Specialty question on Network Security Compliance & Governance. What concept should they review?",
+    opts: [
+      "Ignore network security compliance & governance compliance requirements for faster deployment",
+      "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Mix production and test network security compliance & governance configurations in one environment",
+      "Store sensitive network security compliance & governance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "For AWS Certified Advanced Networking – Specialty certification, Network Design knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test network design configurations in one environment",
+      "Store sensitive network design credentials in plain text configuration files",
+      "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Skip network design testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A team at a high-traffic e-commerce platform debates Network Implementation options while studying AWS Certified Advanced Networking – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive network implementation credentials in plain text configuration files",
+      "Skip network implementation testing before production rollout",
+      "Implement network implementation without change management or rollback plans",
+      "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations capability is validated by AWS Certified Advanced Networking – Specialty for organizations such as a government agency?",
+    opts: [
+      "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Skip network management & operations testing before production rollout",
+      "Implement network management & operations without change management or rollback plans",
+      "Use default network management & operations settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "When evaluating Network Security Compliance & Governance tools for AWS Certified Advanced Networking – Specialty, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement network security compliance & governance without change management or rollback plans",
+      "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Use default network security compliance & governance settings without hardening",
+      "Centralize all network security compliance & governance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A manufacturing company modernizing IT must document Network Design procedures for AWS Certified Advanced Networking – Specialty compliance. Which standard applies?",
+    opts: [
+      "Use default network design settings without hardening",
+      "Centralize all network design decisions without stakeholder review",
+      "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Deprecate network design controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A AWS Certified Advanced Networking – Specialty instructor asks about Network Implementation in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all network implementation decisions without stakeholder review",
+      "Deprecate network implementation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network implementation policies",
+      "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations metric best indicates AWS Certified Advanced Networking – Specialty readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives",
+      "Deprecate network management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network management & operations policies",
+      "Disable monitoring for network management & operations to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A regulated financial institution is troubleshooting a Network Security Compliance & Governance issue while preparing for AWS Certified Advanced Networking – Specialty. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses network security compliance & governance policies",
+      "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Disable monitoring for network security compliance & governance to improve performance",
+      "Grant excessive privileges that violate network security compliance & governance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "In AWS Certified Advanced Networking – Specialty, how should a healthcare organization handle a trade-off involving Network Design?",
+    opts: [
+      "Disable monitoring for network design to improve performance",
+      "Grant excessive privileges that violate network design least-privilege principles",
+      "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Rely solely on manual processes with no network design automation",
+    ],
+    a: 2,
+    exp: "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation pattern is commonly tested on AWS Certified Advanced Networking – Specialty for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate network implementation least-privilege principles",
+      "Rely solely on manual processes with no network implementation automation",
+      "Ignore network implementation compliance requirements for faster deployment",
+      "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "A government agency is preparing for AWS Certified Advanced Networking – Specialty and must strengthen Network Management & Operations. Which option is BEST?",
+    opts: [
+      "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Rely solely on manual processes with no network management & operations automation",
+      "Ignore network management & operations compliance requirements for faster deployment",
+      "Mix production and test network management & operations configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "During a AWS Certified Advanced Networking – Specialty readiness review at a SaaS startup scaling rapidly, which Network Security Compliance & Governance approach meets certification objectives?",
+    opts: [
+      "Ignore network security compliance & governance compliance requirements for faster deployment",
+      "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Mix production and test network security compliance & governance configurations in one environment",
+      "Store sensitive network security compliance & governance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Advanced Networking – Specialty recommends improvements to Network Design. What should they implement?",
+    opts: [
+      "Mix production and test network design configurations in one environment",
+      "Store sensitive network design credentials in plain text configuration files",
+      "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Skip network design testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the network design option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation strategy is MOST appropriate when a media company with global users adopts AWS Certified Advanced Networking – Specialty standards?",
+    opts: [
+      "Store sensitive network implementation credentials in plain text configuration files",
+      "Skip network implementation testing before production rollout",
+      "Implement network implementation without change management or rollback plans",
+      "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network implementation using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "An audit of a multinational enterprise reveals gaps in Network Management & Operations for AWS Certified Advanced Networking – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives",
+      "Skip network management & operations testing before production rollout",
+      "Implement network management & operations without change management or rollback plans",
+      "Use default network management & operations settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network management & operations approach recommended in official exam objectives. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A regulated financial institution is designing a AWS Certified Advanced Networking – Specialty study plan focused on Network Security Compliance & Governance. Which resource topic is essential?",
+    opts: [
+      "Implement network security compliance & governance without change management or rollback plans",
+      "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Use default network security compliance & governance settings without hardening",
+      "Centralize all network security compliance & governance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network security compliance & governance as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "When a healthcare organization implements AWS Certified Advanced Networking – Specialty controls for Network Design, which practice reduces operational risk?",
+    opts: [
+      "Use default network design settings without hardening",
+      "Centralize all network design decisions without stakeholder review",
+      "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Deprecate network design controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard network design solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A AWS Certified Advanced Networking – Specialty practice exam scenario covers Network Implementation for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all network implementation decisions without stakeholder review",
+      "Deprecate network implementation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network implementation policies",
+      "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network implementation methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "Which Network Management & Operations principle is emphasized in AWS Certified Advanced Networking – Specialty when supporting a government agency?",
+    opts: [
+      "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Deprecate network management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network management & operations policies",
+      "Disable monitoring for network management & operations to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the network management & operations control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Advanced Networking – Specialty question on Network Security Compliance & Governance. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses network security compliance & governance policies",
+      "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Disable monitoring for network security compliance & governance to improve performance",
+      "Grant excessive privileges that violate network security compliance & governance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure network security compliance & governance according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A team at a media company with global users debates Network Design options while studying AWS Certified Advanced Networking – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate network design least-privilege principles",
+      "Rely solely on manual processes with no network design automation",
+      "Ignore network design compliance requirements for faster deployment",
+      "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation capability is validated by AWS Certified Advanced Networking – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no network implementation automation",
+      "Ignore network implementation compliance requirements for faster deployment",
+      "Mix production and test network implementation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "When evaluating Network Management & Operations tools for AWS Certified Advanced Networking – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore network management & operations compliance requirements for faster deployment",
+      "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Mix production and test network management & operations configurations in one environment",
+      "Store sensitive network management & operations credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A healthcare organization must document Network Security Compliance & Governance procedures for AWS Certified Advanced Networking – Specialty compliance. Which standard applies?",
+    opts: [
+      "Mix production and test network security compliance & governance configurations in one environment",
+      "Store sensitive network security compliance & governance credentials in plain text configuration files",
+      "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Skip network security compliance & governance testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A AWS Certified Advanced Networking – Specialty instructor asks about Network Design in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive network design credentials in plain text configuration files",
+      "Skip network design testing before production rollout",
+      "Implement network design without change management or rollback plans",
+      "Use the certified network design methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network design methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation metric best indicates AWS Certified Advanced Networking – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the network implementation control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Skip network implementation testing before production rollout",
+      "Implement network implementation without change management or rollback plans",
+      "Use default network implementation settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the network implementation control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Network Management & Operations issue while preparing for AWS Certified Advanced Networking – Specialty. What is the first step?",
+    opts: [
+      "Implement network management & operations without change management or rollback plans",
+      "Configure network management & operations according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Use default network management & operations settings without hardening",
+      "Centralize all network management & operations decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure network management & operations according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "In AWS Certified Advanced Networking – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Network Security Compliance & Governance?",
+    opts: [
+      "Use default network security compliance & governance settings without hardening",
+      "Centralize all network security compliance & governance decisions without stakeholder review",
+      "Select the network security compliance & governance option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Deprecate network security compliance & governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the network security compliance & governance option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "Which Network Design pattern is commonly tested on AWS Certified Advanced Networking – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all network design decisions without stakeholder review",
+      "Deprecate network design controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network design policies",
+      "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "A multinational enterprise is preparing for AWS Certified Advanced Networking – Specialty and must strengthen Network Implementation. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives",
+      "Deprecate network implementation controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses network implementation policies",
+      "Disable monitoring for network implementation to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "During a AWS Certified Advanced Networking – Specialty readiness review at a regulated financial institution, which Network Management & Operations approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses network management & operations policies",
+      "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Disable monitoring for network management & operations to improve performance",
+      "Grant excessive privileges that violate network management & operations least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "A consultant advising a healthcare organization on AWS Certified Advanced Networking – Specialty recommends improvements to Network Security Compliance & Governance. What should they implement?",
+    opts: [
+      "Disable monitoring for network security compliance & governance to improve performance",
+      "Grant excessive privileges that violate network security compliance & governance least-privilege principles",
+      "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Rely solely on manual processes with no network security compliance & governance automation",
+    ],
+    a: 2,
+    exp: "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "Which Network Design strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Advanced Networking – Specialty standards?",
+    opts: [
+      "Grant excessive privileges that violate network design least-privilege principles",
+      "Rely solely on manual processes with no network design automation",
+      "Ignore network design compliance requirements for faster deployment",
+      "Use the certified network design methodology specified for AWS Certified Advanced Networking – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified network design methodology specified for AWS Certified Advanced Networking – Specialty candidates. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "An audit of a government agency reveals gaps in Network Implementation for AWS Certified Advanced Networking – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the network implementation control framework referenced in AWS Certified Advanced Networking – Specialty study materials",
+      "Rely solely on manual processes with no network implementation automation",
+      "Ignore network implementation compliance requirements for faster deployment",
+      "Mix production and test network implementation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the network implementation control framework referenced in AWS Certified Advanced Networking – Specialty study materials. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Advanced Networking – Specialty study plan focused on Network Management & Operations. Which resource topic is essential?",
+    opts: [
+      "Ignore network management & operations compliance requirements for faster deployment",
+      "Configure network management & operations according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations",
+      "Mix production and test network management & operations configurations in one environment",
+      "Store sensitive network management & operations credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure network management & operations according to AWS Certified Advanced Networking – Specialty exam blueprint recommendations. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Advanced Networking – Specialty controls for Network Security Compliance & Governance, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test network security compliance & governance configurations in one environment",
+      "Store sensitive network security compliance & governance credentials in plain text configuration files",
+      "Select the network security compliance & governance option that meets AWS Certified Advanced Networking – Specialty security and governance standards",
+      "Skip network security compliance & governance testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the network security compliance & governance option that meets AWS Certified Advanced Networking – Specialty security and governance standards. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Design ──
+  {
+    domain: "Network Design",
+    q: "A AWS Certified Advanced Networking – Specialty practice exam scenario covers Network Design for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive network design credentials in plain text configuration files",
+      "Skip network design testing before production rollout",
+      "Implement network design without change management or rollback plans",
+      "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design network design using patterns validated in AWS Certified Advanced Networking – Specialty practice assessments. This is the recommended approach for the Network Design domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Implementation ──
+  {
+    domain: "Network Implementation",
+    q: "Which Network Implementation principle is emphasized in AWS Certified Advanced Networking – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives",
+      "Skip network implementation testing before production rollout",
+      "Implement network implementation without change management or rollback plans",
+      "Use default network implementation settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Advanced Networking – Specialty-aligned network implementation approach recommended in official exam objectives. This is the recommended approach for the Network Implementation domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Management & Operations ──
+  {
+    domain: "Network Management & Operations",
+    q: "A regulated financial institution failed a mock AWS Certified Advanced Networking – Specialty question on Network Management & Operations. What concept should they review?",
+    opts: [
+      "Implement network management & operations without change management or rollback plans",
+      "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge",
+      "Use default network management & operations settings without hardening",
+      "Centralize all network management & operations decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for network management & operations as defined in the AWS Certified Advanced Networking – Specialty body of knowledge. This is the recommended approach for the Network Management & Operations domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Network Security Compliance & Governance ──
+  {
+    domain: "Network Security Compliance & Governance",
+    q: "For AWS Certified Advanced Networking – Specialty certification, Network Security Compliance & Governance knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default network security compliance & governance settings without hardening",
+      "Centralize all network security compliance & governance decisions without stakeholder review",
+      "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements",
+      "Deprecate network security compliance & governance controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard network security compliance & governance solution that satisfies AWS Certified Advanced Networking – Specialty domain requirements. This is the recommended approach for the Network Security Compliance & Governance domain on the AWS Certified Advanced Networking – Specialty exam and reflects current certification objectives.",
+  },
 ];

@@ -795,4 +795,916 @@ export const BANK_AIF: Question[] = [
     a: 1,
     exp: 'Data minimization is a privacy and governance principle (codified in regulations such as GDPR) that requires collecting only the data necessary for the defined purpose, reducing privacy risk. Data redundancy improves availability, data amplification expands datasets, and data lineage tracks data origin and transformations.',
   },
+
+  // ── Additional AIF-C01 practice questions (65 added) ──
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A regulated financial institution is designing a AWS Certified AI Practitioner study plan focused on Fundamentals of AI & ML. Which resource topic is essential?",
+    opts: [
+      "Ignore fundamentals of ai & ml compliance requirements for faster deployment",
+      "Follow industry best practices for fundamentals of ai & ml as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Mix production and test fundamentals of ai & ml configurations in one environment",
+      "Store sensitive fundamentals of ai & ml credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for fundamentals of ai & ml as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "When a healthcare organization implements AWS Certified AI Practitioner controls for Fundamentals of Generative AI, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test fundamentals of generative ai configurations in one environment",
+      "Store sensitive fundamentals of generative ai credentials in plain text configuration files",
+      "Implement the standard fundamentals of generative ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Skip fundamentals of generative ai testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard fundamentals of generative ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A AWS Certified AI Practitioner practice exam scenario covers Applications of Foundation Models for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive applications of foundation models credentials in plain text configuration files",
+      "Skip applications of foundation models testing before production rollout",
+      "Implement applications of foundation models without change management or rollback plans",
+      "Use the certified applications of foundation models methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified applications of foundation models methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "Which Guidelines for Responsible AI principle is emphasized in AWS Certified AI Practitioner when supporting a government agency?",
+    opts: [
+      "Adopt the guidelines for responsible ai control framework referenced in AWS Certified AI Practitioner study materials",
+      "Skip guidelines for responsible ai testing before production rollout",
+      "Implement guidelines for responsible ai without change management or rollback plans",
+      "Use default guidelines for responsible ai settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the guidelines for responsible ai control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified AI Practitioner question on Security, Compliance & Governance for AI. What concept should they review?",
+    opts: [
+      "Implement security, compliance & governance for ai without change management or rollback plans",
+      "Configure security, compliance & governance for ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Use default security, compliance & governance for ai settings without hardening",
+      "Centralize all security, compliance & governance for ai decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure security, compliance & governance for ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "For AWS Certified AI Practitioner certification, Fundamentals of AI & ML knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default fundamentals of ai & ml settings without hardening",
+      "Centralize all fundamentals of ai & ml decisions without stakeholder review",
+      "Select the fundamentals of ai & ml option that meets AWS Certified AI Practitioner security and governance standards",
+      "Deprecate fundamentals of ai & ml controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the fundamentals of ai & ml option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A team at a media company with global users debates Fundamentals of Generative AI options while studying AWS Certified AI Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all fundamentals of generative ai decisions without stakeholder review",
+      "Deprecate fundamentals of generative ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses fundamentals of generative ai policies",
+      "Design fundamentals of generative ai using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design fundamentals of generative ai using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "Which Applications of Foundation Models capability is validated by AWS Certified AI Practitioner for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned applications of foundation models approach recommended in official exam objectives",
+      "Deprecate applications of foundation models controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses applications of foundation models policies",
+      "Disable monitoring for applications of foundation models to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned applications of foundation models approach recommended in official exam objectives. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "When evaluating Guidelines for Responsible AI tools for AWS Certified AI Practitioner, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses guidelines for responsible ai policies",
+      "Follow industry best practices for guidelines for responsible ai as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Disable monitoring for guidelines for responsible ai to improve performance",
+      "Grant excessive privileges that violate guidelines for responsible ai least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for guidelines for responsible ai as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A healthcare organization must document Security, Compliance & Governance for AI procedures for AWS Certified AI Practitioner compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for security, compliance & governance for ai to improve performance",
+      "Grant excessive privileges that violate security, compliance & governance for ai least-privilege principles",
+      "Implement the standard security, compliance & governance for ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Rely solely on manual processes with no security, compliance & governance for ai automation",
+    ],
+    a: 2,
+    exp: "Implement the standard security, compliance & governance for ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A AWS Certified AI Practitioner instructor asks about Fundamentals of AI & ML in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate fundamentals of ai & ml least-privilege principles",
+      "Rely solely on manual processes with no fundamentals of ai & ml automation",
+      "Ignore fundamentals of ai & ml compliance requirements for faster deployment",
+      "Use the certified fundamentals of ai & ml methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified fundamentals of ai & ml methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "Which Fundamentals of Generative AI metric best indicates AWS Certified AI Practitioner readiness for a government agency?",
+    opts: [
+      "Adopt the fundamentals of generative ai control framework referenced in AWS Certified AI Practitioner study materials",
+      "Rely solely on manual processes with no fundamentals of generative ai automation",
+      "Ignore fundamentals of generative ai compliance requirements for faster deployment",
+      "Mix production and test fundamentals of generative ai configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the fundamentals of generative ai control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Applications of Foundation Models issue while preparing for AWS Certified AI Practitioner. What is the first step?",
+    opts: [
+      "Ignore applications of foundation models compliance requirements for faster deployment",
+      "Configure applications of foundation models according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Mix production and test applications of foundation models configurations in one environment",
+      "Store sensitive applications of foundation models credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure applications of foundation models according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "In AWS Certified AI Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving Guidelines for Responsible AI?",
+    opts: [
+      "Mix production and test guidelines for responsible ai configurations in one environment",
+      "Store sensitive guidelines for responsible ai credentials in plain text configuration files",
+      "Select the guidelines for responsible ai option that meets AWS Certified AI Practitioner security and governance standards",
+      "Skip guidelines for responsible ai testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the guidelines for responsible ai option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "Which Security, Compliance & Governance for AI pattern is commonly tested on AWS Certified AI Practitioner for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive security, compliance & governance for ai credentials in plain text configuration files",
+      "Skip security, compliance & governance for ai testing before production rollout",
+      "Implement security, compliance & governance for ai without change management or rollback plans",
+      "Design security, compliance & governance for ai using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security, compliance & governance for ai using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A multinational enterprise is preparing for AWS Certified AI Practitioner and must strengthen Fundamentals of AI & ML. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned fundamentals of ai & ml approach recommended in official exam objectives",
+      "Skip fundamentals of ai & ml testing before production rollout",
+      "Implement fundamentals of ai & ml without change management or rollback plans",
+      "Use default fundamentals of ai & ml settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned fundamentals of ai & ml approach recommended in official exam objectives. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "During a AWS Certified AI Practitioner readiness review at a regulated financial institution, which Fundamentals of Generative AI approach meets certification objectives?",
+    opts: [
+      "Implement fundamentals of generative ai without change management or rollback plans",
+      "Follow industry best practices for fundamentals of generative ai as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Use default fundamentals of generative ai settings without hardening",
+      "Centralize all fundamentals of generative ai decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for fundamentals of generative ai as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A consultant advising a healthcare organization on AWS Certified AI Practitioner recommends improvements to Applications of Foundation Models. What should they implement?",
+    opts: [
+      "Use default applications of foundation models settings without hardening",
+      "Centralize all applications of foundation models decisions without stakeholder review",
+      "Implement the standard applications of foundation models solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Deprecate applications of foundation models controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard applications of foundation models solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "Which Guidelines for Responsible AI strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified AI Practitioner standards?",
+    opts: [
+      "Centralize all guidelines for responsible ai decisions without stakeholder review",
+      "Deprecate guidelines for responsible ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses guidelines for responsible ai policies",
+      "Use the certified guidelines for responsible ai methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified guidelines for responsible ai methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "An audit of a government agency reveals gaps in Security, Compliance & Governance for AI for AWS Certified AI Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the security, compliance & governance for ai control framework referenced in AWS Certified AI Practitioner study materials",
+      "Deprecate security, compliance & governance for ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security, compliance & governance for ai policies",
+      "Disable monitoring for security, compliance & governance for ai to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the security, compliance & governance for ai control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified AI Practitioner study plan focused on Fundamentals of AI & ML. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses fundamentals of ai & ml policies",
+      "Configure fundamentals of ai & ml according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Disable monitoring for fundamentals of ai & ml to improve performance",
+      "Grant excessive privileges that violate fundamentals of ai & ml least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure fundamentals of ai & ml according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "When a manufacturing company modernizing IT implements AWS Certified AI Practitioner controls for Fundamentals of Generative AI, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for fundamentals of generative ai to improve performance",
+      "Grant excessive privileges that violate fundamentals of generative ai least-privilege principles",
+      "Select the fundamentals of generative ai option that meets AWS Certified AI Practitioner security and governance standards",
+      "Rely solely on manual processes with no fundamentals of generative ai automation",
+    ],
+    a: 2,
+    exp: "Select the fundamentals of generative ai option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A AWS Certified AI Practitioner practice exam scenario covers Applications of Foundation Models for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate applications of foundation models least-privilege principles",
+      "Rely solely on manual processes with no applications of foundation models automation",
+      "Ignore applications of foundation models compliance requirements for faster deployment",
+      "Design applications of foundation models using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design applications of foundation models using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "Which Guidelines for Responsible AI principle is emphasized in AWS Certified AI Practitioner when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned guidelines for responsible ai approach recommended in official exam objectives",
+      "Rely solely on manual processes with no guidelines for responsible ai automation",
+      "Ignore guidelines for responsible ai compliance requirements for faster deployment",
+      "Mix production and test guidelines for responsible ai configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned guidelines for responsible ai approach recommended in official exam objectives. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A regulated financial institution failed a mock AWS Certified AI Practitioner question on Security, Compliance & Governance for AI. What concept should they review?",
+    opts: [
+      "Ignore security, compliance & governance for ai compliance requirements for faster deployment",
+      "Follow industry best practices for security, compliance & governance for ai as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Mix production and test security, compliance & governance for ai configurations in one environment",
+      "Store sensitive security, compliance & governance for ai credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security, compliance & governance for ai as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "For AWS Certified AI Practitioner certification, Fundamentals of AI & ML knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test fundamentals of ai & ml configurations in one environment",
+      "Store sensitive fundamentals of ai & ml credentials in plain text configuration files",
+      "Implement the standard fundamentals of ai & ml solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Skip fundamentals of ai & ml testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard fundamentals of ai & ml solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A team at a high-traffic e-commerce platform debates Fundamentals of Generative AI options while studying AWS Certified AI Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive fundamentals of generative ai credentials in plain text configuration files",
+      "Skip fundamentals of generative ai testing before production rollout",
+      "Implement fundamentals of generative ai without change management or rollback plans",
+      "Use the certified fundamentals of generative ai methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified fundamentals of generative ai methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "Which Applications of Foundation Models capability is validated by AWS Certified AI Practitioner for organizations such as a government agency?",
+    opts: [
+      "Adopt the applications of foundation models control framework referenced in AWS Certified AI Practitioner study materials",
+      "Skip applications of foundation models testing before production rollout",
+      "Implement applications of foundation models without change management or rollback plans",
+      "Use default applications of foundation models settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the applications of foundation models control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "When evaluating Guidelines for Responsible AI tools for AWS Certified AI Practitioner, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement guidelines for responsible ai without change management or rollback plans",
+      "Configure guidelines for responsible ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Use default guidelines for responsible ai settings without hardening",
+      "Centralize all guidelines for responsible ai decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure guidelines for responsible ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A manufacturing company modernizing IT must document Security, Compliance & Governance for AI procedures for AWS Certified AI Practitioner compliance. Which standard applies?",
+    opts: [
+      "Use default security, compliance & governance for ai settings without hardening",
+      "Centralize all security, compliance & governance for ai decisions without stakeholder review",
+      "Select the security, compliance & governance for ai option that meets AWS Certified AI Practitioner security and governance standards",
+      "Deprecate security, compliance & governance for ai controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the security, compliance & governance for ai option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A AWS Certified AI Practitioner instructor asks about Fundamentals of AI & ML in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all fundamentals of ai & ml decisions without stakeholder review",
+      "Deprecate fundamentals of ai & ml controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses fundamentals of ai & ml policies",
+      "Design fundamentals of ai & ml using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design fundamentals of ai & ml using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "Which Fundamentals of Generative AI metric best indicates AWS Certified AI Practitioner readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned fundamentals of generative ai approach recommended in official exam objectives",
+      "Deprecate fundamentals of generative ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses fundamentals of generative ai policies",
+      "Disable monitoring for fundamentals of generative ai to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned fundamentals of generative ai approach recommended in official exam objectives. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A regulated financial institution is troubleshooting a Applications of Foundation Models issue while preparing for AWS Certified AI Practitioner. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses applications of foundation models policies",
+      "Follow industry best practices for applications of foundation models as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Disable monitoring for applications of foundation models to improve performance",
+      "Grant excessive privileges that violate applications of foundation models least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for applications of foundation models as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "In AWS Certified AI Practitioner, how should a healthcare organization handle a trade-off involving Guidelines for Responsible AI?",
+    opts: [
+      "Disable monitoring for guidelines for responsible ai to improve performance",
+      "Grant excessive privileges that violate guidelines for responsible ai least-privilege principles",
+      "Implement the standard guidelines for responsible ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Rely solely on manual processes with no guidelines for responsible ai automation",
+    ],
+    a: 2,
+    exp: "Implement the standard guidelines for responsible ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "Which Security, Compliance & Governance for AI pattern is commonly tested on AWS Certified AI Practitioner for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate security, compliance & governance for ai least-privilege principles",
+      "Rely solely on manual processes with no security, compliance & governance for ai automation",
+      "Ignore security, compliance & governance for ai compliance requirements for faster deployment",
+      "Use the certified security, compliance & governance for ai methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security, compliance & governance for ai methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A government agency is preparing for AWS Certified AI Practitioner and must strengthen Fundamentals of AI & ML. Which option is BEST?",
+    opts: [
+      "Adopt the fundamentals of ai & ml control framework referenced in AWS Certified AI Practitioner study materials",
+      "Rely solely on manual processes with no fundamentals of ai & ml automation",
+      "Ignore fundamentals of ai & ml compliance requirements for faster deployment",
+      "Mix production and test fundamentals of ai & ml configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the fundamentals of ai & ml control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "During a AWS Certified AI Practitioner readiness review at a SaaS startup scaling rapidly, which Fundamentals of Generative AI approach meets certification objectives?",
+    opts: [
+      "Ignore fundamentals of generative ai compliance requirements for faster deployment",
+      "Configure fundamentals of generative ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Mix production and test fundamentals of generative ai configurations in one environment",
+      "Store sensitive fundamentals of generative ai credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure fundamentals of generative ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified AI Practitioner recommends improvements to Applications of Foundation Models. What should they implement?",
+    opts: [
+      "Mix production and test applications of foundation models configurations in one environment",
+      "Store sensitive applications of foundation models credentials in plain text configuration files",
+      "Select the applications of foundation models option that meets AWS Certified AI Practitioner security and governance standards",
+      "Skip applications of foundation models testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the applications of foundation models option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "Which Guidelines for Responsible AI strategy is MOST appropriate when a media company with global users adopts AWS Certified AI Practitioner standards?",
+    opts: [
+      "Store sensitive guidelines for responsible ai credentials in plain text configuration files",
+      "Skip guidelines for responsible ai testing before production rollout",
+      "Implement guidelines for responsible ai without change management or rollback plans",
+      "Design guidelines for responsible ai using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design guidelines for responsible ai using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "An audit of a multinational enterprise reveals gaps in Security, Compliance & Governance for AI for AWS Certified AI Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned security, compliance & governance for ai approach recommended in official exam objectives",
+      "Skip security, compliance & governance for ai testing before production rollout",
+      "Implement security, compliance & governance for ai without change management or rollback plans",
+      "Use default security, compliance & governance for ai settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned security, compliance & governance for ai approach recommended in official exam objectives. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "When a healthcare organization implements AWS Certified AI Practitioner controls for Fundamentals of AI & ML, which practice reduces operational risk?",
+    opts: [
+      "Use default fundamentals of ai & ml settings without hardening",
+      "Centralize all fundamentals of ai & ml decisions without stakeholder review",
+      "Implement the standard fundamentals of ai & ml solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Deprecate fundamentals of ai & ml controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard fundamentals of ai & ml solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A AWS Certified AI Practitioner practice exam scenario covers Fundamentals of Generative AI for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all fundamentals of generative ai decisions without stakeholder review",
+      "Deprecate fundamentals of generative ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses fundamentals of generative ai policies",
+      "Use the certified fundamentals of generative ai methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified fundamentals of generative ai methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "Which Applications of Foundation Models principle is emphasized in AWS Certified AI Practitioner when supporting a government agency?",
+    opts: [
+      "Adopt the applications of foundation models control framework referenced in AWS Certified AI Practitioner study materials",
+      "Deprecate applications of foundation models controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses applications of foundation models policies",
+      "Disable monitoring for applications of foundation models to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the applications of foundation models control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified AI Practitioner question on Guidelines for Responsible AI. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses guidelines for responsible ai policies",
+      "Configure guidelines for responsible ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Disable monitoring for guidelines for responsible ai to improve performance",
+      "Grant excessive privileges that violate guidelines for responsible ai least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure guidelines for responsible ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "For AWS Certified AI Practitioner certification, Security, Compliance & Governance for AI knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for security, compliance & governance for ai to improve performance",
+      "Grant excessive privileges that violate security, compliance & governance for ai least-privilege principles",
+      "Select the security, compliance & governance for ai option that meets AWS Certified AI Practitioner security and governance standards",
+      "Rely solely on manual processes with no security, compliance & governance for ai automation",
+    ],
+    a: 2,
+    exp: "Select the security, compliance & governance for ai option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "A team at a media company with global users debates Fundamentals of AI & ML options while studying AWS Certified AI Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate fundamentals of ai & ml least-privilege principles",
+      "Rely solely on manual processes with no fundamentals of ai & ml automation",
+      "Ignore fundamentals of ai & ml compliance requirements for faster deployment",
+      "Design fundamentals of ai & ml using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design fundamentals of ai & ml using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "Which Fundamentals of Generative AI capability is validated by AWS Certified AI Practitioner for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned fundamentals of generative ai approach recommended in official exam objectives",
+      "Rely solely on manual processes with no fundamentals of generative ai automation",
+      "Ignore fundamentals of generative ai compliance requirements for faster deployment",
+      "Mix production and test fundamentals of generative ai configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned fundamentals of generative ai approach recommended in official exam objectives. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "When evaluating Applications of Foundation Models tools for AWS Certified AI Practitioner, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore applications of foundation models compliance requirements for faster deployment",
+      "Follow industry best practices for applications of foundation models as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Mix production and test applications of foundation models configurations in one environment",
+      "Store sensitive applications of foundation models credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for applications of foundation models as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "A healthcare organization must document Guidelines for Responsible AI procedures for AWS Certified AI Practitioner compliance. Which standard applies?",
+    opts: [
+      "Mix production and test guidelines for responsible ai configurations in one environment",
+      "Store sensitive guidelines for responsible ai credentials in plain text configuration files",
+      "Implement the standard guidelines for responsible ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Skip guidelines for responsible ai testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard guidelines for responsible ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A AWS Certified AI Practitioner instructor asks about Security, Compliance & Governance for AI in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive security, compliance & governance for ai credentials in plain text configuration files",
+      "Skip security, compliance & governance for ai testing before production rollout",
+      "Implement security, compliance & governance for ai without change management or rollback plans",
+      "Use the certified security, compliance & governance for ai methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security, compliance & governance for ai methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "Which Fundamentals of AI & ML metric best indicates AWS Certified AI Practitioner readiness for a government agency?",
+    opts: [
+      "Adopt the fundamentals of ai & ml control framework referenced in AWS Certified AI Practitioner study materials",
+      "Skip fundamentals of ai & ml testing before production rollout",
+      "Implement fundamentals of ai & ml without change management or rollback plans",
+      "Use default fundamentals of ai & ml settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the fundamentals of ai & ml control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Fundamentals of Generative AI issue while preparing for AWS Certified AI Practitioner. What is the first step?",
+    opts: [
+      "Implement fundamentals of generative ai without change management or rollback plans",
+      "Configure fundamentals of generative ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Use default fundamentals of generative ai settings without hardening",
+      "Centralize all fundamentals of generative ai decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure fundamentals of generative ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "In AWS Certified AI Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving Applications of Foundation Models?",
+    opts: [
+      "Use default applications of foundation models settings without hardening",
+      "Centralize all applications of foundation models decisions without stakeholder review",
+      "Select the applications of foundation models option that meets AWS Certified AI Practitioner security and governance standards",
+      "Deprecate applications of foundation models controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the applications of foundation models option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "Which Guidelines for Responsible AI pattern is commonly tested on AWS Certified AI Practitioner for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all guidelines for responsible ai decisions without stakeholder review",
+      "Deprecate guidelines for responsible ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses guidelines for responsible ai policies",
+      "Design guidelines for responsible ai using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design guidelines for responsible ai using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A multinational enterprise is preparing for AWS Certified AI Practitioner and must strengthen Security, Compliance & Governance for AI. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned security, compliance & governance for ai approach recommended in official exam objectives",
+      "Deprecate security, compliance & governance for ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security, compliance & governance for ai policies",
+      "Disable monitoring for security, compliance & governance for ai to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned security, compliance & governance for ai approach recommended in official exam objectives. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "During a AWS Certified AI Practitioner readiness review at a regulated financial institution, which Fundamentals of AI & ML approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses fundamentals of ai & ml policies",
+      "Follow industry best practices for fundamentals of ai & ml as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Disable monitoring for fundamentals of ai & ml to improve performance",
+      "Grant excessive privileges that violate fundamentals of ai & ml least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for fundamentals of ai & ml as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A consultant advising a healthcare organization on AWS Certified AI Practitioner recommends improvements to Fundamentals of Generative AI. What should they implement?",
+    opts: [
+      "Disable monitoring for fundamentals of generative ai to improve performance",
+      "Grant excessive privileges that violate fundamentals of generative ai least-privilege principles",
+      "Implement the standard fundamentals of generative ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Rely solely on manual processes with no fundamentals of generative ai automation",
+    ],
+    a: 2,
+    exp: "Implement the standard fundamentals of generative ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "Which Applications of Foundation Models strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified AI Practitioner standards?",
+    opts: [
+      "Grant excessive privileges that violate applications of foundation models least-privilege principles",
+      "Rely solely on manual processes with no applications of foundation models automation",
+      "Ignore applications of foundation models compliance requirements for faster deployment",
+      "Use the certified applications of foundation models methodology specified for AWS Certified AI Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified applications of foundation models methodology specified for AWS Certified AI Practitioner candidates. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "An audit of a government agency reveals gaps in Guidelines for Responsible AI for AWS Certified AI Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the guidelines for responsible ai control framework referenced in AWS Certified AI Practitioner study materials",
+      "Rely solely on manual processes with no guidelines for responsible ai automation",
+      "Ignore guidelines for responsible ai compliance requirements for faster deployment",
+      "Mix production and test guidelines for responsible ai configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the guidelines for responsible ai control framework referenced in AWS Certified AI Practitioner study materials. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified AI Practitioner study plan focused on Security, Compliance & Governance for AI. Which resource topic is essential?",
+    opts: [
+      "Ignore security, compliance & governance for ai compliance requirements for faster deployment",
+      "Configure security, compliance & governance for ai according to AWS Certified AI Practitioner exam blueprint recommendations",
+      "Mix production and test security, compliance & governance for ai configurations in one environment",
+      "Store sensitive security, compliance & governance for ai credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure security, compliance & governance for ai according to AWS Certified AI Practitioner exam blueprint recommendations. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of AI & ML ──
+  {
+    domain: "Fundamentals of AI & ML",
+    q: "When a manufacturing company modernizing IT implements AWS Certified AI Practitioner controls for Fundamentals of AI & ML, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test fundamentals of ai & ml configurations in one environment",
+      "Store sensitive fundamentals of ai & ml credentials in plain text configuration files",
+      "Select the fundamentals of ai & ml option that meets AWS Certified AI Practitioner security and governance standards",
+      "Skip fundamentals of ai & ml testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the fundamentals of ai & ml option that meets AWS Certified AI Practitioner security and governance standards. This is the recommended approach for the Fundamentals of AI & ML domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Fundamentals of Generative AI ──
+  {
+    domain: "Fundamentals of Generative AI",
+    q: "A AWS Certified AI Practitioner practice exam scenario covers Fundamentals of Generative AI for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive fundamentals of generative ai credentials in plain text configuration files",
+      "Skip fundamentals of generative ai testing before production rollout",
+      "Implement fundamentals of generative ai without change management or rollback plans",
+      "Design fundamentals of generative ai using patterns validated in AWS Certified AI Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design fundamentals of generative ai using patterns validated in AWS Certified AI Practitioner practice assessments. This is the recommended approach for the Fundamentals of Generative AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Applications of Foundation Models ──
+  {
+    domain: "Applications of Foundation Models",
+    q: "Which Applications of Foundation Models principle is emphasized in AWS Certified AI Practitioner when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified AI Practitioner-aligned applications of foundation models approach recommended in official exam objectives",
+      "Skip applications of foundation models testing before production rollout",
+      "Implement applications of foundation models without change management or rollback plans",
+      "Use default applications of foundation models settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified AI Practitioner-aligned applications of foundation models approach recommended in official exam objectives. This is the recommended approach for the Applications of Foundation Models domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Guidelines for Responsible AI ──
+  {
+    domain: "Guidelines for Responsible AI",
+    q: "A regulated financial institution failed a mock AWS Certified AI Practitioner question on Guidelines for Responsible AI. What concept should they review?",
+    opts: [
+      "Implement guidelines for responsible ai without change management or rollback plans",
+      "Follow industry best practices for guidelines for responsible ai as defined in the AWS Certified AI Practitioner body of knowledge",
+      "Use default guidelines for responsible ai settings without hardening",
+      "Centralize all guidelines for responsible ai decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for guidelines for responsible ai as defined in the AWS Certified AI Practitioner body of knowledge. This is the recommended approach for the Guidelines for Responsible AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security, Compliance & Governance for AI ──
+  {
+    domain: "Security, Compliance & Governance for AI",
+    q: "For AWS Certified AI Practitioner certification, Security, Compliance & Governance for AI knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default security, compliance & governance for ai settings without hardening",
+      "Centralize all security, compliance & governance for ai decisions without stakeholder review",
+      "Implement the standard security, compliance & governance for ai solution that satisfies AWS Certified AI Practitioner domain requirements",
+      "Deprecate security, compliance & governance for ai controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard security, compliance & governance for ai solution that satisfies AWS Certified AI Practitioner domain requirements. This is the recommended approach for the Security, Compliance & Governance for AI domain on the AWS Certified AI Practitioner exam and reflects current certification objectives.",
+  },
 ];

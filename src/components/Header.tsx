@@ -1,35 +1,61 @@
+import { useMemo } from 'react';
+import { Link } from 'react-router-dom';
+import { EXAM_CONFIGS } from '../data';
+import { SearchBar } from './SearchBar';
 import styles from './Header.module.css';
 
-export function Header() {
+interface HeaderProps {
+  showStickySearch?: boolean;
+  search?: string;
+  onSearchChange?: (value: string) => void;
+  /** When set, intercepts logo click and delegates to caller (e.g. exam leave guard). */
+  onHomeClick?: (e: React.MouseEvent) => void;
+}
+
+export function Header({ showStickySearch = false, search = '', onSearchChange, onHomeClick }: HeaderProps) {
+  const { examCount, questionCount } = useMemo(() => {
+    const exams = Object.values(EXAM_CONFIGS);
+    return {
+      examCount: exams.length,
+      questionCount: exams.reduce((sum, cfg) => sum + cfg.bank.length, 0),
+    };
+  }, []);
+
+  const brandContent = (
+    <>
+      <img src="/logo.png" alt="" className={styles.logo} aria-hidden="true" />
+      <span className={styles.brandName}>Oscar</span>
+    </>
+  );
+
   return (
     <header className={styles.header}>
       <div className={styles.accentBar} />
       <div className={styles.inner}>
-        <div className={styles.brand}>
-          <svg className={styles.logoIcon} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="14,2 26,8 26,20 14,26 2,20 2,8" fill="none" stroke="url(#hexGrad)" strokeWidth="1.8" />
-            <polygon points="14,7 21,11 21,17 14,21 7,17 7,11" fill="url(#hexFill)" opacity="0.25" />
-            <circle cx="14" cy="14" r="3" fill="url(#hexGrad)" />
-            <defs>
-              <linearGradient id="hexGrad" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="var(--accent2)" />
-                <stop offset="100%" stopColor="var(--accent)" />
-              </linearGradient>
-              <linearGradient id="hexFill" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stopColor="var(--accent2)" />
-                <stop offset="100%" stopColor="var(--accent)" />
-              </linearGradient>
-            </defs>
-          </svg>
-          <div className={styles.brandText}>
-            <span className={styles.brandName}>ExamSim</span>
-            <span className={styles.brandDot}>·</span>
-            <span className={styles.brandSub}>Practice Exams Simulator</span>
-          </div>
-        </div>
+        {onHomeClick ? (
+          <a href="/" className={styles.brand} aria-label="Oscar home" onClick={onHomeClick}>
+            {brandContent}
+          </a>
+        ) : (
+          <Link to="/" className={styles.brand} aria-label="Oscar home">
+            {brandContent}
+          </Link>
+        )}
+
         <div className={styles.right}>
-          <span className={styles.pill}>4 Exams</span>
-          <span className={styles.pill}>340+ Questions</span>
+          <span className={styles.pill}>{examCount} Exams</span>
+          <span className={styles.pill}>{questionCount.toLocaleString()}+ Questions</span>
+
+          {onSearchChange && (
+            <div className={`${styles.searchSlot} ${showStickySearch ? styles.searchSlotVisible : ''}`}>
+              <SearchBar
+                value={search}
+                onChange={onSearchChange}
+                className={styles.headerSearch}
+                placeholder="Search exams…"
+              />
+            </div>
+          )}
         </div>
       </div>
     </header>

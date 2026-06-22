@@ -570,4 +570,160 @@ export const BANK_OGEA_102: Question[] = [
     a: 1,
     exp: "TOGAF's Building Blocks approach supports this analysis perfectly. The data warehouse capability is defined as an ABB (what is needed). Both the bespoke build and the COTS product are evaluated as potential SBBs (how it could be implemented), enabling objective comparison.",
   },
+
+  // ── Additional OGEA-102 practice questions (11 added) ──
+
+  // ── ADM Application ──
+  {
+    domain: "ADM Application",
+    q: "A SaaS startup scaling rapidly failed a mock TOGAF® Enterprise Architecture Practitioner question on ADM Application. What concept should they review?",
+    opts: [
+      "Implement adm application without change management or rollback plans",
+      "Configure adm application according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations",
+      "Use default adm application settings without hardening",
+      "Centralize all adm application decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure adm application according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations. This is the recommended approach for the ADM Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Stakeholder Management ──
+  {
+    domain: "Stakeholder Management",
+    q: "For TOGAF® Enterprise Architecture Practitioner certification, Stakeholder Management knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default stakeholder management settings without hardening",
+      "Centralize all stakeholder management decisions without stakeholder review",
+      "Select the stakeholder management option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards",
+      "Deprecate stakeholder management controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the stakeholder management option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards. This is the recommended approach for the Stakeholder Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Architecture Content ──
+  {
+    domain: "Architecture Content",
+    q: "A team at a media company with global users debates Architecture Content options while studying TOGAF® Enterprise Architecture Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all architecture content decisions without stakeholder review",
+      "Deprecate architecture content controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses architecture content policies",
+      "Design architecture content using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design architecture content using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments. This is the recommended approach for the Architecture Content domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Enterprise Continuum Application ──
+  {
+    domain: "Enterprise Continuum Application",
+    q: "Which Enterprise Continuum Application capability is validated by TOGAF® Enterprise Architecture Practitioner for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the TOGAF® Enterprise Architecture Practitioner-aligned enterprise continuum application approach recommended in official exam objectives",
+      "Deprecate enterprise continuum application controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses enterprise continuum application policies",
+      "Disable monitoring for enterprise continuum application to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the TOGAF® Enterprise Architecture Practitioner-aligned enterprise continuum application approach recommended in official exam objectives. This is the recommended approach for the Enterprise Continuum Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Governance Application ──
+  {
+    domain: "Governance Application",
+    q: "When evaluating Governance Application tools for TOGAF® Enterprise Architecture Practitioner, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses governance application policies",
+      "Follow industry best practices for governance application as defined in the TOGAF® Enterprise Architecture Practitioner body of knowledge",
+      "Disable monitoring for governance application to improve performance",
+      "Grant excessive privileges that violate governance application least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for governance application as defined in the TOGAF® Enterprise Architecture Practitioner body of knowledge. This is the recommended approach for the Governance Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Migration Planning ──
+  {
+    domain: "Migration Planning",
+    q: "A healthcare organization must document Migration Planning procedures for TOGAF® Enterprise Architecture Practitioner compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for migration planning to improve performance",
+      "Grant excessive privileges that violate migration planning least-privilege principles",
+      "Implement the standard migration planning solution that satisfies TOGAF® Enterprise Architecture Practitioner domain requirements",
+      "Rely solely on manual processes with no migration planning automation",
+    ],
+    a: 2,
+    exp: "Implement the standard migration planning solution that satisfies TOGAF® Enterprise Architecture Practitioner domain requirements. This is the recommended approach for the Migration Planning domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Requirements Management ──
+  {
+    domain: "Requirements Management",
+    q: "A TOGAF® Enterprise Architecture Practitioner instructor asks about Requirements Management in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate requirements management least-privilege principles",
+      "Rely solely on manual processes with no requirements management automation",
+      "Ignore requirements management compliance requirements for faster deployment",
+      "Use the certified requirements management methodology specified for TOGAF® Enterprise Architecture Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified requirements management methodology specified for TOGAF® Enterprise Architecture Practitioner candidates. This is the recommended approach for the Requirements Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Implementation Governance ──
+  {
+    domain: "Implementation Governance",
+    q: "Which Implementation Governance metric best indicates TOGAF® Enterprise Architecture Practitioner readiness for a government agency?",
+    opts: [
+      "Adopt the implementation governance control framework referenced in TOGAF® Enterprise Architecture Practitioner study materials",
+      "Rely solely on manual processes with no implementation governance automation",
+      "Ignore implementation governance compliance requirements for faster deployment",
+      "Mix production and test implementation governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the implementation governance control framework referenced in TOGAF® Enterprise Architecture Practitioner study materials. This is the recommended approach for the Implementation Governance domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Architecture Patterns ──
+  {
+    domain: "Architecture Patterns",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Architecture Patterns issue while preparing for TOGAF® Enterprise Architecture Practitioner. What is the first step?",
+    opts: [
+      "Ignore architecture patterns compliance requirements for faster deployment",
+      "Configure architecture patterns according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations",
+      "Mix production and test architecture patterns configurations in one environment",
+      "Store sensitive architecture patterns credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure architecture patterns according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations. This is the recommended approach for the Architecture Patterns domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── ADM Application ──
+  {
+    domain: "ADM Application",
+    q: "In TOGAF® Enterprise Architecture Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving ADM Application?",
+    opts: [
+      "Mix production and test adm application configurations in one environment",
+      "Store sensitive adm application credentials in plain text configuration files",
+      "Select the adm application option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards",
+      "Skip adm application testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the adm application option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards. This is the recommended approach for the ADM Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Stakeholder Management ──
+  {
+    domain: "Stakeholder Management",
+    q: "Which Stakeholder Management pattern is commonly tested on TOGAF® Enterprise Architecture Practitioner for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive stakeholder management credentials in plain text configuration files",
+      "Skip stakeholder management testing before production rollout",
+      "Implement stakeholder management without change management or rollback plans",
+      "Design stakeholder management using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design stakeholder management using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments. This is the recommended approach for the Stakeholder Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+  },
 ];

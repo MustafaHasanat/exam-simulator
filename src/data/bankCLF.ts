@@ -852,4 +852,846 @@ export const BANK_CLF: Question[] = [
     a: 2,
     exp: 'AWS Cost Explorer provides an interactive interface to visualize and analyze historical AWS costs and usage with filtering by service, account, tag, region, and more—and can generate forecasts based on historical trends. Budgets sets spending alerts; Cost and Usage Report provides raw granular data; Pricing Calculator estimates future costs for new workloads.',
   },
+
+  // ── Additional CLF-C02 practice questions (60 added) ──
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "For AWS Certified Cloud Practitioner certification, Cloud Concepts knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default cloud concepts settings without hardening",
+      "Centralize all cloud concepts decisions without stakeholder review",
+      "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A team at a media company with global users debates Security & Compliance options while studying AWS Certified Cloud Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services capability is validated by AWS Certified Cloud Practitioner for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives",
+      "Deprecate cloud technology & services controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud technology & services policies",
+      "Disable monitoring for cloud technology & services to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "When evaluating Billing, Pricing & Support tools for AWS Certified Cloud Practitioner, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses billing, pricing & support policies",
+      "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Disable monitoring for billing, pricing & support to improve performance",
+      "Grant excessive privileges that violate billing, pricing & support least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A healthcare organization must document Cloud Concepts procedures for AWS Certified Cloud Practitioner compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for cloud concepts to improve performance",
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Rely solely on manual processes with no cloud concepts automation",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified Cloud Practitioner instructor asks about Security & Compliance in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services metric best indicates AWS Certified Cloud Practitioner readiness for a government agency?",
+    opts: [
+      "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Rely solely on manual processes with no cloud technology & services automation",
+      "Ignore cloud technology & services compliance requirements for faster deployment",
+      "Mix production and test cloud technology & services configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Billing, Pricing & Support issue while preparing for AWS Certified Cloud Practitioner. What is the first step?",
+    opts: [
+      "Ignore billing, pricing & support compliance requirements for faster deployment",
+      "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Mix production and test billing, pricing & support configurations in one environment",
+      "Store sensitive billing, pricing & support credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "In AWS Certified Cloud Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving Cloud Concepts?",
+    opts: [
+      "Mix production and test cloud concepts configurations in one environment",
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Skip cloud concepts testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance pattern is commonly tested on AWS Certified Cloud Practitioner for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive security & compliance credentials in plain text configuration files",
+      "Skip security & compliance testing before production rollout",
+      "Implement security & compliance without change management or rollback plans",
+      "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "A multinational enterprise is preparing for AWS Certified Cloud Practitioner and must strengthen Cloud Technology & Services. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives",
+      "Skip cloud technology & services testing before production rollout",
+      "Implement cloud technology & services without change management or rollback plans",
+      "Use default cloud technology & services settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "During a AWS Certified Cloud Practitioner readiness review at a regulated financial institution, which Billing, Pricing & Support approach meets certification objectives?",
+    opts: [
+      "Implement billing, pricing & support without change management or rollback plans",
+      "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Use default billing, pricing & support settings without hardening",
+      "Centralize all billing, pricing & support decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A consultant advising a healthcare organization on AWS Certified Cloud Practitioner recommends improvements to Cloud Concepts. What should they implement?",
+    opts: [
+      "Use default cloud concepts settings without hardening",
+      "Centralize all cloud concepts decisions without stakeholder review",
+      "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Cloud Practitioner standards?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "An audit of a government agency reveals gaps in Cloud Technology & Services for AWS Certified Cloud Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Deprecate cloud technology & services controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud technology & services policies",
+      "Disable monitoring for cloud technology & services to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Cloud Practitioner study plan focused on Billing, Pricing & Support. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses billing, pricing & support policies",
+      "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Disable monitoring for billing, pricing & support to improve performance",
+      "Grant excessive privileges that violate billing, pricing & support least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Cloud Practitioner controls for Cloud Concepts, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for cloud concepts to improve performance",
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Rely solely on manual processes with no cloud concepts automation",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified Cloud Practitioner practice exam scenario covers Security & Compliance for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services principle is emphasized in AWS Certified Cloud Practitioner when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives",
+      "Rely solely on manual processes with no cloud technology & services automation",
+      "Ignore cloud technology & services compliance requirements for faster deployment",
+      "Mix production and test cloud technology & services configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A regulated financial institution failed a mock AWS Certified Cloud Practitioner question on Billing, Pricing & Support. What concept should they review?",
+    opts: [
+      "Ignore billing, pricing & support compliance requirements for faster deployment",
+      "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Mix production and test billing, pricing & support configurations in one environment",
+      "Store sensitive billing, pricing & support credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "For AWS Certified Cloud Practitioner certification, Cloud Concepts knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test cloud concepts configurations in one environment",
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Skip cloud concepts testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A team at a high-traffic e-commerce platform debates Security & Compliance options while studying AWS Certified Cloud Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive security & compliance credentials in plain text configuration files",
+      "Skip security & compliance testing before production rollout",
+      "Implement security & compliance without change management or rollback plans",
+      "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services capability is validated by AWS Certified Cloud Practitioner for organizations such as a government agency?",
+    opts: [
+      "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Skip cloud technology & services testing before production rollout",
+      "Implement cloud technology & services without change management or rollback plans",
+      "Use default cloud technology & services settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "When evaluating Billing, Pricing & Support tools for AWS Certified Cloud Practitioner, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement billing, pricing & support without change management or rollback plans",
+      "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Use default billing, pricing & support settings without hardening",
+      "Centralize all billing, pricing & support decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A manufacturing company modernizing IT must document Cloud Concepts procedures for AWS Certified Cloud Practitioner compliance. Which standard applies?",
+    opts: [
+      "Use default cloud concepts settings without hardening",
+      "Centralize all cloud concepts decisions without stakeholder review",
+      "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified Cloud Practitioner instructor asks about Security & Compliance in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services metric best indicates AWS Certified Cloud Practitioner readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives",
+      "Deprecate cloud technology & services controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud technology & services policies",
+      "Disable monitoring for cloud technology & services to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A regulated financial institution is troubleshooting a Billing, Pricing & Support issue while preparing for AWS Certified Cloud Practitioner. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses billing, pricing & support policies",
+      "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Disable monitoring for billing, pricing & support to improve performance",
+      "Grant excessive privileges that violate billing, pricing & support least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "In AWS Certified Cloud Practitioner, how should a healthcare organization handle a trade-off involving Cloud Concepts?",
+    opts: [
+      "Disable monitoring for cloud concepts to improve performance",
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Rely solely on manual processes with no cloud concepts automation",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance pattern is commonly tested on AWS Certified Cloud Practitioner for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "A government agency is preparing for AWS Certified Cloud Practitioner and must strengthen Cloud Technology & Services. Which option is BEST?",
+    opts: [
+      "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Rely solely on manual processes with no cloud technology & services automation",
+      "Ignore cloud technology & services compliance requirements for faster deployment",
+      "Mix production and test cloud technology & services configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "During a AWS Certified Cloud Practitioner readiness review at a SaaS startup scaling rapidly, which Billing, Pricing & Support approach meets certification objectives?",
+    opts: [
+      "Ignore billing, pricing & support compliance requirements for faster deployment",
+      "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Mix production and test billing, pricing & support configurations in one environment",
+      "Store sensitive billing, pricing & support credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Cloud Practitioner recommends improvements to Cloud Concepts. What should they implement?",
+    opts: [
+      "Mix production and test cloud concepts configurations in one environment",
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Skip cloud concepts testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the cloud concepts option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance strategy is MOST appropriate when a media company with global users adopts AWS Certified Cloud Practitioner standards?",
+    opts: [
+      "Store sensitive security & compliance credentials in plain text configuration files",
+      "Skip security & compliance testing before production rollout",
+      "Implement security & compliance without change management or rollback plans",
+      "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "An audit of a multinational enterprise reveals gaps in Cloud Technology & Services for AWS Certified Cloud Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives",
+      "Skip cloud technology & services testing before production rollout",
+      "Implement cloud technology & services without change management or rollback plans",
+      "Use default cloud technology & services settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned cloud technology & services approach recommended in official exam objectives. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A regulated financial institution is designing a AWS Certified Cloud Practitioner study plan focused on Billing, Pricing & Support. Which resource topic is essential?",
+    opts: [
+      "Implement billing, pricing & support without change management or rollback plans",
+      "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Use default billing, pricing & support settings without hardening",
+      "Centralize all billing, pricing & support decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for billing, pricing & support as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "When a healthcare organization implements AWS Certified Cloud Practitioner controls for Cloud Concepts, which practice reduces operational risk?",
+    opts: [
+      "Use default cloud concepts settings without hardening",
+      "Centralize all cloud concepts decisions without stakeholder review",
+      "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard cloud concepts solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified Cloud Practitioner practice exam scenario covers Security & Compliance for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "Which Cloud Technology & Services principle is emphasized in AWS Certified Cloud Practitioner when supporting a government agency?",
+    opts: [
+      "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Deprecate cloud technology & services controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud technology & services policies",
+      "Disable monitoring for cloud technology & services to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the cloud technology & services control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Cloud Practitioner question on Billing, Pricing & Support. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses billing, pricing & support policies",
+      "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Disable monitoring for billing, pricing & support to improve performance",
+      "Grant excessive privileges that violate billing, pricing & support least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure billing, pricing & support according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A team at a media company with global users debates Cloud Concepts options while studying AWS Certified Cloud Practitioner. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Rely solely on manual processes with no cloud concepts automation",
+      "Ignore cloud concepts compliance requirements for faster deployment",
+      "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance capability is validated by AWS Certified Cloud Practitioner for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Mix production and test security & compliance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "When evaluating Cloud Technology & Services tools for AWS Certified Cloud Practitioner, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore cloud technology & services compliance requirements for faster deployment",
+      "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Mix production and test cloud technology & services configurations in one environment",
+      "Store sensitive cloud technology & services credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A healthcare organization must document Billing, Pricing & Support procedures for AWS Certified Cloud Practitioner compliance. Which standard applies?",
+    opts: [
+      "Mix production and test billing, pricing & support configurations in one environment",
+      "Store sensitive billing, pricing & support credentials in plain text configuration files",
+      "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Skip billing, pricing & support testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A AWS Certified Cloud Practitioner instructor asks about Cloud Concepts in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Skip cloud concepts testing before production rollout",
+      "Implement cloud concepts without change management or rollback plans",
+      "Use the certified cloud concepts methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified cloud concepts methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance metric best indicates AWS Certified Cloud Practitioner readiness for a government agency?",
+    opts: [
+      "Adopt the security & compliance control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Skip security & compliance testing before production rollout",
+      "Implement security & compliance without change management or rollback plans",
+      "Use default security & compliance settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the security & compliance control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Cloud Technology & Services issue while preparing for AWS Certified Cloud Practitioner. What is the first step?",
+    opts: [
+      "Implement cloud technology & services without change management or rollback plans",
+      "Configure cloud technology & services according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Use default cloud technology & services settings without hardening",
+      "Centralize all cloud technology & services decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure cloud technology & services according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "In AWS Certified Cloud Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving Billing, Pricing & Support?",
+    opts: [
+      "Use default billing, pricing & support settings without hardening",
+      "Centralize all billing, pricing & support decisions without stakeholder review",
+      "Select the billing, pricing & support option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Deprecate billing, pricing & support controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the billing, pricing & support option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "Which Cloud Concepts pattern is commonly tested on AWS Certified Cloud Practitioner for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all cloud concepts decisions without stakeholder review",
+      "Deprecate cloud concepts controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cloud concepts policies",
+      "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A multinational enterprise is preparing for AWS Certified Cloud Practitioner and must strengthen Security & Compliance. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Disable monitoring for security & compliance to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "During a AWS Certified Cloud Practitioner readiness review at a regulated financial institution, which Cloud Technology & Services approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses cloud technology & services policies",
+      "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Disable monitoring for cloud technology & services to improve performance",
+      "Grant excessive privileges that violate cloud technology & services least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "A consultant advising a healthcare organization on AWS Certified Cloud Practitioner recommends improvements to Billing, Pricing & Support. What should they implement?",
+    opts: [
+      "Disable monitoring for billing, pricing & support to improve performance",
+      "Grant excessive privileges that violate billing, pricing & support least-privilege principles",
+      "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Rely solely on manual processes with no billing, pricing & support automation",
+    ],
+    a: 2,
+    exp: "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "Which Cloud Concepts strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Cloud Practitioner standards?",
+    opts: [
+      "Grant excessive privileges that violate cloud concepts least-privilege principles",
+      "Rely solely on manual processes with no cloud concepts automation",
+      "Ignore cloud concepts compliance requirements for faster deployment",
+      "Use the certified cloud concepts methodology specified for AWS Certified Cloud Practitioner candidates",
+    ],
+    a: 3,
+    exp: "Use the certified cloud concepts methodology specified for AWS Certified Cloud Practitioner candidates. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "An audit of a government agency reveals gaps in Security & Compliance for AWS Certified Cloud Practitioner. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the security & compliance control framework referenced in AWS Certified Cloud Practitioner study materials",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Mix production and test security & compliance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the security & compliance control framework referenced in AWS Certified Cloud Practitioner study materials. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Cloud Practitioner study plan focused on Cloud Technology & Services. Which resource topic is essential?",
+    opts: [
+      "Ignore cloud technology & services compliance requirements for faster deployment",
+      "Configure cloud technology & services according to AWS Certified Cloud Practitioner exam blueprint recommendations",
+      "Mix production and test cloud technology & services configurations in one environment",
+      "Store sensitive cloud technology & services credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure cloud technology & services according to AWS Certified Cloud Practitioner exam blueprint recommendations. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Cloud Practitioner controls for Billing, Pricing & Support, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test billing, pricing & support configurations in one environment",
+      "Store sensitive billing, pricing & support credentials in plain text configuration files",
+      "Select the billing, pricing & support option that meets AWS Certified Cloud Practitioner security and governance standards",
+      "Skip billing, pricing & support testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the billing, pricing & support option that meets AWS Certified Cloud Practitioner security and governance standards. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Concepts ──
+  {
+    domain: "Cloud Concepts",
+    q: "A AWS Certified Cloud Practitioner practice exam scenario covers Cloud Concepts for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive cloud concepts credentials in plain text configuration files",
+      "Skip cloud concepts testing before production rollout",
+      "Implement cloud concepts without change management or rollback plans",
+      "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments",
+    ],
+    a: 3,
+    exp: "Design cloud concepts using patterns validated in AWS Certified Cloud Practitioner practice assessments. This is the recommended approach for the Cloud Concepts domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance principle is emphasized in AWS Certified Cloud Practitioner when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives",
+      "Skip security & compliance testing before production rollout",
+      "Implement security & compliance without change management or rollback plans",
+      "Use default security & compliance settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Cloud Practitioner-aligned security & compliance approach recommended in official exam objectives. This is the recommended approach for the Security & Compliance domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Cloud Technology & Services ──
+  {
+    domain: "Cloud Technology & Services",
+    q: "A regulated financial institution failed a mock AWS Certified Cloud Practitioner question on Cloud Technology & Services. What concept should they review?",
+    opts: [
+      "Implement cloud technology & services without change management or rollback plans",
+      "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge",
+      "Use default cloud technology & services settings without hardening",
+      "Centralize all cloud technology & services decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cloud technology & services as defined in the AWS Certified Cloud Practitioner body of knowledge. This is the recommended approach for the Cloud Technology & Services domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
+
+  // ── Billing, Pricing & Support ──
+  {
+    domain: "Billing, Pricing & Support",
+    q: "For AWS Certified Cloud Practitioner certification, Billing, Pricing & Support knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default billing, pricing & support settings without hardening",
+      "Centralize all billing, pricing & support decisions without stakeholder review",
+      "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements",
+      "Deprecate billing, pricing & support controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard billing, pricing & support solution that satisfies AWS Certified Cloud Practitioner domain requirements. This is the recommended approach for the Billing, Pricing & Support domain on the AWS Certified Cloud Practitioner exam and reflects current certification objectives.",
+  },
 ];

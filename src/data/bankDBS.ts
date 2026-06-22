@@ -990,4 +990,692 @@ export const BANK_DBS: Question[] = [
     a: 1,
     exp: 'Deploying RDS in a private subnet (no internet gateway route in the subnet route table) ensures that the database is not internet-routable even if a security group misconfiguration occurs. Network routing is a fundamental control independent of security group rules. Encryption at rest prevents data access if storage is physically compromised but does not protect against network access. WAF protects web applications, not database endpoints.',
   },
+
+  // ── Additional DBS-C01 practice questions (49 added) ──
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "During a AWS Certified Database – Specialty readiness review at a regulated financial institution, which Workload-Specific Database Design approach meets certification objectives?",
+    opts: [
+      "Implement workload-specific database design without change management or rollback plans",
+      "Follow industry best practices for workload-specific database design as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Use default workload-specific database design settings without hardening",
+      "Centralize all workload-specific database design decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for workload-specific database design as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A consultant advising a healthcare organization on AWS Certified Database – Specialty recommends improvements to Deployment & Migration. What should they implement?",
+    opts: [
+      "Use default deployment & migration settings without hardening",
+      "Centralize all deployment & migration decisions without stakeholder review",
+      "Implement the standard deployment & migration solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Deprecate deployment & migration controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard deployment & migration solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "Which Management & Operations strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Database – Specialty standards?",
+    opts: [
+      "Centralize all management & operations decisions without stakeholder review",
+      "Deprecate management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses management & operations policies",
+      "Use the certified management & operations methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified management & operations methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "An audit of a government agency reveals gaps in Monitoring & Troubleshooting for AWS Certified Database – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the monitoring & troubleshooting control framework referenced in AWS Certified Database – Specialty study materials",
+      "Deprecate monitoring & troubleshooting controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses monitoring & troubleshooting policies",
+      "Disable monitoring for monitoring & troubleshooting to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the monitoring & troubleshooting control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Database – Specialty study plan focused on Database Security. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses database security policies",
+      "Configure database security according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Disable monitoring for database security to improve performance",
+      "Grant excessive privileges that violate database security least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure database security according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Database – Specialty controls for Workload-Specific Database Design, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for workload-specific database design to improve performance",
+      "Grant excessive privileges that violate workload-specific database design least-privilege principles",
+      "Select the workload-specific database design option that meets AWS Certified Database – Specialty security and governance standards",
+      "Rely solely on manual processes with no workload-specific database design automation",
+    ],
+    a: 2,
+    exp: "Select the workload-specific database design option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A AWS Certified Database – Specialty practice exam scenario covers Deployment & Migration for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate deployment & migration least-privilege principles",
+      "Rely solely on manual processes with no deployment & migration automation",
+      "Ignore deployment & migration compliance requirements for faster deployment",
+      "Design deployment & migration using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design deployment & migration using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "Which Management & Operations principle is emphasized in AWS Certified Database – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned management & operations approach recommended in official exam objectives",
+      "Rely solely on manual processes with no management & operations automation",
+      "Ignore management & operations compliance requirements for faster deployment",
+      "Mix production and test management & operations configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned management & operations approach recommended in official exam objectives. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "A regulated financial institution failed a mock AWS Certified Database – Specialty question on Monitoring & Troubleshooting. What concept should they review?",
+    opts: [
+      "Ignore monitoring & troubleshooting compliance requirements for faster deployment",
+      "Follow industry best practices for monitoring & troubleshooting as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Mix production and test monitoring & troubleshooting configurations in one environment",
+      "Store sensitive monitoring & troubleshooting credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for monitoring & troubleshooting as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "For AWS Certified Database – Specialty certification, Database Security knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test database security configurations in one environment",
+      "Store sensitive database security credentials in plain text configuration files",
+      "Implement the standard database security solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Skip database security testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard database security solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "A team at a high-traffic e-commerce platform debates Workload-Specific Database Design options while studying AWS Certified Database – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive workload-specific database design credentials in plain text configuration files",
+      "Skip workload-specific database design testing before production rollout",
+      "Implement workload-specific database design without change management or rollback plans",
+      "Use the certified workload-specific database design methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified workload-specific database design methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "Which Deployment & Migration capability is validated by AWS Certified Database – Specialty for organizations such as a government agency?",
+    opts: [
+      "Adopt the deployment & migration control framework referenced in AWS Certified Database – Specialty study materials",
+      "Skip deployment & migration testing before production rollout",
+      "Implement deployment & migration without change management or rollback plans",
+      "Use default deployment & migration settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the deployment & migration control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "When evaluating Management & Operations tools for AWS Certified Database – Specialty, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement management & operations without change management or rollback plans",
+      "Configure management & operations according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Use default management & operations settings without hardening",
+      "Centralize all management & operations decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure management & operations according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "A manufacturing company modernizing IT must document Monitoring & Troubleshooting procedures for AWS Certified Database – Specialty compliance. Which standard applies?",
+    opts: [
+      "Use default monitoring & troubleshooting settings without hardening",
+      "Centralize all monitoring & troubleshooting decisions without stakeholder review",
+      "Select the monitoring & troubleshooting option that meets AWS Certified Database – Specialty security and governance standards",
+      "Deprecate monitoring & troubleshooting controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the monitoring & troubleshooting option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A AWS Certified Database – Specialty instructor asks about Database Security in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all database security decisions without stakeholder review",
+      "Deprecate database security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses database security policies",
+      "Design database security using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design database security using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "Which Workload-Specific Database Design metric best indicates AWS Certified Database – Specialty readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned workload-specific database design approach recommended in official exam objectives",
+      "Deprecate workload-specific database design controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses workload-specific database design policies",
+      "Disable monitoring for workload-specific database design to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned workload-specific database design approach recommended in official exam objectives. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A regulated financial institution is troubleshooting a Deployment & Migration issue while preparing for AWS Certified Database – Specialty. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses deployment & migration policies",
+      "Follow industry best practices for deployment & migration as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Disable monitoring for deployment & migration to improve performance",
+      "Grant excessive privileges that violate deployment & migration least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for deployment & migration as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "In AWS Certified Database – Specialty, how should a healthcare organization handle a trade-off involving Management & Operations?",
+    opts: [
+      "Disable monitoring for management & operations to improve performance",
+      "Grant excessive privileges that violate management & operations least-privilege principles",
+      "Implement the standard management & operations solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Rely solely on manual processes with no management & operations automation",
+    ],
+    a: 2,
+    exp: "Implement the standard management & operations solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "Which Monitoring & Troubleshooting pattern is commonly tested on AWS Certified Database – Specialty for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate monitoring & troubleshooting least-privilege principles",
+      "Rely solely on manual processes with no monitoring & troubleshooting automation",
+      "Ignore monitoring & troubleshooting compliance requirements for faster deployment",
+      "Use the certified monitoring & troubleshooting methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified monitoring & troubleshooting methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A government agency is preparing for AWS Certified Database – Specialty and must strengthen Database Security. Which option is BEST?",
+    opts: [
+      "Adopt the database security control framework referenced in AWS Certified Database – Specialty study materials",
+      "Rely solely on manual processes with no database security automation",
+      "Ignore database security compliance requirements for faster deployment",
+      "Mix production and test database security configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the database security control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "During a AWS Certified Database – Specialty readiness review at a SaaS startup scaling rapidly, which Workload-Specific Database Design approach meets certification objectives?",
+    opts: [
+      "Ignore workload-specific database design compliance requirements for faster deployment",
+      "Configure workload-specific database design according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Mix production and test workload-specific database design configurations in one environment",
+      "Store sensitive workload-specific database design credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure workload-specific database design according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Database – Specialty recommends improvements to Deployment & Migration. What should they implement?",
+    opts: [
+      "Mix production and test deployment & migration configurations in one environment",
+      "Store sensitive deployment & migration credentials in plain text configuration files",
+      "Select the deployment & migration option that meets AWS Certified Database – Specialty security and governance standards",
+      "Skip deployment & migration testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the deployment & migration option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "Which Management & Operations strategy is MOST appropriate when a media company with global users adopts AWS Certified Database – Specialty standards?",
+    opts: [
+      "Store sensitive management & operations credentials in plain text configuration files",
+      "Skip management & operations testing before production rollout",
+      "Implement management & operations without change management or rollback plans",
+      "Design management & operations using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design management & operations using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "An audit of a multinational enterprise reveals gaps in Monitoring & Troubleshooting for AWS Certified Database – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned monitoring & troubleshooting approach recommended in official exam objectives",
+      "Skip monitoring & troubleshooting testing before production rollout",
+      "Implement monitoring & troubleshooting without change management or rollback plans",
+      "Use default monitoring & troubleshooting settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned monitoring & troubleshooting approach recommended in official exam objectives. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A regulated financial institution is designing a AWS Certified Database – Specialty study plan focused on Database Security. Which resource topic is essential?",
+    opts: [
+      "Implement database security without change management or rollback plans",
+      "Follow industry best practices for database security as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Use default database security settings without hardening",
+      "Centralize all database security decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for database security as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "When a healthcare organization implements AWS Certified Database – Specialty controls for Workload-Specific Database Design, which practice reduces operational risk?",
+    opts: [
+      "Use default workload-specific database design settings without hardening",
+      "Centralize all workload-specific database design decisions without stakeholder review",
+      "Implement the standard workload-specific database design solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Deprecate workload-specific database design controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard workload-specific database design solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A AWS Certified Database – Specialty practice exam scenario covers Deployment & Migration for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all deployment & migration decisions without stakeholder review",
+      "Deprecate deployment & migration controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deployment & migration policies",
+      "Use the certified deployment & migration methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified deployment & migration methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "Which Management & Operations principle is emphasized in AWS Certified Database – Specialty when supporting a government agency?",
+    opts: [
+      "Adopt the management & operations control framework referenced in AWS Certified Database – Specialty study materials",
+      "Deprecate management & operations controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses management & operations policies",
+      "Disable monitoring for management & operations to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the management & operations control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Database – Specialty question on Monitoring & Troubleshooting. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & troubleshooting policies",
+      "Configure monitoring & troubleshooting according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Disable monitoring for monitoring & troubleshooting to improve performance",
+      "Grant excessive privileges that violate monitoring & troubleshooting least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure monitoring & troubleshooting according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "For AWS Certified Database – Specialty certification, Database Security knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for database security to improve performance",
+      "Grant excessive privileges that violate database security least-privilege principles",
+      "Select the database security option that meets AWS Certified Database – Specialty security and governance standards",
+      "Rely solely on manual processes with no database security automation",
+    ],
+    a: 2,
+    exp: "Select the database security option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "A team at a media company with global users debates Workload-Specific Database Design options while studying AWS Certified Database – Specialty. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate workload-specific database design least-privilege principles",
+      "Rely solely on manual processes with no workload-specific database design automation",
+      "Ignore workload-specific database design compliance requirements for faster deployment",
+      "Design workload-specific database design using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design workload-specific database design using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "Which Deployment & Migration capability is validated by AWS Certified Database – Specialty for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned deployment & migration approach recommended in official exam objectives",
+      "Rely solely on manual processes with no deployment & migration automation",
+      "Ignore deployment & migration compliance requirements for faster deployment",
+      "Mix production and test deployment & migration configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned deployment & migration approach recommended in official exam objectives. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "When evaluating Management & Operations tools for AWS Certified Database – Specialty, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore management & operations compliance requirements for faster deployment",
+      "Follow industry best practices for management & operations as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Mix production and test management & operations configurations in one environment",
+      "Store sensitive management & operations credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for management & operations as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "A healthcare organization must document Monitoring & Troubleshooting procedures for AWS Certified Database – Specialty compliance. Which standard applies?",
+    opts: [
+      "Mix production and test monitoring & troubleshooting configurations in one environment",
+      "Store sensitive monitoring & troubleshooting credentials in plain text configuration files",
+      "Implement the standard monitoring & troubleshooting solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Skip monitoring & troubleshooting testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard monitoring & troubleshooting solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A AWS Certified Database – Specialty instructor asks about Database Security in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive database security credentials in plain text configuration files",
+      "Skip database security testing before production rollout",
+      "Implement database security without change management or rollback plans",
+      "Use the certified database security methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified database security methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "Which Workload-Specific Database Design metric best indicates AWS Certified Database – Specialty readiness for a government agency?",
+    opts: [
+      "Adopt the workload-specific database design control framework referenced in AWS Certified Database – Specialty study materials",
+      "Skip workload-specific database design testing before production rollout",
+      "Implement workload-specific database design without change management or rollback plans",
+      "Use default workload-specific database design settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the workload-specific database design control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Deployment & Migration issue while preparing for AWS Certified Database – Specialty. What is the first step?",
+    opts: [
+      "Implement deployment & migration without change management or rollback plans",
+      "Configure deployment & migration according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Use default deployment & migration settings without hardening",
+      "Centralize all deployment & migration decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure deployment & migration according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "In AWS Certified Database – Specialty, how should a manufacturing company modernizing IT handle a trade-off involving Management & Operations?",
+    opts: [
+      "Use default management & operations settings without hardening",
+      "Centralize all management & operations decisions without stakeholder review",
+      "Select the management & operations option that meets AWS Certified Database – Specialty security and governance standards",
+      "Deprecate management & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the management & operations option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "Which Monitoring & Troubleshooting pattern is commonly tested on AWS Certified Database – Specialty for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all monitoring & troubleshooting decisions without stakeholder review",
+      "Deprecate monitoring & troubleshooting controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses monitoring & troubleshooting policies",
+      "Design monitoring & troubleshooting using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design monitoring & troubleshooting using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "A multinational enterprise is preparing for AWS Certified Database – Specialty and must strengthen Database Security. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned database security approach recommended in official exam objectives",
+      "Deprecate database security controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses database security policies",
+      "Disable monitoring for database security to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned database security approach recommended in official exam objectives. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "A consultant advising a healthcare organization on AWS Certified Database – Specialty recommends improvements to Workload-Specific Database Design. What should they implement?",
+    opts: [
+      "Disable monitoring for workload-specific database design to improve performance",
+      "Grant excessive privileges that violate workload-specific database design least-privilege principles",
+      "Implement the standard workload-specific database design solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Rely solely on manual processes with no workload-specific database design automation",
+    ],
+    a: 2,
+    exp: "Implement the standard workload-specific database design solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "Which Deployment & Migration strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Database – Specialty standards?",
+    opts: [
+      "Grant excessive privileges that violate deployment & migration least-privilege principles",
+      "Rely solely on manual processes with no deployment & migration automation",
+      "Ignore deployment & migration compliance requirements for faster deployment",
+      "Use the certified deployment & migration methodology specified for AWS Certified Database – Specialty candidates",
+    ],
+    a: 3,
+    exp: "Use the certified deployment & migration methodology specified for AWS Certified Database – Specialty candidates. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "An audit of a government agency reveals gaps in Management & Operations for AWS Certified Database – Specialty. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the management & operations control framework referenced in AWS Certified Database – Specialty study materials",
+      "Rely solely on manual processes with no management & operations automation",
+      "Ignore management & operations compliance requirements for faster deployment",
+      "Mix production and test management & operations configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the management & operations control framework referenced in AWS Certified Database – Specialty study materials. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Database – Specialty study plan focused on Monitoring & Troubleshooting. Which resource topic is essential?",
+    opts: [
+      "Ignore monitoring & troubleshooting compliance requirements for faster deployment",
+      "Configure monitoring & troubleshooting according to AWS Certified Database – Specialty exam blueprint recommendations",
+      "Mix production and test monitoring & troubleshooting configurations in one environment",
+      "Store sensitive monitoring & troubleshooting credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure monitoring & troubleshooting according to AWS Certified Database – Specialty exam blueprint recommendations. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Database Security ──
+  {
+    domain: "Database Security",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Database – Specialty controls for Database Security, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test database security configurations in one environment",
+      "Store sensitive database security credentials in plain text configuration files",
+      "Select the database security option that meets AWS Certified Database – Specialty security and governance standards",
+      "Skip database security testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the database security option that meets AWS Certified Database – Specialty security and governance standards. This is the recommended approach for the Database Security domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Workload-Specific Database Design ──
+  {
+    domain: "Workload-Specific Database Design",
+    q: "A AWS Certified Database – Specialty practice exam scenario covers Workload-Specific Database Design for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive workload-specific database design credentials in plain text configuration files",
+      "Skip workload-specific database design testing before production rollout",
+      "Implement workload-specific database design without change management or rollback plans",
+      "Design workload-specific database design using patterns validated in AWS Certified Database – Specialty practice assessments",
+    ],
+    a: 3,
+    exp: "Design workload-specific database design using patterns validated in AWS Certified Database – Specialty practice assessments. This is the recommended approach for the Workload-Specific Database Design domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment & Migration ──
+  {
+    domain: "Deployment & Migration",
+    q: "Which Deployment & Migration principle is emphasized in AWS Certified Database – Specialty when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Database – Specialty-aligned deployment & migration approach recommended in official exam objectives",
+      "Skip deployment & migration testing before production rollout",
+      "Implement deployment & migration without change management or rollback plans",
+      "Use default deployment & migration settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Database – Specialty-aligned deployment & migration approach recommended in official exam objectives. This is the recommended approach for the Deployment & Migration domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Management & Operations ──
+  {
+    domain: "Management & Operations",
+    q: "A regulated financial institution failed a mock AWS Certified Database – Specialty question on Management & Operations. What concept should they review?",
+    opts: [
+      "Implement management & operations without change management or rollback plans",
+      "Follow industry best practices for management & operations as defined in the AWS Certified Database – Specialty body of knowledge",
+      "Use default management & operations settings without hardening",
+      "Centralize all management & operations decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for management & operations as defined in the AWS Certified Database – Specialty body of knowledge. This is the recommended approach for the Management & Operations domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Troubleshooting ──
+  {
+    domain: "Monitoring & Troubleshooting",
+    q: "For AWS Certified Database – Specialty certification, Monitoring & Troubleshooting knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default monitoring & troubleshooting settings without hardening",
+      "Centralize all monitoring & troubleshooting decisions without stakeholder review",
+      "Implement the standard monitoring & troubleshooting solution that satisfies AWS Certified Database – Specialty domain requirements",
+      "Deprecate monitoring & troubleshooting controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard monitoring & troubleshooting solution that satisfies AWS Certified Database – Specialty domain requirements. This is the recommended approach for the Monitoring & Troubleshooting domain on the AWS Certified Database – Specialty exam and reflects current certification objectives.",
+  },
 ];

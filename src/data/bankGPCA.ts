@@ -798,4 +798,496 @@ export const BANK_GPCA: Question[] = [
     a: 1,
     exp: 'BigQuery materialized views store pre-computed query results and automatically incrementally refresh when base table partitions change, rather than recomputing the entire result set. Queries against the materialized view read the cached results, dramatically reducing slots consumed and bytes billed for repetitive aggregations. Scheduled queries re-run the full computation each time, consuming full slots and bytes. BI Engine caches query results in memory but does not persist them across sessions or guarantee refresh.',
   },
+
+  // ── Additional Professional Cloud Architect practice questions (35 added) ──
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "A regulated financial institution is designing a Google Professional Cloud Architect study plan focused on Designing & Planning Cloud Solutions. Which resource topic is essential?",
+    opts: [
+      "Ignore designing & planning cloud solutions compliance requirements for faster deployment",
+      "Follow industry best practices for designing & planning cloud solutions as defined in the Google Professional Cloud Architect body of knowledge",
+      "Mix production and test designing & planning cloud solutions configurations in one environment",
+      "Store sensitive designing & planning cloud solutions credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for designing & planning cloud solutions as defined in the Google Professional Cloud Architect body of knowledge. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "When a healthcare organization implements Google Professional Cloud Architect controls for Managing & Provisioning Infrastructure, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test managing & provisioning infrastructure configurations in one environment",
+      "Store sensitive managing & provisioning infrastructure credentials in plain text configuration files",
+      "Implement the standard managing & provisioning infrastructure solution that satisfies Google Professional Cloud Architect domain requirements",
+      "Skip managing & provisioning infrastructure testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard managing & provisioning infrastructure solution that satisfies Google Professional Cloud Architect domain requirements. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "A Google Professional Cloud Architect practice exam scenario covers Designing for Security & Compliance for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive designing for security & compliance credentials in plain text configuration files",
+      "Skip designing for security & compliance testing before production rollout",
+      "Implement designing for security & compliance without change management or rollback plans",
+      "Use the certified designing for security & compliance methodology specified for Google Professional Cloud Architect candidates",
+    ],
+    a: 3,
+    exp: "Use the certified designing for security & compliance methodology specified for Google Professional Cloud Architect candidates. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "Which Analyzing & Optimizing Technical & Business Processes principle is emphasized in Google Professional Cloud Architect when supporting a government agency?",
+    opts: [
+      "Adopt the analyzing & optimizing technical & business processes control framework referenced in Google Professional Cloud Architect study materials",
+      "Skip analyzing & optimizing technical & business processes testing before production rollout",
+      "Implement analyzing & optimizing technical & business processes without change management or rollback plans",
+      "Use default analyzing & optimizing technical & business processes settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the analyzing & optimizing technical & business processes control framework referenced in Google Professional Cloud Architect study materials. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "A SaaS startup scaling rapidly failed a mock Google Professional Cloud Architect question on Managing Implementation. What concept should they review?",
+    opts: [
+      "Implement managing implementation without change management or rollback plans",
+      "Configure managing implementation according to Google Professional Cloud Architect exam blueprint recommendations",
+      "Use default managing implementation settings without hardening",
+      "Centralize all managing implementation decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure managing implementation according to Google Professional Cloud Architect exam blueprint recommendations. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Solution & Operations Reliability ──
+  {
+    domain: "Ensuring Solution & Operations Reliability",
+    q: "For Google Professional Cloud Architect certification, Ensuring Solution & Operations Reliability knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default ensuring solution & operations reliability settings without hardening",
+      "Centralize all ensuring solution & operations reliability decisions without stakeholder review",
+      "Select the ensuring solution & operations reliability option that meets Google Professional Cloud Architect security and governance standards",
+      "Deprecate ensuring solution & operations reliability controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the ensuring solution & operations reliability option that meets Google Professional Cloud Architect security and governance standards. This is the recommended approach for the Ensuring Solution & Operations Reliability domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "A team at a media company with global users debates Designing & Planning Cloud Solutions options while studying Google Professional Cloud Architect. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all designing & planning cloud solutions decisions without stakeholder review",
+      "Deprecate designing & planning cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses designing & planning cloud solutions policies",
+      "Design designing & planning cloud solutions using patterns validated in Google Professional Cloud Architect practice assessments",
+    ],
+    a: 3,
+    exp: "Design designing & planning cloud solutions using patterns validated in Google Professional Cloud Architect practice assessments. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "Which Managing & Provisioning Infrastructure capability is validated by Google Professional Cloud Architect for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the Google Professional Cloud Architect-aligned managing & provisioning infrastructure approach recommended in official exam objectives",
+      "Deprecate managing & provisioning infrastructure controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses managing & provisioning infrastructure policies",
+      "Disable monitoring for managing & provisioning infrastructure to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Professional Cloud Architect-aligned managing & provisioning infrastructure approach recommended in official exam objectives. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "When evaluating Designing for Security & Compliance tools for Google Professional Cloud Architect, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses designing for security & compliance policies",
+      "Follow industry best practices for designing for security & compliance as defined in the Google Professional Cloud Architect body of knowledge",
+      "Disable monitoring for designing for security & compliance to improve performance",
+      "Grant excessive privileges that violate designing for security & compliance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for designing for security & compliance as defined in the Google Professional Cloud Architect body of knowledge. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "A healthcare organization must document Analyzing & Optimizing Technical & Business Processes procedures for Google Professional Cloud Architect compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for analyzing & optimizing technical & business processes to improve performance",
+      "Grant excessive privileges that violate analyzing & optimizing technical & business processes least-privilege principles",
+      "Implement the standard analyzing & optimizing technical & business processes solution that satisfies Google Professional Cloud Architect domain requirements",
+      "Rely solely on manual processes with no analyzing & optimizing technical & business processes automation",
+    ],
+    a: 2,
+    exp: "Implement the standard analyzing & optimizing technical & business processes solution that satisfies Google Professional Cloud Architect domain requirements. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "A Google Professional Cloud Architect instructor asks about Managing Implementation in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate managing implementation least-privilege principles",
+      "Rely solely on manual processes with no managing implementation automation",
+      "Ignore managing implementation compliance requirements for faster deployment",
+      "Use the certified managing implementation methodology specified for Google Professional Cloud Architect candidates",
+    ],
+    a: 3,
+    exp: "Use the certified managing implementation methodology specified for Google Professional Cloud Architect candidates. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Solution & Operations Reliability ──
+  {
+    domain: "Ensuring Solution & Operations Reliability",
+    q: "Which Ensuring Solution & Operations Reliability metric best indicates Google Professional Cloud Architect readiness for a government agency?",
+    opts: [
+      "Adopt the ensuring solution & operations reliability control framework referenced in Google Professional Cloud Architect study materials",
+      "Rely solely on manual processes with no ensuring solution & operations reliability automation",
+      "Ignore ensuring solution & operations reliability compliance requirements for faster deployment",
+      "Mix production and test ensuring solution & operations reliability configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the ensuring solution & operations reliability control framework referenced in Google Professional Cloud Architect study materials. This is the recommended approach for the Ensuring Solution & Operations Reliability domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Designing & Planning Cloud Solutions issue while preparing for Google Professional Cloud Architect. What is the first step?",
+    opts: [
+      "Ignore designing & planning cloud solutions compliance requirements for faster deployment",
+      "Configure designing & planning cloud solutions according to Google Professional Cloud Architect exam blueprint recommendations",
+      "Mix production and test designing & planning cloud solutions configurations in one environment",
+      "Store sensitive designing & planning cloud solutions credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure designing & planning cloud solutions according to Google Professional Cloud Architect exam blueprint recommendations. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "In Google Professional Cloud Architect, how should a manufacturing company modernizing IT handle a trade-off involving Managing & Provisioning Infrastructure?",
+    opts: [
+      "Mix production and test managing & provisioning infrastructure configurations in one environment",
+      "Store sensitive managing & provisioning infrastructure credentials in plain text configuration files",
+      "Select the managing & provisioning infrastructure option that meets Google Professional Cloud Architect security and governance standards",
+      "Skip managing & provisioning infrastructure testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the managing & provisioning infrastructure option that meets Google Professional Cloud Architect security and governance standards. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "Which Designing for Security & Compliance pattern is commonly tested on Google Professional Cloud Architect for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive designing for security & compliance credentials in plain text configuration files",
+      "Skip designing for security & compliance testing before production rollout",
+      "Implement designing for security & compliance without change management or rollback plans",
+      "Design designing for security & compliance using patterns validated in Google Professional Cloud Architect practice assessments",
+    ],
+    a: 3,
+    exp: "Design designing for security & compliance using patterns validated in Google Professional Cloud Architect practice assessments. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "A multinational enterprise is preparing for Google Professional Cloud Architect and must strengthen Analyzing & Optimizing Technical & Business Processes. Which option is BEST?",
+    opts: [
+      "Apply the Google Professional Cloud Architect-aligned analyzing & optimizing technical & business processes approach recommended in official exam objectives",
+      "Skip analyzing & optimizing technical & business processes testing before production rollout",
+      "Implement analyzing & optimizing technical & business processes without change management or rollback plans",
+      "Use default analyzing & optimizing technical & business processes settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the Google Professional Cloud Architect-aligned analyzing & optimizing technical & business processes approach recommended in official exam objectives. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "During a Google Professional Cloud Architect readiness review at a regulated financial institution, which Managing Implementation approach meets certification objectives?",
+    opts: [
+      "Implement managing implementation without change management or rollback plans",
+      "Follow industry best practices for managing implementation as defined in the Google Professional Cloud Architect body of knowledge",
+      "Use default managing implementation settings without hardening",
+      "Centralize all managing implementation decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for managing implementation as defined in the Google Professional Cloud Architect body of knowledge. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Solution & Operations Reliability ──
+  {
+    domain: "Ensuring Solution & Operations Reliability",
+    q: "A consultant advising a healthcare organization on Google Professional Cloud Architect recommends improvements to Ensuring Solution & Operations Reliability. What should they implement?",
+    opts: [
+      "Use default ensuring solution & operations reliability settings without hardening",
+      "Centralize all ensuring solution & operations reliability decisions without stakeholder review",
+      "Implement the standard ensuring solution & operations reliability solution that satisfies Google Professional Cloud Architect domain requirements",
+      "Deprecate ensuring solution & operations reliability controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard ensuring solution & operations reliability solution that satisfies Google Professional Cloud Architect domain requirements. This is the recommended approach for the Ensuring Solution & Operations Reliability domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "Which Designing & Planning Cloud Solutions strategy is MOST appropriate when a high-traffic e-commerce platform adopts Google Professional Cloud Architect standards?",
+    opts: [
+      "Centralize all designing & planning cloud solutions decisions without stakeholder review",
+      "Deprecate designing & planning cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses designing & planning cloud solutions policies",
+      "Use the certified designing & planning cloud solutions methodology specified for Google Professional Cloud Architect candidates",
+    ],
+    a: 3,
+    exp: "Use the certified designing & planning cloud solutions methodology specified for Google Professional Cloud Architect candidates. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "An audit of a government agency reveals gaps in Managing & Provisioning Infrastructure for Google Professional Cloud Architect. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the managing & provisioning infrastructure control framework referenced in Google Professional Cloud Architect study materials",
+      "Deprecate managing & provisioning infrastructure controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses managing & provisioning infrastructure policies",
+      "Disable monitoring for managing & provisioning infrastructure to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the managing & provisioning infrastructure control framework referenced in Google Professional Cloud Architect study materials. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "A SaaS startup scaling rapidly is designing a Google Professional Cloud Architect study plan focused on Designing for Security & Compliance. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses designing for security & compliance policies",
+      "Configure designing for security & compliance according to Google Professional Cloud Architect exam blueprint recommendations",
+      "Disable monitoring for designing for security & compliance to improve performance",
+      "Grant excessive privileges that violate designing for security & compliance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure designing for security & compliance according to Google Professional Cloud Architect exam blueprint recommendations. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "When a manufacturing company modernizing IT implements Google Professional Cloud Architect controls for Analyzing & Optimizing Technical & Business Processes, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for analyzing & optimizing technical & business processes to improve performance",
+      "Grant excessive privileges that violate analyzing & optimizing technical & business processes least-privilege principles",
+      "Select the analyzing & optimizing technical & business processes option that meets Google Professional Cloud Architect security and governance standards",
+      "Rely solely on manual processes with no analyzing & optimizing technical & business processes automation",
+    ],
+    a: 2,
+    exp: "Select the analyzing & optimizing technical & business processes option that meets Google Professional Cloud Architect security and governance standards. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "A Google Professional Cloud Architect practice exam scenario covers Managing Implementation for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate managing implementation least-privilege principles",
+      "Rely solely on manual processes with no managing implementation automation",
+      "Ignore managing implementation compliance requirements for faster deployment",
+      "Design managing implementation using patterns validated in Google Professional Cloud Architect practice assessments",
+    ],
+    a: 3,
+    exp: "Design managing implementation using patterns validated in Google Professional Cloud Architect practice assessments. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Solution & Operations Reliability ──
+  {
+    domain: "Ensuring Solution & Operations Reliability",
+    q: "Which Ensuring Solution & Operations Reliability principle is emphasized in Google Professional Cloud Architect when supporting a multinational enterprise?",
+    opts: [
+      "Apply the Google Professional Cloud Architect-aligned ensuring solution & operations reliability approach recommended in official exam objectives",
+      "Rely solely on manual processes with no ensuring solution & operations reliability automation",
+      "Ignore ensuring solution & operations reliability compliance requirements for faster deployment",
+      "Mix production and test ensuring solution & operations reliability configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the Google Professional Cloud Architect-aligned ensuring solution & operations reliability approach recommended in official exam objectives. This is the recommended approach for the Ensuring Solution & Operations Reliability domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "A regulated financial institution failed a mock Google Professional Cloud Architect question on Designing & Planning Cloud Solutions. What concept should they review?",
+    opts: [
+      "Ignore designing & planning cloud solutions compliance requirements for faster deployment",
+      "Follow industry best practices for designing & planning cloud solutions as defined in the Google Professional Cloud Architect body of knowledge",
+      "Mix production and test designing & planning cloud solutions configurations in one environment",
+      "Store sensitive designing & planning cloud solutions credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for designing & planning cloud solutions as defined in the Google Professional Cloud Architect body of knowledge. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "For Google Professional Cloud Architect certification, Managing & Provisioning Infrastructure knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test managing & provisioning infrastructure configurations in one environment",
+      "Store sensitive managing & provisioning infrastructure credentials in plain text configuration files",
+      "Implement the standard managing & provisioning infrastructure solution that satisfies Google Professional Cloud Architect domain requirements",
+      "Skip managing & provisioning infrastructure testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard managing & provisioning infrastructure solution that satisfies Google Professional Cloud Architect domain requirements. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "A team at a high-traffic e-commerce platform debates Designing for Security & Compliance options while studying Google Professional Cloud Architect. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive designing for security & compliance credentials in plain text configuration files",
+      "Skip designing for security & compliance testing before production rollout",
+      "Implement designing for security & compliance without change management or rollback plans",
+      "Use the certified designing for security & compliance methodology specified for Google Professional Cloud Architect candidates",
+    ],
+    a: 3,
+    exp: "Use the certified designing for security & compliance methodology specified for Google Professional Cloud Architect candidates. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "Which Analyzing & Optimizing Technical & Business Processes capability is validated by Google Professional Cloud Architect for organizations such as a government agency?",
+    opts: [
+      "Adopt the analyzing & optimizing technical & business processes control framework referenced in Google Professional Cloud Architect study materials",
+      "Skip analyzing & optimizing technical & business processes testing before production rollout",
+      "Implement analyzing & optimizing technical & business processes without change management or rollback plans",
+      "Use default analyzing & optimizing technical & business processes settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the analyzing & optimizing technical & business processes control framework referenced in Google Professional Cloud Architect study materials. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "When evaluating Managing Implementation tools for Google Professional Cloud Architect, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement managing implementation without change management or rollback plans",
+      "Configure managing implementation according to Google Professional Cloud Architect exam blueprint recommendations",
+      "Use default managing implementation settings without hardening",
+      "Centralize all managing implementation decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure managing implementation according to Google Professional Cloud Architect exam blueprint recommendations. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Ensuring Solution & Operations Reliability ──
+  {
+    domain: "Ensuring Solution & Operations Reliability",
+    q: "A manufacturing company modernizing IT must document Ensuring Solution & Operations Reliability procedures for Google Professional Cloud Architect compliance. Which standard applies?",
+    opts: [
+      "Use default ensuring solution & operations reliability settings without hardening",
+      "Centralize all ensuring solution & operations reliability decisions without stakeholder review",
+      "Select the ensuring solution & operations reliability option that meets Google Professional Cloud Architect security and governance standards",
+      "Deprecate ensuring solution & operations reliability controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the ensuring solution & operations reliability option that meets Google Professional Cloud Architect security and governance standards. This is the recommended approach for the Ensuring Solution & Operations Reliability domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing & Planning Cloud Solutions ──
+  {
+    domain: "Designing & Planning Cloud Solutions",
+    q: "A Google Professional Cloud Architect instructor asks about Designing & Planning Cloud Solutions in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all designing & planning cloud solutions decisions without stakeholder review",
+      "Deprecate designing & planning cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses designing & planning cloud solutions policies",
+      "Design designing & planning cloud solutions using patterns validated in Google Professional Cloud Architect practice assessments",
+    ],
+    a: 3,
+    exp: "Design designing & planning cloud solutions using patterns validated in Google Professional Cloud Architect practice assessments. This is the recommended approach for the Designing & Planning Cloud Solutions domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing & Provisioning Infrastructure ──
+  {
+    domain: "Managing & Provisioning Infrastructure",
+    q: "Which Managing & Provisioning Infrastructure metric best indicates Google Professional Cloud Architect readiness for a multinational enterprise?",
+    opts: [
+      "Apply the Google Professional Cloud Architect-aligned managing & provisioning infrastructure approach recommended in official exam objectives",
+      "Deprecate managing & provisioning infrastructure controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses managing & provisioning infrastructure policies",
+      "Disable monitoring for managing & provisioning infrastructure to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Professional Cloud Architect-aligned managing & provisioning infrastructure approach recommended in official exam objectives. This is the recommended approach for the Managing & Provisioning Infrastructure domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Designing for Security & Compliance ──
+  {
+    domain: "Designing for Security & Compliance",
+    q: "A regulated financial institution is troubleshooting a Designing for Security & Compliance issue while preparing for Google Professional Cloud Architect. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses designing for security & compliance policies",
+      "Follow industry best practices for designing for security & compliance as defined in the Google Professional Cloud Architect body of knowledge",
+      "Disable monitoring for designing for security & compliance to improve performance",
+      "Grant excessive privileges that violate designing for security & compliance least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for designing for security & compliance as defined in the Google Professional Cloud Architect body of knowledge. This is the recommended approach for the Designing for Security & Compliance domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Analyzing & Optimizing Technical & Business Processes ──
+  {
+    domain: "Analyzing & Optimizing Technical & Business Processes",
+    q: "In Google Professional Cloud Architect, how should a healthcare organization handle a trade-off involving Analyzing & Optimizing Technical & Business Processes?",
+    opts: [
+      "Disable monitoring for analyzing & optimizing technical & business processes to improve performance",
+      "Grant excessive privileges that violate analyzing & optimizing technical & business processes least-privilege principles",
+      "Implement the standard analyzing & optimizing technical & business processes solution that satisfies Google Professional Cloud Architect domain requirements",
+      "Rely solely on manual processes with no analyzing & optimizing technical & business processes automation",
+    ],
+    a: 2,
+    exp: "Implement the standard analyzing & optimizing technical & business processes solution that satisfies Google Professional Cloud Architect domain requirements. This is the recommended approach for the Analyzing & Optimizing Technical & Business Processes domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
+
+  // ── Managing Implementation ──
+  {
+    domain: "Managing Implementation",
+    q: "Which Managing Implementation pattern is commonly tested on Google Professional Cloud Architect for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate managing implementation least-privilege principles",
+      "Rely solely on manual processes with no managing implementation automation",
+      "Ignore managing implementation compliance requirements for faster deployment",
+      "Use the certified managing implementation methodology specified for Google Professional Cloud Architect candidates",
+    ],
+    a: 3,
+    exp: "Use the certified managing implementation methodology specified for Google Professional Cloud Architect candidates. This is the recommended approach for the Managing Implementation domain on the Google Professional Cloud Architect exam and reflects current certification objectives.",
+  },
 ];

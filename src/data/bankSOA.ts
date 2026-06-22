@@ -974,4 +974,706 @@ export const BANK_SOA: Question[] = [
     a: 1,
     exp: 'AWS Backup maintains a job history (backup, restore, copy jobs) accessible in the console and via API/CLI, showing status, start/end time, and resource for each job. CloudTrail records the API calls that initiated backups but does not aggregate job status over time as cleanly; CloudWatch Logs may capture some events if configured; Config tracks resource configuration, not backup job completions.',
   },
+
+  // ── Additional SOA-C02 practice questions (50 added) ──
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "A multinational enterprise is preparing for AWS Certified SysOps Administrator – Associate and must strengthen Monitoring Logging & Remediation. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives",
+      "Skip monitoring logging & remediation testing before production rollout",
+      "Implement monitoring logging & remediation without change management or rollback plans",
+      "Use default monitoring logging & remediation settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "During a AWS Certified SysOps Administrator – Associate readiness review at a regulated financial institution, which Reliability & Business Continuity approach meets certification objectives?",
+    opts: [
+      "Implement reliability & business continuity without change management or rollback plans",
+      "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Use default reliability & business continuity settings without hardening",
+      "Centralize all reliability & business continuity decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "A consultant advising a healthcare organization on AWS Certified SysOps Administrator – Associate recommends improvements to Deployment Provisioning & Automation. What should they implement?",
+    opts: [
+      "Use default deployment provisioning & automation settings without hardening",
+      "Centralize all deployment provisioning & automation decisions without stakeholder review",
+      "Implement the standard deployment provisioning & automation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Deprecate deployment provisioning & automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard deployment provisioning & automation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified SysOps Administrator – Associate standards?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Use the certified security & compliance methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "An audit of a government agency reveals gaps in Networking & Content Delivery for AWS Certified SysOps Administrator – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the networking & content delivery control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Deprecate networking & content delivery controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses networking & content delivery policies",
+      "Disable monitoring for networking & content delivery to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the networking & content delivery control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified SysOps Administrator – Associate study plan focused on Cost & Performance Optimization. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses cost & performance optimization policies",
+      "Configure cost & performance optimization according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Disable monitoring for cost & performance optimization to improve performance",
+      "Grant excessive privileges that violate cost & performance optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure cost & performance optimization according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "When a manufacturing company modernizing IT implements AWS Certified SysOps Administrator – Associate controls for Monitoring Logging & Remediation, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for monitoring logging & remediation to improve performance",
+      "Grant excessive privileges that violate monitoring logging & remediation least-privilege principles",
+      "Select the monitoring logging & remediation option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Rely solely on manual processes with no monitoring logging & remediation automation",
+    ],
+    a: 2,
+    exp: "Select the monitoring logging & remediation option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "A AWS Certified SysOps Administrator – Associate practice exam scenario covers Reliability & Business Continuity for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate reliability & business continuity least-privilege principles",
+      "Rely solely on manual processes with no reliability & business continuity automation",
+      "Ignore reliability & business continuity compliance requirements for faster deployment",
+      "Design reliability & business continuity using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design reliability & business continuity using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "Which Deployment Provisioning & Automation principle is emphasized in AWS Certified SysOps Administrator – Associate when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned deployment provisioning & automation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no deployment provisioning & automation automation",
+      "Ignore deployment provisioning & automation compliance requirements for faster deployment",
+      "Mix production and test deployment provisioning & automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned deployment provisioning & automation approach recommended in official exam objectives. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A regulated financial institution failed a mock AWS Certified SysOps Administrator – Associate question on Security & Compliance. What concept should they review?",
+    opts: [
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Follow industry best practices for security & compliance as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Mix production and test security & compliance configurations in one environment",
+      "Store sensitive security & compliance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security & compliance as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "For AWS Certified SysOps Administrator – Associate certification, Networking & Content Delivery knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test networking & content delivery configurations in one environment",
+      "Store sensitive networking & content delivery credentials in plain text configuration files",
+      "Implement the standard networking & content delivery solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Skip networking & content delivery testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard networking & content delivery solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A team at a high-traffic e-commerce platform debates Cost & Performance Optimization options while studying AWS Certified SysOps Administrator – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive cost & performance optimization credentials in plain text configuration files",
+      "Skip cost & performance optimization testing before production rollout",
+      "Implement cost & performance optimization without change management or rollback plans",
+      "Use the certified cost & performance optimization methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified cost & performance optimization methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "Which Monitoring Logging & Remediation capability is validated by AWS Certified SysOps Administrator – Associate for organizations such as a government agency?",
+    opts: [
+      "Adopt the monitoring logging & remediation control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Skip monitoring logging & remediation testing before production rollout",
+      "Implement monitoring logging & remediation without change management or rollback plans",
+      "Use default monitoring logging & remediation settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the monitoring logging & remediation control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "When evaluating Reliability & Business Continuity tools for AWS Certified SysOps Administrator – Associate, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement reliability & business continuity without change management or rollback plans",
+      "Configure reliability & business continuity according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Use default reliability & business continuity settings without hardening",
+      "Centralize all reliability & business continuity decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure reliability & business continuity according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "A manufacturing company modernizing IT must document Deployment Provisioning & Automation procedures for AWS Certified SysOps Administrator – Associate compliance. Which standard applies?",
+    opts: [
+      "Use default deployment provisioning & automation settings without hardening",
+      "Centralize all deployment provisioning & automation decisions without stakeholder review",
+      "Select the deployment provisioning & automation option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Deprecate deployment provisioning & automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the deployment provisioning & automation option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified SysOps Administrator – Associate instructor asks about Security & Compliance in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Design security & compliance using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "Which Networking & Content Delivery metric best indicates AWS Certified SysOps Administrator – Associate readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned networking & content delivery approach recommended in official exam objectives",
+      "Deprecate networking & content delivery controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses networking & content delivery policies",
+      "Disable monitoring for networking & content delivery to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned networking & content delivery approach recommended in official exam objectives. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A regulated financial institution is troubleshooting a Cost & Performance Optimization issue while preparing for AWS Certified SysOps Administrator – Associate. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses cost & performance optimization policies",
+      "Follow industry best practices for cost & performance optimization as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Disable monitoring for cost & performance optimization to improve performance",
+      "Grant excessive privileges that violate cost & performance optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cost & performance optimization as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "In AWS Certified SysOps Administrator – Associate, how should a healthcare organization handle a trade-off involving Monitoring Logging & Remediation?",
+    opts: [
+      "Disable monitoring for monitoring logging & remediation to improve performance",
+      "Grant excessive privileges that violate monitoring logging & remediation least-privilege principles",
+      "Implement the standard monitoring logging & remediation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Rely solely on manual processes with no monitoring logging & remediation automation",
+    ],
+    a: 2,
+    exp: "Implement the standard monitoring logging & remediation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "Which Reliability & Business Continuity pattern is commonly tested on AWS Certified SysOps Administrator – Associate for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate reliability & business continuity least-privilege principles",
+      "Rely solely on manual processes with no reliability & business continuity automation",
+      "Ignore reliability & business continuity compliance requirements for faster deployment",
+      "Use the certified reliability & business continuity methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified reliability & business continuity methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "A government agency is preparing for AWS Certified SysOps Administrator – Associate and must strengthen Deployment Provisioning & Automation. Which option is BEST?",
+    opts: [
+      "Adopt the deployment provisioning & automation control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Rely solely on manual processes with no deployment provisioning & automation automation",
+      "Ignore deployment provisioning & automation compliance requirements for faster deployment",
+      "Mix production and test deployment provisioning & automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the deployment provisioning & automation control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "During a AWS Certified SysOps Administrator – Associate readiness review at a SaaS startup scaling rapidly, which Security & Compliance approach meets certification objectives?",
+    opts: [
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Configure security & compliance according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Mix production and test security & compliance configurations in one environment",
+      "Store sensitive security & compliance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure security & compliance according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified SysOps Administrator – Associate recommends improvements to Networking & Content Delivery. What should they implement?",
+    opts: [
+      "Mix production and test networking & content delivery configurations in one environment",
+      "Store sensitive networking & content delivery credentials in plain text configuration files",
+      "Select the networking & content delivery option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Skip networking & content delivery testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the networking & content delivery option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "Which Cost & Performance Optimization strategy is MOST appropriate when a media company with global users adopts AWS Certified SysOps Administrator – Associate standards?",
+    opts: [
+      "Store sensitive cost & performance optimization credentials in plain text configuration files",
+      "Skip cost & performance optimization testing before production rollout",
+      "Implement cost & performance optimization without change management or rollback plans",
+      "Design cost & performance optimization using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design cost & performance optimization using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "An audit of a multinational enterprise reveals gaps in Monitoring Logging & Remediation for AWS Certified SysOps Administrator – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives",
+      "Skip monitoring logging & remediation testing before production rollout",
+      "Implement monitoring logging & remediation without change management or rollback plans",
+      "Use default monitoring logging & remediation settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "A regulated financial institution is designing a AWS Certified SysOps Administrator – Associate study plan focused on Reliability & Business Continuity. Which resource topic is essential?",
+    opts: [
+      "Implement reliability & business continuity without change management or rollback plans",
+      "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Use default reliability & business continuity settings without hardening",
+      "Centralize all reliability & business continuity decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "When a healthcare organization implements AWS Certified SysOps Administrator – Associate controls for Deployment Provisioning & Automation, which practice reduces operational risk?",
+    opts: [
+      "Use default deployment provisioning & automation settings without hardening",
+      "Centralize all deployment provisioning & automation decisions without stakeholder review",
+      "Implement the standard deployment provisioning & automation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Deprecate deployment provisioning & automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard deployment provisioning & automation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified SysOps Administrator – Associate practice exam scenario covers Security & Compliance for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Use the certified security & compliance methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "Which Networking & Content Delivery principle is emphasized in AWS Certified SysOps Administrator – Associate when supporting a government agency?",
+    opts: [
+      "Adopt the networking & content delivery control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Deprecate networking & content delivery controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses networking & content delivery policies",
+      "Disable monitoring for networking & content delivery to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the networking & content delivery control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified SysOps Administrator – Associate question on Cost & Performance Optimization. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses cost & performance optimization policies",
+      "Configure cost & performance optimization according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Disable monitoring for cost & performance optimization to improve performance",
+      "Grant excessive privileges that violate cost & performance optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure cost & performance optimization according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "For AWS Certified SysOps Administrator – Associate certification, Monitoring Logging & Remediation knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for monitoring logging & remediation to improve performance",
+      "Grant excessive privileges that violate monitoring logging & remediation least-privilege principles",
+      "Select the monitoring logging & remediation option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Rely solely on manual processes with no monitoring logging & remediation automation",
+    ],
+    a: 2,
+    exp: "Select the monitoring logging & remediation option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "A team at a media company with global users debates Reliability & Business Continuity options while studying AWS Certified SysOps Administrator – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate reliability & business continuity least-privilege principles",
+      "Rely solely on manual processes with no reliability & business continuity automation",
+      "Ignore reliability & business continuity compliance requirements for faster deployment",
+      "Design reliability & business continuity using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design reliability & business continuity using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "Which Deployment Provisioning & Automation capability is validated by AWS Certified SysOps Administrator – Associate for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned deployment provisioning & automation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no deployment provisioning & automation automation",
+      "Ignore deployment provisioning & automation compliance requirements for faster deployment",
+      "Mix production and test deployment provisioning & automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned deployment provisioning & automation approach recommended in official exam objectives. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "When evaluating Security & Compliance tools for AWS Certified SysOps Administrator – Associate, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Follow industry best practices for security & compliance as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Mix production and test security & compliance configurations in one environment",
+      "Store sensitive security & compliance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security & compliance as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "A healthcare organization must document Networking & Content Delivery procedures for AWS Certified SysOps Administrator – Associate compliance. Which standard applies?",
+    opts: [
+      "Mix production and test networking & content delivery configurations in one environment",
+      "Store sensitive networking & content delivery credentials in plain text configuration files",
+      "Implement the standard networking & content delivery solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Skip networking & content delivery testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard networking & content delivery solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A AWS Certified SysOps Administrator – Associate instructor asks about Cost & Performance Optimization in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive cost & performance optimization credentials in plain text configuration files",
+      "Skip cost & performance optimization testing before production rollout",
+      "Implement cost & performance optimization without change management or rollback plans",
+      "Use the certified cost & performance optimization methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified cost & performance optimization methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "Which Monitoring Logging & Remediation metric best indicates AWS Certified SysOps Administrator – Associate readiness for a government agency?",
+    opts: [
+      "Adopt the monitoring logging & remediation control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Skip monitoring logging & remediation testing before production rollout",
+      "Implement monitoring logging & remediation without change management or rollback plans",
+      "Use default monitoring logging & remediation settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the monitoring logging & remediation control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Reliability & Business Continuity issue while preparing for AWS Certified SysOps Administrator – Associate. What is the first step?",
+    opts: [
+      "Implement reliability & business continuity without change management or rollback plans",
+      "Configure reliability & business continuity according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Use default reliability & business continuity settings without hardening",
+      "Centralize all reliability & business continuity decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure reliability & business continuity according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "In AWS Certified SysOps Administrator – Associate, how should a manufacturing company modernizing IT handle a trade-off involving Deployment Provisioning & Automation?",
+    opts: [
+      "Use default deployment provisioning & automation settings without hardening",
+      "Centralize all deployment provisioning & automation decisions without stakeholder review",
+      "Select the deployment provisioning & automation option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Deprecate deployment provisioning & automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the deployment provisioning & automation option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance pattern is commonly tested on AWS Certified SysOps Administrator – Associate for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all security & compliance decisions without stakeholder review",
+      "Deprecate security & compliance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses security & compliance policies",
+      "Design security & compliance using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "A multinational enterprise is preparing for AWS Certified SysOps Administrator – Associate and must strengthen Networking & Content Delivery. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned networking & content delivery approach recommended in official exam objectives",
+      "Deprecate networking & content delivery controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses networking & content delivery policies",
+      "Disable monitoring for networking & content delivery to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned networking & content delivery approach recommended in official exam objectives. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "During a AWS Certified SysOps Administrator – Associate readiness review at a regulated financial institution, which Cost & Performance Optimization approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses cost & performance optimization policies",
+      "Follow industry best practices for cost & performance optimization as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Disable monitoring for cost & performance optimization to improve performance",
+      "Grant excessive privileges that violate cost & performance optimization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cost & performance optimization as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "A consultant advising a healthcare organization on AWS Certified SysOps Administrator – Associate recommends improvements to Monitoring Logging & Remediation. What should they implement?",
+    opts: [
+      "Disable monitoring for monitoring logging & remediation to improve performance",
+      "Grant excessive privileges that violate monitoring logging & remediation least-privilege principles",
+      "Implement the standard monitoring logging & remediation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements",
+      "Rely solely on manual processes with no monitoring logging & remediation automation",
+    ],
+    a: 2,
+    exp: "Implement the standard monitoring logging & remediation solution that satisfies AWS Certified SysOps Administrator – Associate domain requirements. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "Which Reliability & Business Continuity strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified SysOps Administrator – Associate standards?",
+    opts: [
+      "Grant excessive privileges that violate reliability & business continuity least-privilege principles",
+      "Rely solely on manual processes with no reliability & business continuity automation",
+      "Ignore reliability & business continuity compliance requirements for faster deployment",
+      "Use the certified reliability & business continuity methodology specified for AWS Certified SysOps Administrator – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified reliability & business continuity methodology specified for AWS Certified SysOps Administrator – Associate candidates. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Deployment Provisioning & Automation ──
+  {
+    domain: "Deployment Provisioning & Automation",
+    q: "An audit of a government agency reveals gaps in Deployment Provisioning & Automation for AWS Certified SysOps Administrator – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the deployment provisioning & automation control framework referenced in AWS Certified SysOps Administrator – Associate study materials",
+      "Rely solely on manual processes with no deployment provisioning & automation automation",
+      "Ignore deployment provisioning & automation compliance requirements for faster deployment",
+      "Mix production and test deployment provisioning & automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the deployment provisioning & automation control framework referenced in AWS Certified SysOps Administrator – Associate study materials. This is the recommended approach for the Deployment Provisioning & Automation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified SysOps Administrator – Associate study plan focused on Security & Compliance. Which resource topic is essential?",
+    opts: [
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Configure security & compliance according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations",
+      "Mix production and test security & compliance configurations in one environment",
+      "Store sensitive security & compliance credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure security & compliance according to AWS Certified SysOps Administrator – Associate exam blueprint recommendations. This is the recommended approach for the Security & Compliance domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Networking & Content Delivery ──
+  {
+    domain: "Networking & Content Delivery",
+    q: "When a manufacturing company modernizing IT implements AWS Certified SysOps Administrator – Associate controls for Networking & Content Delivery, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test networking & content delivery configurations in one environment",
+      "Store sensitive networking & content delivery credentials in plain text configuration files",
+      "Select the networking & content delivery option that meets AWS Certified SysOps Administrator – Associate security and governance standards",
+      "Skip networking & content delivery testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the networking & content delivery option that meets AWS Certified SysOps Administrator – Associate security and governance standards. This is the recommended approach for the Networking & Content Delivery domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost & Performance Optimization ──
+  {
+    domain: "Cost & Performance Optimization",
+    q: "A AWS Certified SysOps Administrator – Associate practice exam scenario covers Cost & Performance Optimization for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive cost & performance optimization credentials in plain text configuration files",
+      "Skip cost & performance optimization testing before production rollout",
+      "Implement cost & performance optimization without change management or rollback plans",
+      "Design cost & performance optimization using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design cost & performance optimization using patterns validated in AWS Certified SysOps Administrator – Associate practice assessments. This is the recommended approach for the Cost & Performance Optimization domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring Logging & Remediation ──
+  {
+    domain: "Monitoring Logging & Remediation",
+    q: "Which Monitoring Logging & Remediation principle is emphasized in AWS Certified SysOps Administrator – Associate when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives",
+      "Skip monitoring logging & remediation testing before production rollout",
+      "Implement monitoring logging & remediation without change management or rollback plans",
+      "Use default monitoring logging & remediation settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified SysOps Administrator – Associate-aligned monitoring logging & remediation approach recommended in official exam objectives. This is the recommended approach for the Monitoring Logging & Remediation domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Reliability & Business Continuity ──
+  {
+    domain: "Reliability & Business Continuity",
+    q: "A regulated financial institution failed a mock AWS Certified SysOps Administrator – Associate question on Reliability & Business Continuity. What concept should they review?",
+    opts: [
+      "Implement reliability & business continuity without change management or rollback plans",
+      "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge",
+      "Use default reliability & business continuity settings without hardening",
+      "Centralize all reliability & business continuity decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for reliability & business continuity as defined in the AWS Certified SysOps Administrator – Associate body of knowledge. This is the recommended approach for the Reliability & Business Continuity domain on the AWS Certified SysOps Administrator – Associate exam and reflects current certification objectives.",
+  },
 ];

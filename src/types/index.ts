@@ -31,8 +31,6 @@ export interface ExamConfig {
   about: string;
 }
 
-export type AppScreen = 'selector' | 'landing' | 'exam' | 'results';
-
 export interface ExamResult {
   examId: string;
   questions: Question[];

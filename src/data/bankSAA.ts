@@ -690,4 +690,860 @@ export const BANK_SAA: Question[] = [
     exp: 'Connection draining (called Deregistration delay for ALB/NLB) allows in-flight requests to complete before deregistering an instance. The load balancer stops sending new requests while waiting for existing connections to close.',
   },
 
+
+  // ── Additional SAA-C03 practice questions (61 added) ──
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified Solutions Architect – Associate question on Secure Architectures. What concept should they review?",
+    opts: [
+      "Implement secure architectures without change management or rollback plans",
+      "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "For AWS Certified Solutions Architect – Associate certification, Resilient Architectures knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default resilient architectures settings without hardening",
+      "Centralize all resilient architectures decisions without stakeholder review",
+      "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Deprecate resilient architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A team at a media company with global users debates High-Performing Architectures options while studying AWS Certified Solutions Architect – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all high-performing architectures decisions without stakeholder review",
+      "Deprecate high-performing architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses high-performing architectures policies",
+      "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures capability is validated by AWS Certified Solutions Architect – Associate for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives",
+      "Deprecate cost-optimized architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cost-optimized architectures policies",
+      "Disable monitoring for cost-optimized architectures to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "When evaluating Secure Architectures tools for AWS Certified Solutions Architect – Associate, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses secure architectures policies",
+      "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Disable monitoring for secure architectures to improve performance",
+      "Grant excessive privileges that violate secure architectures least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A healthcare organization must document Resilient Architectures procedures for AWS Certified Solutions Architect – Associate compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for resilient architectures to improve performance",
+      "Grant excessive privileges that violate resilient architectures least-privilege principles",
+      "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Rely solely on manual processes with no resilient architectures automation",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A AWS Certified Solutions Architect – Associate instructor asks about High-Performing Architectures in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate high-performing architectures least-privilege principles",
+      "Rely solely on manual processes with no high-performing architectures automation",
+      "Ignore high-performing architectures compliance requirements for faster deployment",
+      "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures metric best indicates AWS Certified Solutions Architect – Associate readiness for a government agency?",
+    opts: [
+      "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Rely solely on manual processes with no cost-optimized architectures automation",
+      "Ignore cost-optimized architectures compliance requirements for faster deployment",
+      "Mix production and test cost-optimized architectures configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Secure Architectures issue while preparing for AWS Certified Solutions Architect – Associate. What is the first step?",
+    opts: [
+      "Ignore secure architectures compliance requirements for faster deployment",
+      "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Mix production and test secure architectures configurations in one environment",
+      "Store sensitive secure architectures credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "In AWS Certified Solutions Architect – Associate, how should a manufacturing company modernizing IT handle a trade-off involving Resilient Architectures?",
+    opts: [
+      "Mix production and test resilient architectures configurations in one environment",
+      "Store sensitive resilient architectures credentials in plain text configuration files",
+      "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Skip resilient architectures testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures pattern is commonly tested on AWS Certified Solutions Architect – Associate for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive high-performing architectures credentials in plain text configuration files",
+      "Skip high-performing architectures testing before production rollout",
+      "Implement high-performing architectures without change management or rollback plans",
+      "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "A multinational enterprise is preparing for AWS Certified Solutions Architect – Associate and must strengthen Cost-Optimized Architectures. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives",
+      "Skip cost-optimized architectures testing before production rollout",
+      "Implement cost-optimized architectures without change management or rollback plans",
+      "Use default cost-optimized architectures settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "During a AWS Certified Solutions Architect – Associate readiness review at a regulated financial institution, which Secure Architectures approach meets certification objectives?",
+    opts: [
+      "Implement secure architectures without change management or rollback plans",
+      "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A consultant advising a healthcare organization on AWS Certified Solutions Architect – Associate recommends improvements to Resilient Architectures. What should they implement?",
+    opts: [
+      "Use default resilient architectures settings without hardening",
+      "Centralize all resilient architectures decisions without stakeholder review",
+      "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Deprecate resilient architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Solutions Architect – Associate standards?",
+    opts: [
+      "Centralize all high-performing architectures decisions without stakeholder review",
+      "Deprecate high-performing architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses high-performing architectures policies",
+      "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "An audit of a government agency reveals gaps in Cost-Optimized Architectures for AWS Certified Solutions Architect – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Deprecate cost-optimized architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cost-optimized architectures policies",
+      "Disable monitoring for cost-optimized architectures to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Solutions Architect – Associate study plan focused on Secure Architectures. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses secure architectures policies",
+      "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Disable monitoring for secure architectures to improve performance",
+      "Grant excessive privileges that violate secure architectures least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Solutions Architect – Associate controls for Resilient Architectures, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for resilient architectures to improve performance",
+      "Grant excessive privileges that violate resilient architectures least-privilege principles",
+      "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Rely solely on manual processes with no resilient architectures automation",
+    ],
+    a: 2,
+    exp: "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A AWS Certified Solutions Architect – Associate practice exam scenario covers High-Performing Architectures for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate high-performing architectures least-privilege principles",
+      "Rely solely on manual processes with no high-performing architectures automation",
+      "Ignore high-performing architectures compliance requirements for faster deployment",
+      "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures principle is emphasized in AWS Certified Solutions Architect – Associate when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives",
+      "Rely solely on manual processes with no cost-optimized architectures automation",
+      "Ignore cost-optimized architectures compliance requirements for faster deployment",
+      "Mix production and test cost-optimized architectures configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A regulated financial institution failed a mock AWS Certified Solutions Architect – Associate question on Secure Architectures. What concept should they review?",
+    opts: [
+      "Ignore secure architectures compliance requirements for faster deployment",
+      "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Mix production and test secure architectures configurations in one environment",
+      "Store sensitive secure architectures credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "For AWS Certified Solutions Architect – Associate certification, Resilient Architectures knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test resilient architectures configurations in one environment",
+      "Store sensitive resilient architectures credentials in plain text configuration files",
+      "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Skip resilient architectures testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A team at a high-traffic e-commerce platform debates High-Performing Architectures options while studying AWS Certified Solutions Architect – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive high-performing architectures credentials in plain text configuration files",
+      "Skip high-performing architectures testing before production rollout",
+      "Implement high-performing architectures without change management or rollback plans",
+      "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures capability is validated by AWS Certified Solutions Architect – Associate for organizations such as a government agency?",
+    opts: [
+      "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Skip cost-optimized architectures testing before production rollout",
+      "Implement cost-optimized architectures without change management or rollback plans",
+      "Use default cost-optimized architectures settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "When evaluating Secure Architectures tools for AWS Certified Solutions Architect – Associate, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement secure architectures without change management or rollback plans",
+      "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A manufacturing company modernizing IT must document Resilient Architectures procedures for AWS Certified Solutions Architect – Associate compliance. Which standard applies?",
+    opts: [
+      "Use default resilient architectures settings without hardening",
+      "Centralize all resilient architectures decisions without stakeholder review",
+      "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Deprecate resilient architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A AWS Certified Solutions Architect – Associate instructor asks about High-Performing Architectures in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all high-performing architectures decisions without stakeholder review",
+      "Deprecate high-performing architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses high-performing architectures policies",
+      "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures metric best indicates AWS Certified Solutions Architect – Associate readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives",
+      "Deprecate cost-optimized architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cost-optimized architectures policies",
+      "Disable monitoring for cost-optimized architectures to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A regulated financial institution is troubleshooting a Secure Architectures issue while preparing for AWS Certified Solutions Architect – Associate. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses secure architectures policies",
+      "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Disable monitoring for secure architectures to improve performance",
+      "Grant excessive privileges that violate secure architectures least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "In AWS Certified Solutions Architect – Associate, how should a healthcare organization handle a trade-off involving Resilient Architectures?",
+    opts: [
+      "Disable monitoring for resilient architectures to improve performance",
+      "Grant excessive privileges that violate resilient architectures least-privilege principles",
+      "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Rely solely on manual processes with no resilient architectures automation",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures pattern is commonly tested on AWS Certified Solutions Architect – Associate for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate high-performing architectures least-privilege principles",
+      "Rely solely on manual processes with no high-performing architectures automation",
+      "Ignore high-performing architectures compliance requirements for faster deployment",
+      "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "A government agency is preparing for AWS Certified Solutions Architect – Associate and must strengthen Cost-Optimized Architectures. Which option is BEST?",
+    opts: [
+      "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Rely solely on manual processes with no cost-optimized architectures automation",
+      "Ignore cost-optimized architectures compliance requirements for faster deployment",
+      "Mix production and test cost-optimized architectures configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "During a AWS Certified Solutions Architect – Associate readiness review at a SaaS startup scaling rapidly, which Secure Architectures approach meets certification objectives?",
+    opts: [
+      "Ignore secure architectures compliance requirements for faster deployment",
+      "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Mix production and test secure architectures configurations in one environment",
+      "Store sensitive secure architectures credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure secure architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified Solutions Architect – Associate recommends improvements to Resilient Architectures. What should they implement?",
+    opts: [
+      "Mix production and test resilient architectures configurations in one environment",
+      "Store sensitive resilient architectures credentials in plain text configuration files",
+      "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Skip resilient architectures testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the resilient architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures strategy is MOST appropriate when a media company with global users adopts AWS Certified Solutions Architect – Associate standards?",
+    opts: [
+      "Store sensitive high-performing architectures credentials in plain text configuration files",
+      "Skip high-performing architectures testing before production rollout",
+      "Implement high-performing architectures without change management or rollback plans",
+      "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design high-performing architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "An audit of a multinational enterprise reveals gaps in Cost-Optimized Architectures for AWS Certified Solutions Architect – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives",
+      "Skip cost-optimized architectures testing before production rollout",
+      "Implement cost-optimized architectures without change management or rollback plans",
+      "Use default cost-optimized architectures settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned cost-optimized architectures approach recommended in official exam objectives. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A regulated financial institution is designing a AWS Certified Solutions Architect – Associate study plan focused on Secure Architectures. Which resource topic is essential?",
+    opts: [
+      "Implement secure architectures without change management or rollback plans",
+      "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for secure architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "When a healthcare organization implements AWS Certified Solutions Architect – Associate controls for Resilient Architectures, which practice reduces operational risk?",
+    opts: [
+      "Use default resilient architectures settings without hardening",
+      "Centralize all resilient architectures decisions without stakeholder review",
+      "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Deprecate resilient architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A AWS Certified Solutions Architect – Associate practice exam scenario covers High-Performing Architectures for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all high-performing architectures decisions without stakeholder review",
+      "Deprecate high-performing architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses high-performing architectures policies",
+      "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified high-performing architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "Which Cost-Optimized Architectures principle is emphasized in AWS Certified Solutions Architect – Associate when supporting a government agency?",
+    opts: [
+      "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Deprecate cost-optimized architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses cost-optimized architectures policies",
+      "Disable monitoring for cost-optimized architectures to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the cost-optimized architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "For AWS Certified Solutions Architect – Associate certification, Secure Architectures knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for secure architectures to improve performance",
+      "Grant excessive privileges that violate secure architectures least-privilege principles",
+      "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Rely solely on manual processes with no secure architectures automation",
+    ],
+    a: 2,
+    exp: "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A team at a media company with global users debates Resilient Architectures options while studying AWS Certified Solutions Architect – Associate. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate resilient architectures least-privilege principles",
+      "Rely solely on manual processes with no resilient architectures automation",
+      "Ignore resilient architectures compliance requirements for faster deployment",
+      "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures capability is validated by AWS Certified Solutions Architect – Associate for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives",
+      "Rely solely on manual processes with no high-performing architectures automation",
+      "Ignore high-performing architectures compliance requirements for faster deployment",
+      "Mix production and test high-performing architectures configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "When evaluating Cost-Optimized Architectures tools for AWS Certified Solutions Architect – Associate, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore cost-optimized architectures compliance requirements for faster deployment",
+      "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Mix production and test cost-optimized architectures configurations in one environment",
+      "Store sensitive cost-optimized architectures credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A healthcare organization must document Secure Architectures procedures for AWS Certified Solutions Architect – Associate compliance. Which standard applies?",
+    opts: [
+      "Mix production and test secure architectures configurations in one environment",
+      "Store sensitive secure architectures credentials in plain text configuration files",
+      "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Skip secure architectures testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A AWS Certified Solutions Architect – Associate instructor asks about Resilient Architectures in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive resilient architectures credentials in plain text configuration files",
+      "Skip resilient architectures testing before production rollout",
+      "Implement resilient architectures without change management or rollback plans",
+      "Use the certified resilient architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified resilient architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures metric best indicates AWS Certified Solutions Architect – Associate readiness for a government agency?",
+    opts: [
+      "Adopt the high-performing architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Skip high-performing architectures testing before production rollout",
+      "Implement high-performing architectures without change management or rollback plans",
+      "Use default high-performing architectures settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the high-performing architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Cost-Optimized Architectures issue while preparing for AWS Certified Solutions Architect – Associate. What is the first step?",
+    opts: [
+      "Implement cost-optimized architectures without change management or rollback plans",
+      "Configure cost-optimized architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Use default cost-optimized architectures settings without hardening",
+      "Centralize all cost-optimized architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure cost-optimized architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "In AWS Certified Solutions Architect – Associate, how should a manufacturing company modernizing IT handle a trade-off involving Secure Architectures?",
+    opts: [
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+      "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Deprecate secure architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "Which Resilient Architectures pattern is commonly tested on AWS Certified Solutions Architect – Associate for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all resilient architectures decisions without stakeholder review",
+      "Deprecate resilient architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient architectures policies",
+      "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "A multinational enterprise is preparing for AWS Certified Solutions Architect – Associate and must strengthen High-Performing Architectures. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives",
+      "Deprecate high-performing architectures controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses high-performing architectures policies",
+      "Disable monitoring for high-performing architectures to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "During a AWS Certified Solutions Architect – Associate readiness review at a regulated financial institution, which Cost-Optimized Architectures approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses cost-optimized architectures policies",
+      "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Disable monitoring for cost-optimized architectures to improve performance",
+      "Grant excessive privileges that violate cost-optimized architectures least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "A consultant advising a healthcare organization on AWS Certified Solutions Architect – Associate recommends improvements to Secure Architectures. What should they implement?",
+    opts: [
+      "Disable monitoring for secure architectures to improve performance",
+      "Grant excessive privileges that violate secure architectures least-privilege principles",
+      "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Rely solely on manual processes with no secure architectures automation",
+    ],
+    a: 2,
+    exp: "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "Which Resilient Architectures strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified Solutions Architect – Associate standards?",
+    opts: [
+      "Grant excessive privileges that violate resilient architectures least-privilege principles",
+      "Rely solely on manual processes with no resilient architectures automation",
+      "Ignore resilient architectures compliance requirements for faster deployment",
+      "Use the certified resilient architectures methodology specified for AWS Certified Solutions Architect – Associate candidates",
+    ],
+    a: 3,
+    exp: "Use the certified resilient architectures methodology specified for AWS Certified Solutions Architect – Associate candidates. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "An audit of a government agency reveals gaps in High-Performing Architectures for AWS Certified Solutions Architect – Associate. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the high-performing architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials",
+      "Rely solely on manual processes with no high-performing architectures automation",
+      "Ignore high-performing architectures compliance requirements for faster deployment",
+      "Mix production and test high-performing architectures configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the high-performing architectures control framework referenced in AWS Certified Solutions Architect – Associate study materials. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified Solutions Architect – Associate study plan focused on Cost-Optimized Architectures. Which resource topic is essential?",
+    opts: [
+      "Ignore cost-optimized architectures compliance requirements for faster deployment",
+      "Configure cost-optimized architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations",
+      "Mix production and test cost-optimized architectures configurations in one environment",
+      "Store sensitive cost-optimized architectures credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure cost-optimized architectures according to AWS Certified Solutions Architect – Associate exam blueprint recommendations. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "When a manufacturing company modernizing IT implements AWS Certified Solutions Architect – Associate controls for Secure Architectures, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test secure architectures configurations in one environment",
+      "Store sensitive secure architectures credentials in plain text configuration files",
+      "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards",
+      "Skip secure architectures testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the secure architectures option that meets AWS Certified Solutions Architect – Associate security and governance standards. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Architectures ──
+  {
+    domain: "Resilient Architectures",
+    q: "A AWS Certified Solutions Architect – Associate practice exam scenario covers Resilient Architectures for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive resilient architectures credentials in plain text configuration files",
+      "Skip resilient architectures testing before production rollout",
+      "Implement resilient architectures without change management or rollback plans",
+      "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments",
+    ],
+    a: 3,
+    exp: "Design resilient architectures using patterns validated in AWS Certified Solutions Architect – Associate practice assessments. This is the recommended approach for the Resilient Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── High-Performing Architectures ──
+  {
+    domain: "High-Performing Architectures",
+    q: "Which High-Performing Architectures principle is emphasized in AWS Certified Solutions Architect – Associate when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives",
+      "Skip high-performing architectures testing before production rollout",
+      "Implement high-performing architectures without change management or rollback plans",
+      "Use default high-performing architectures settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified Solutions Architect – Associate-aligned high-performing architectures approach recommended in official exam objectives. This is the recommended approach for the High-Performing Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Cost-Optimized Architectures ──
+  {
+    domain: "Cost-Optimized Architectures",
+    q: "A regulated financial institution failed a mock AWS Certified Solutions Architect – Associate question on Cost-Optimized Architectures. What concept should they review?",
+    opts: [
+      "Implement cost-optimized architectures without change management or rollback plans",
+      "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge",
+      "Use default cost-optimized architectures settings without hardening",
+      "Centralize all cost-optimized architectures decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for cost-optimized architectures as defined in the AWS Certified Solutions Architect – Associate body of knowledge. This is the recommended approach for the Cost-Optimized Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
+
+  // ── Secure Architectures ──
+  {
+    domain: "Secure Architectures",
+    q: "For AWS Certified Solutions Architect – Associate certification, Secure Architectures knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default secure architectures settings without hardening",
+      "Centralize all secure architectures decisions without stakeholder review",
+      "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements",
+      "Deprecate secure architectures controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard secure architectures solution that satisfies AWS Certified Solutions Architect – Associate domain requirements. This is the recommended approach for the Secure Architectures domain on the AWS Certified Solutions Architect – Associate exam and reflects current certification objectives.",
+  },
 ];

@@ -1,11 +1,19 @@
-import { useState, useMemo } from 'react';
+import { useMemo, useRef, useEffect, type CSSProperties } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { EXAM_CONFIGS } from '../data';
-import { CATEGORY_ORDER, categoryStyle } from '../themes/categories';
+import { examPath } from '../routes/paths';
+import { SearchBar } from '../components/SearchBar';
+import searchStyles from '../components/SearchBar.module.css';
+import { CATEGORY_ORDER, categoryStyle, getCategoryTheme } from '../themes/categories';
 import type { ExamConfig } from '../types';
 import styles from './SelectorScreen.module.css';
 
 interface SelectorScreenProps {
-  onSelectExam: (examId: string) => void;
+  search: string;
+  onSearchChange: (value: string) => void;
+  category: string | null;
+  onCategoryChange: (provider: string | null) => void;
+  onHeroSearchVisibleChange: (visible: boolean) => void;
 }
 
 function ExamCard({ cfg, onSelect }: { cfg: ExamConfig; onSelect: () => void }) {
@@ -47,22 +55,55 @@ function ExamCard({ cfg, onSelect }: { cfg: ExamConfig; onSelect: () => void }) 
   );
 }
 
-export function SelectorScreen({ onSelectExam }: SelectorScreenProps) {
-  const [search, setSearch] = useState('');
+export function SelectorScreen({
+  search,
+  onSearchChange,
+  category,
+  onCategoryChange,
+  onHeroSearchVisibleChange,
+}: SelectorScreenProps) {
+  const navigate = useNavigate();
+  const heroSearchRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = heroSearchRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => onHeroSearchVisibleChange(entry.isIntersecting),
+      { threshold: 0, rootMargin: '-58px 0px 0px 0px' },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [onHeroSearchVisibleChange]);
 
   const allExams = useMemo(() => Object.values(EXAM_CONFIGS), []);
 
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    allExams.forEach((cfg) => {
+      counts[cfg.provider] = (counts[cfg.provider] ?? 0) + 1;
+    });
+    return counts;
+  }, [allExams]);
+
+  const filterCategories = useMemo(
+    () => CATEGORY_ORDER.filter((p) => categoryCounts[p]),
+    [categoryCounts],
+  );
+
   const filtered = useMemo(() => {
+    const list = category ? allExams.filter((cfg) => cfg.provider === category) : allExams;
     const q = search.toLowerCase().trim();
-    if (!q) return allExams;
-    return allExams.filter(
+    if (!q) return list;
+    return list.filter(
       (cfg) =>
         cfg.fullName.toLowerCase().includes(q) ||
         cfg.label.toLowerCase().includes(q) ||
         cfg.provider.toLowerCase().includes(q) ||
         cfg.level.toLowerCase().includes(q),
     );
-  }, [allExams, search]);
+  }, [allExams, search, category]);
 
   const groups = useMemo(() => {
     const map: Record<string, ExamConfig[]> = {};
@@ -85,7 +126,19 @@ export function SelectorScreen({ onSelectExam }: SelectorScreenProps) {
   return (
     <div className={styles.screen}>
       <div className={styles.hero}>
-        <div className={styles.eyebrow}>Certification · Practice Exams Simulator</div>
+        <div className={styles.brandMark}>
+          <div className={styles.brandRow}>
+            <img src="/logo.png" alt="" className={styles.brandLogo} aria-hidden="true" />
+            <span className={styles.brandName}>Oscar</span>
+          </div>
+          <p className={styles.brandTagline}>
+            <span className={styles.acronymLetter}>O</span>nline{' '}
+            <span className={styles.acronymLetter}>S</span>imulator for{' '}
+            <span className={styles.acronymLetter}>C</span>ertification{' '}
+            <span className={styles.acronymLetter}>A</span>ssessment{' '}
+            <span className={styles.acronymLetter}>R</span>eadiness
+          </p>
+        </div>
         <h1 className={styles.title}>
           Master Your <em>Certification</em>
         </h1>
@@ -94,31 +147,60 @@ export function SelectorScreen({ onSelectExam }: SelectorScreenProps) {
           Randomised each attempt
         </p>
 
-        <div className={styles.searchWrap}>
-          <svg className={styles.searchIcon} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="1.5" />
-            <path d="M13.5 13.5L17 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-          </svg>
-          <input
-            className={styles.searchInput}
-            type="text"
-            placeholder="Search exams by name, provider, or level…"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            autoComplete="off"
-            spellCheck="false"
-          />
-          {search && (
-            <button className={styles.searchClear} onClick={() => setSearch('')} aria-label="Clear">
-              ✕
+        <div ref={heroSearchRef} className={styles.searchWrap}>
+          <div className={styles.searchBarWrap}>
+            <SearchBar
+              value={search}
+              onChange={onSearchChange}
+              className={searchStyles.heroWrap}
+              inputClassName={searchStyles.heroInput}
+            />
+          </div>
+
+          <div className={styles.categoryFilters} role="group" aria-label="Filter by category">
+            <button
+              type="button"
+              className={`${styles.categoryChip} ${!category ? styles.categoryChipActive : ''}`}
+              onClick={() => onCategoryChange(null)}
+              aria-pressed={!category}
+            >
+              All
+              <span className={styles.chipCount}>{allExams.length}</span>
             </button>
-          )}
+            {filterCategories.map((provider) => {
+              const theme = getCategoryTheme(provider);
+              const active = category === provider;
+              return (
+                <button
+                  key={provider}
+                  type="button"
+                  className={`${styles.categoryChip} ${active ? styles.categoryChipActive : ''}`}
+                  style={{
+                    '--chip-primary': theme.primary,
+                    '--chip-tint': theme.tint,
+                  } as CSSProperties}
+                  onClick={() => onCategoryChange(active ? null : provider)}
+                  aria-pressed={active}
+                >
+                  <span className={styles.chipDot} />
+                  {theme.label}
+                  <span className={styles.chipCount}>{categoryCounts[provider]}</span>
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
 
       {groups.length === 0 ? (
         <div className={styles.empty}>
-          No exams match <strong>"{search}"</strong>
+          No exams match
+          {search && <> <strong>"{search}"</strong></>}
+          {category && (
+            <>
+              {search ? ' in' : ''} <strong>{getCategoryTheme(category).label}</strong>
+            </>
+          )}
         </div>
       ) : (
         <div className={styles.groups}>
@@ -144,7 +226,7 @@ export function SelectorScreen({ onSelectExam }: SelectorScreenProps) {
                     style={{ animationDelay: `${gi * 0.08 + ci * 0.07}s` }}
                     className={styles.cardWrapper}
                   >
-                    <ExamCard cfg={cfg} onSelect={() => onSelectExam(cfg.id)} />
+                    <ExamCard cfg={cfg} onSelect={() => navigate(examPath(cfg.id))} />
                   </div>
                 ))}
               </div>

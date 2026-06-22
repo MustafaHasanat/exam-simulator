@@ -17,9 +17,9 @@
 
 .hero {
   width: 100%;
-  max-width: 680px;
+  max-width: 760px;
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 48px;
   animation: fadeDown 0.5s ease both;
 }
 
@@ -36,6 +36,58 @@
   color: var(--accent);
   margin-bottom: 18px;
   opacity: 0.75;
+}
+
+.brandMark {
+  width: 100%;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.brandLogo {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.brandName {
+  font-size: clamp(36px, 7vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  background: linear-gradient(90deg, #7c5cbf 0%, #00d4ff 55%, #00e5cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brandTagline {
+  font-size: clamp(13px, 2.2vw, 15px);
+  font-weight: 400;
+  color: var(--text);
+  letter-spacing: 0.01em;
+  line-height: 1.55;
+  max-width: 520px;
+  text-align: center;
+  opacity: 0.92;
+}
+
+.acronymLetter {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.05em;
 }
 
 .title {
@@ -58,59 +110,68 @@
 .searchWrap {
   position: relative;
   width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.searchBarWrap {
+  width: 100%;
   max-width: 500px;
   margin: 0 auto;
 }
 
-.searchIcon {
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
-  color: var(--muted);
-  pointer-events: none;
-  transition: color 0.2s;
+.categoryFilters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
 }
 
-.searchWrap:focus-within .searchIcon { color: var(--accent); }
-
-.searchInput {
-  width: 100%;
+.categoryChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 13px 44px;
-  font-size: 14px;
-  color: var(--text);
-  font-family: 'IBM Plex Sans', sans-serif;
-  outline: none;
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.searchInput::placeholder { color: var(--muted); }
-
-.searchInput:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(0,212,255,0.08), 0 4px 20px rgba(0,0,0,0.3);
-}
-
-.searchClear {
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  color: var(--muted);
-  font-size: 12px;
   cursor: pointer;
-  padding: 4px;
-  border-radius: 4px;
-  transition: color 0.15s;
+  transition: border-color 0.15s, background 0.15s, color 0.15s, transform 0.1s;
+  white-space: nowrap;
 }
-.searchClear:hover { color: var(--text); }
+
+.categoryChip:hover {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--chip-primary, var(--accent)) 35%, var(--border));
+  transform: translateY(-1px);
+}
+
+.categoryChipActive {
+  color: var(--chip-primary, var(--accent));
+  background: var(--chip-tint, rgba(124, 92, 191, 0.12));
+  border-color: color-mix(in srgb, var(--chip-primary, var(--accent)) 45%, transparent);
+}
+
+.chipDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--chip-primary, var(--accent));
+}
+
+.chipCount {
+  font-size: 9px;
+  opacity: 0.65;
+  padding-left: 1px;
+}
 
 .groups {
   width: 100%;
@@ -352,4 +413,13 @@
   .cards  { flex-direction: column; }
   .cardWrapper { max-width: 100%; }
   .providerSection { padding-left: 14px; }
+
+  .brandRow {
+    gap: 8px;
+  }
+
+  .brandLogo {
+    width: 64px;
+    height: 64px;
+  }
 }

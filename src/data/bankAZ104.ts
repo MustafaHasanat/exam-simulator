@@ -658,4 +658,370 @@ export const BANK_AZ104: Question[] = [
     a: 2,
     exp: 'Recovery Services vaults configured with Geo-Redundant Storage (GRS) replicate backup data to a paired secondary region. Cross-Region Restore (CRR) allows restoring VMs from secondary region backups even when the primary region is unavailable.',
   },
+
+  // ── Additional AZ-104 practice questions (26 added) ──
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "A manufacturing company modernizing IT must document Manage Azure Identities & Governance procedures for Microsoft Azure Administrator compliance. Which standard applies?",
+    opts: [
+      "Mix production and test manage azure identities & governance configurations in one environment",
+      "Store sensitive manage azure identities & governance credentials in plain text configuration files",
+      "Select the manage azure identities & governance option that meets Microsoft Azure Administrator security and governance standards",
+      "Skip manage azure identities & governance testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the manage azure identities & governance option that meets Microsoft Azure Administrator security and governance standards. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Storage ──
+  {
+    domain: "Implement & Manage Storage",
+    q: "A Microsoft Azure Administrator instructor asks about Implement & Manage Storage in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Store sensitive implement & manage storage credentials in plain text configuration files",
+      "Skip implement & manage storage testing before production rollout",
+      "Implement implement & manage storage without change management or rollback plans",
+      "Design implement & manage storage using patterns validated in Microsoft Azure Administrator practice assessments",
+    ],
+    a: 3,
+    exp: "Design implement & manage storage using patterns validated in Microsoft Azure Administrator practice assessments. This is the recommended approach for the Implement & Manage Storage domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Deploy & Manage Azure Compute ──
+  {
+    domain: "Deploy & Manage Azure Compute",
+    q: "Which Deploy & Manage Azure Compute metric best indicates Microsoft Azure Administrator readiness for a multinational enterprise?",
+    opts: [
+      "Apply the Microsoft Azure Administrator-aligned deploy & manage azure compute approach recommended in official exam objectives",
+      "Skip deploy & manage azure compute testing before production rollout",
+      "Implement deploy & manage azure compute without change management or rollback plans",
+      "Use default deploy & manage azure compute settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the Microsoft Azure Administrator-aligned deploy & manage azure compute approach recommended in official exam objectives. This is the recommended approach for the Deploy & Manage Azure Compute domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Virtual Networking ──
+  {
+    domain: "Implement & Manage Virtual Networking",
+    q: "A regulated financial institution is troubleshooting a Implement & Manage Virtual Networking issue while preparing for Microsoft Azure Administrator. What is the first step?",
+    opts: [
+      "Implement implement & manage virtual networking without change management or rollback plans",
+      "Follow industry best practices for implement & manage virtual networking as defined in the Microsoft Azure Administrator body of knowledge",
+      "Use default implement & manage virtual networking settings without hardening",
+      "Centralize all implement & manage virtual networking decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for implement & manage virtual networking as defined in the Microsoft Azure Administrator body of knowledge. This is the recommended approach for the Implement & Manage Virtual Networking domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Monitor & Maintain Azure Resources ──
+  {
+    domain: "Monitor & Maintain Azure Resources",
+    q: "In Microsoft Azure Administrator, how should a healthcare organization handle a trade-off involving Monitor & Maintain Azure Resources?",
+    opts: [
+      "Use default monitor & maintain azure resources settings without hardening",
+      "Centralize all monitor & maintain azure resources decisions without stakeholder review",
+      "Implement the standard monitor & maintain azure resources solution that satisfies Microsoft Azure Administrator domain requirements",
+      "Deprecate monitor & maintain azure resources controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard monitor & maintain azure resources solution that satisfies Microsoft Azure Administrator domain requirements. This is the recommended approach for the Monitor & Maintain Azure Resources domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "Which Manage Azure Identities & Governance pattern is commonly tested on Microsoft Azure Administrator for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Centralize all manage azure identities & governance decisions without stakeholder review",
+      "Deprecate manage azure identities & governance controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses manage azure identities & governance policies",
+      "Use the certified manage azure identities & governance methodology specified for Microsoft Azure Administrator candidates",
+    ],
+    a: 3,
+    exp: "Use the certified manage azure identities & governance methodology specified for Microsoft Azure Administrator candidates. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Storage ──
+  {
+    domain: "Implement & Manage Storage",
+    q: "A government agency is preparing for Microsoft Azure Administrator and must strengthen Implement & Manage Storage. Which option is BEST?",
+    opts: [
+      "Adopt the implement & manage storage control framework referenced in Microsoft Azure Administrator study materials",
+      "Deprecate implement & manage storage controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses implement & manage storage policies",
+      "Disable monitoring for implement & manage storage to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the implement & manage storage control framework referenced in Microsoft Azure Administrator study materials. This is the recommended approach for the Implement & Manage Storage domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Deploy & Manage Azure Compute ──
+  {
+    domain: "Deploy & Manage Azure Compute",
+    q: "During a Microsoft Azure Administrator readiness review at a SaaS startup scaling rapidly, which Deploy & Manage Azure Compute approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses deploy & manage azure compute policies",
+      "Configure deploy & manage azure compute according to Microsoft Azure Administrator exam blueprint recommendations",
+      "Disable monitoring for deploy & manage azure compute to improve performance",
+      "Grant excessive privileges that violate deploy & manage azure compute least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure deploy & manage azure compute according to Microsoft Azure Administrator exam blueprint recommendations. This is the recommended approach for the Deploy & Manage Azure Compute domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Virtual Networking ──
+  {
+    domain: "Implement & Manage Virtual Networking",
+    q: "A consultant advising a manufacturing company modernizing IT on Microsoft Azure Administrator recommends improvements to Implement & Manage Virtual Networking. What should they implement?",
+    opts: [
+      "Disable monitoring for implement & manage virtual networking to improve performance",
+      "Grant excessive privileges that violate implement & manage virtual networking least-privilege principles",
+      "Select the implement & manage virtual networking option that meets Microsoft Azure Administrator security and governance standards",
+      "Rely solely on manual processes with no implement & manage virtual networking automation",
+    ],
+    a: 2,
+    exp: "Select the implement & manage virtual networking option that meets Microsoft Azure Administrator security and governance standards. This is the recommended approach for the Implement & Manage Virtual Networking domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Monitor & Maintain Azure Resources ──
+  {
+    domain: "Monitor & Maintain Azure Resources",
+    q: "Which Monitor & Maintain Azure Resources strategy is MOST appropriate when a media company with global users adopts Microsoft Azure Administrator standards?",
+    opts: [
+      "Grant excessive privileges that violate monitor & maintain azure resources least-privilege principles",
+      "Rely solely on manual processes with no monitor & maintain azure resources automation",
+      "Ignore monitor & maintain azure resources compliance requirements for faster deployment",
+      "Design monitor & maintain azure resources using patterns validated in Microsoft Azure Administrator practice assessments",
+    ],
+    a: 3,
+    exp: "Design monitor & maintain azure resources using patterns validated in Microsoft Azure Administrator practice assessments. This is the recommended approach for the Monitor & Maintain Azure Resources domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "An audit of a multinational enterprise reveals gaps in Manage Azure Identities & Governance for Microsoft Azure Administrator. Which remediation is CORRECT?",
+    opts: [
+      "Apply the Microsoft Azure Administrator-aligned manage azure identities & governance approach recommended in official exam objectives",
+      "Rely solely on manual processes with no manage azure identities & governance automation",
+      "Ignore manage azure identities & governance compliance requirements for faster deployment",
+      "Mix production and test manage azure identities & governance configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the Microsoft Azure Administrator-aligned manage azure identities & governance approach recommended in official exam objectives. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Storage ──
+  {
+    domain: "Implement & Manage Storage",
+    q: "A regulated financial institution is designing a Microsoft Azure Administrator study plan focused on Implement & Manage Storage. Which resource topic is essential?",
+    opts: [
+      "Ignore implement & manage storage compliance requirements for faster deployment",
+      "Follow industry best practices for implement & manage storage as defined in the Microsoft Azure Administrator body of knowledge",
+      "Mix production and test implement & manage storage configurations in one environment",
+      "Store sensitive implement & manage storage credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for implement & manage storage as defined in the Microsoft Azure Administrator body of knowledge. This is the recommended approach for the Implement & Manage Storage domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Deploy & Manage Azure Compute ──
+  {
+    domain: "Deploy & Manage Azure Compute",
+    q: "When a healthcare organization implements Microsoft Azure Administrator controls for Deploy & Manage Azure Compute, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test deploy & manage azure compute configurations in one environment",
+      "Store sensitive deploy & manage azure compute credentials in plain text configuration files",
+      "Implement the standard deploy & manage azure compute solution that satisfies Microsoft Azure Administrator domain requirements",
+      "Skip deploy & manage azure compute testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard deploy & manage azure compute solution that satisfies Microsoft Azure Administrator domain requirements. This is the recommended approach for the Deploy & Manage Azure Compute domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Virtual Networking ──
+  {
+    domain: "Implement & Manage Virtual Networking",
+    q: "A Microsoft Azure Administrator practice exam scenario covers Implement & Manage Virtual Networking for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive implement & manage virtual networking credentials in plain text configuration files",
+      "Skip implement & manage virtual networking testing before production rollout",
+      "Implement implement & manage virtual networking without change management or rollback plans",
+      "Use the certified implement & manage virtual networking methodology specified for Microsoft Azure Administrator candidates",
+    ],
+    a: 3,
+    exp: "Use the certified implement & manage virtual networking methodology specified for Microsoft Azure Administrator candidates. This is the recommended approach for the Implement & Manage Virtual Networking domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Monitor & Maintain Azure Resources ──
+  {
+    domain: "Monitor & Maintain Azure Resources",
+    q: "Which Monitor & Maintain Azure Resources principle is emphasized in Microsoft Azure Administrator when supporting a government agency?",
+    opts: [
+      "Adopt the monitor & maintain azure resources control framework referenced in Microsoft Azure Administrator study materials",
+      "Skip monitor & maintain azure resources testing before production rollout",
+      "Implement monitor & maintain azure resources without change management or rollback plans",
+      "Use default monitor & maintain azure resources settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the monitor & maintain azure resources control framework referenced in Microsoft Azure Administrator study materials. This is the recommended approach for the Monitor & Maintain Azure Resources domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "A SaaS startup scaling rapidly failed a mock Microsoft Azure Administrator question on Manage Azure Identities & Governance. What concept should they review?",
+    opts: [
+      "Implement manage azure identities & governance without change management or rollback plans",
+      "Configure manage azure identities & governance according to Microsoft Azure Administrator exam blueprint recommendations",
+      "Use default manage azure identities & governance settings without hardening",
+      "Centralize all manage azure identities & governance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure manage azure identities & governance according to Microsoft Azure Administrator exam blueprint recommendations. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Storage ──
+  {
+    domain: "Implement & Manage Storage",
+    q: "For Microsoft Azure Administrator certification, Implement & Manage Storage knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default implement & manage storage settings without hardening",
+      "Centralize all implement & manage storage decisions without stakeholder review",
+      "Select the implement & manage storage option that meets Microsoft Azure Administrator security and governance standards",
+      "Deprecate implement & manage storage controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the implement & manage storage option that meets Microsoft Azure Administrator security and governance standards. This is the recommended approach for the Implement & Manage Storage domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Deploy & Manage Azure Compute ──
+  {
+    domain: "Deploy & Manage Azure Compute",
+    q: "A team at a media company with global users debates Deploy & Manage Azure Compute options while studying Microsoft Azure Administrator. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all deploy & manage azure compute decisions without stakeholder review",
+      "Deprecate deploy & manage azure compute controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses deploy & manage azure compute policies",
+      "Design deploy & manage azure compute using patterns validated in Microsoft Azure Administrator practice assessments",
+    ],
+    a: 3,
+    exp: "Design deploy & manage azure compute using patterns validated in Microsoft Azure Administrator practice assessments. This is the recommended approach for the Deploy & Manage Azure Compute domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Virtual Networking ──
+  {
+    domain: "Implement & Manage Virtual Networking",
+    q: "Which Implement & Manage Virtual Networking capability is validated by Microsoft Azure Administrator for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the Microsoft Azure Administrator-aligned implement & manage virtual networking approach recommended in official exam objectives",
+      "Deprecate implement & manage virtual networking controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses implement & manage virtual networking policies",
+      "Disable monitoring for implement & manage virtual networking to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Microsoft Azure Administrator-aligned implement & manage virtual networking approach recommended in official exam objectives. This is the recommended approach for the Implement & Manage Virtual Networking domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Monitor & Maintain Azure Resources ──
+  {
+    domain: "Monitor & Maintain Azure Resources",
+    q: "When evaluating Monitor & Maintain Azure Resources tools for Microsoft Azure Administrator, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitor & maintain azure resources policies",
+      "Follow industry best practices for monitor & maintain azure resources as defined in the Microsoft Azure Administrator body of knowledge",
+      "Disable monitoring for monitor & maintain azure resources to improve performance",
+      "Grant excessive privileges that violate monitor & maintain azure resources least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for monitor & maintain azure resources as defined in the Microsoft Azure Administrator body of knowledge. This is the recommended approach for the Monitor & Maintain Azure Resources domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "A healthcare organization must document Manage Azure Identities & Governance procedures for Microsoft Azure Administrator compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for manage azure identities & governance to improve performance",
+      "Grant excessive privileges that violate manage azure identities & governance least-privilege principles",
+      "Implement the standard manage azure identities & governance solution that satisfies Microsoft Azure Administrator domain requirements",
+      "Rely solely on manual processes with no manage azure identities & governance automation",
+    ],
+    a: 2,
+    exp: "Implement the standard manage azure identities & governance solution that satisfies Microsoft Azure Administrator domain requirements. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Storage ──
+  {
+    domain: "Implement & Manage Storage",
+    q: "A Microsoft Azure Administrator instructor asks about Implement & Manage Storage in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate implement & manage storage least-privilege principles",
+      "Rely solely on manual processes with no implement & manage storage automation",
+      "Ignore implement & manage storage compliance requirements for faster deployment",
+      "Use the certified implement & manage storage methodology specified for Microsoft Azure Administrator candidates",
+    ],
+    a: 3,
+    exp: "Use the certified implement & manage storage methodology specified for Microsoft Azure Administrator candidates. This is the recommended approach for the Implement & Manage Storage domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Deploy & Manage Azure Compute ──
+  {
+    domain: "Deploy & Manage Azure Compute",
+    q: "Which Deploy & Manage Azure Compute metric best indicates Microsoft Azure Administrator readiness for a government agency?",
+    opts: [
+      "Adopt the deploy & manage azure compute control framework referenced in Microsoft Azure Administrator study materials",
+      "Rely solely on manual processes with no deploy & manage azure compute automation",
+      "Ignore deploy & manage azure compute compliance requirements for faster deployment",
+      "Mix production and test deploy & manage azure compute configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the deploy & manage azure compute control framework referenced in Microsoft Azure Administrator study materials. This is the recommended approach for the Deploy & Manage Azure Compute domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Implement & Manage Virtual Networking ──
+  {
+    domain: "Implement & Manage Virtual Networking",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Implement & Manage Virtual Networking issue while preparing for Microsoft Azure Administrator. What is the first step?",
+    opts: [
+      "Ignore implement & manage virtual networking compliance requirements for faster deployment",
+      "Configure implement & manage virtual networking according to Microsoft Azure Administrator exam blueprint recommendations",
+      "Mix production and test implement & manage virtual networking configurations in one environment",
+      "Store sensitive implement & manage virtual networking credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure implement & manage virtual networking according to Microsoft Azure Administrator exam blueprint recommendations. This is the recommended approach for the Implement & Manage Virtual Networking domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Monitor & Maintain Azure Resources ──
+  {
+    domain: "Monitor & Maintain Azure Resources",
+    q: "In Microsoft Azure Administrator, how should a manufacturing company modernizing IT handle a trade-off involving Monitor & Maintain Azure Resources?",
+    opts: [
+      "Mix production and test monitor & maintain azure resources configurations in one environment",
+      "Store sensitive monitor & maintain azure resources credentials in plain text configuration files",
+      "Select the monitor & maintain azure resources option that meets Microsoft Azure Administrator security and governance standards",
+      "Skip monitor & maintain azure resources testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the monitor & maintain azure resources option that meets Microsoft Azure Administrator security and governance standards. This is the recommended approach for the Monitor & Maintain Azure Resources domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
+
+  // ── Manage Azure Identities & Governance ──
+  {
+    domain: "Manage Azure Identities & Governance",
+    q: "Which Manage Azure Identities & Governance pattern is commonly tested on Microsoft Azure Administrator for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive manage azure identities & governance credentials in plain text configuration files",
+      "Skip manage azure identities & governance testing before production rollout",
+      "Implement manage azure identities & governance without change management or rollback plans",
+      "Design manage azure identities & governance using patterns validated in Microsoft Azure Administrator practice assessments",
+    ],
+    a: 3,
+    exp: "Design manage azure identities & governance using patterns validated in Microsoft Azure Administrator practice assessments. This is the recommended approach for the Manage Azure Identities & Governance domain on the Microsoft Azure Administrator exam and reflects current certification objectives.",
+  },
 ];

@@ -22,28 +22,36 @@
 .inner {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 18px 24px;
+  padding: 20px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .providers {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 900px;
+}
+
+.providerGroup {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .providerItem {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 12px;
+  gap: 5px;
+  font-size: 11px;
   color: var(--muted);
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .dot {

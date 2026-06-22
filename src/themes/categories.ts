@@ -115,6 +115,14 @@ export const CATEGORY_THEMES: Record<string, CategoryTheme> = {
     glow: 'rgba(252,198,36,0.13)',
     tint: 'rgba(252,198,36,0.12)',
   },
+  'ISTQB': {
+    slug: 'istqb',
+    label: 'ISTQB',
+    primary: '#00629b',
+    secondary: '#0095d9',
+    glow: 'rgba(0,98,155,0.13)',
+    tint: 'rgba(0,98,155,0.12)',
+  },
 };
 
 /** Ordered list for selector screen grouping */
@@ -132,10 +140,20 @@ export const CATEGORY_ORDER = [
   'Salesforce',
   'Data & Analytics',
   'Linux',
+  'ISTQB',
 ] as const;
 
 export function getCategoryTheme(provider: string): CategoryTheme {
   return CATEGORY_THEMES[provider] ?? CATEGORY_THEMES['Enterprise Architecture'];
+}
+
+export function getCategorySlug(provider: string): string {
+  return getCategoryTheme(provider).slug;
+}
+
+export function getCategoryBySlug(slug: string): string | null {
+  const match = Object.entries(CATEGORY_THEMES).find(([, theme]) => theme.slug === slug);
+  return match ? match[0] : null;
 }
 
 /** Inline CSS custom properties for a category wrapper element */

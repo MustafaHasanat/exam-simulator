@@ -930,4 +930,1042 @@ export const BANK_DOP: Question[] = [
     a: 0,
     exp: 'DAST tools like OWASP ZAP can run as a CodeBuild action against a live staging environment. The buildspec runs the DAST scan, parses the JSON/XML report for high-severity findings, and exits with a non-zero code to fail the pipeline if critical vulnerabilities are detected. This integrates dynamic testing into the automated pipeline flow.',
   },
+
+  // ── Additional DOP-C02 practice questions (74 added) ──
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "Which SDLC Automation metric best indicates AWS Certified DevOps Engineer – Professional readiness for a government agency?",
+    opts: [
+      "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Configuration Management & IaC issue while preparing for AWS Certified DevOps Engineer – Professional. What is the first step?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "In AWS Certified DevOps Engineer – Professional, how should a manufacturing company modernizing IT handle a trade-off involving Resilient Cloud Solutions?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "Which Monitoring & Logging pattern is commonly tested on AWS Certified DevOps Engineer – Professional for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "A multinational enterprise is preparing for AWS Certified DevOps Engineer – Professional and must strengthen Incident & Event Response. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "During a AWS Certified DevOps Engineer – Professional readiness review at a regulated financial institution, which Security & Compliance approach meets certification objectives?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "A consultant advising a healthcare organization on AWS Certified DevOps Engineer – Professional recommends improvements to SDLC Automation. What should they implement?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "Which Configuration Management & IaC strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified DevOps Engineer – Professional standards?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "An audit of a government agency reveals gaps in Resilient Cloud Solutions for AWS Certified DevOps Engineer – Professional. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified DevOps Engineer – Professional study plan focused on Monitoring & Logging. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "When a manufacturing company modernizing IT implements AWS Certified DevOps Engineer – Professional controls for Incident & Event Response, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified DevOps Engineer – Professional practice exam scenario covers Security & Compliance for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "Which SDLC Automation principle is emphasized in AWS Certified DevOps Engineer – Professional when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A regulated financial institution failed a mock AWS Certified DevOps Engineer – Professional question on Configuration Management & IaC. What concept should they review?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "For AWS Certified DevOps Engineer – Professional certification, Resilient Cloud Solutions knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A team at a high-traffic e-commerce platform debates Monitoring & Logging options while studying AWS Certified DevOps Engineer – Professional. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "Which Incident & Event Response capability is validated by AWS Certified DevOps Engineer – Professional for organizations such as a government agency?",
+    opts: [
+      "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "When evaluating Security & Compliance tools for AWS Certified DevOps Engineer – Professional, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "A manufacturing company modernizing IT must document SDLC Automation procedures for AWS Certified DevOps Engineer – Professional compliance. Which standard applies?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A AWS Certified DevOps Engineer – Professional instructor asks about Configuration Management & IaC in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "Which Resilient Cloud Solutions metric best indicates AWS Certified DevOps Engineer – Professional readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A regulated financial institution is troubleshooting a Monitoring & Logging issue while preparing for AWS Certified DevOps Engineer – Professional. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "In AWS Certified DevOps Engineer – Professional, how should a healthcare organization handle a trade-off involving Incident & Event Response?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance pattern is commonly tested on AWS Certified DevOps Engineer – Professional for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "A government agency is preparing for AWS Certified DevOps Engineer – Professional and must strengthen SDLC Automation. Which option is BEST?",
+    opts: [
+      "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "During a AWS Certified DevOps Engineer – Professional readiness review at a SaaS startup scaling rapidly, which Configuration Management & IaC approach meets certification objectives?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified DevOps Engineer – Professional recommends improvements to Resilient Cloud Solutions. What should they implement?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "Which Monitoring & Logging strategy is MOST appropriate when a media company with global users adopts AWS Certified DevOps Engineer – Professional standards?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "An audit of a multinational enterprise reveals gaps in Incident & Event Response for AWS Certified DevOps Engineer – Professional. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A regulated financial institution is designing a AWS Certified DevOps Engineer – Professional study plan focused on Security & Compliance. Which resource topic is essential?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "When a healthcare organization implements AWS Certified DevOps Engineer – Professional controls for SDLC Automation, which practice reduces operational risk?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A AWS Certified DevOps Engineer – Professional practice exam scenario covers Configuration Management & IaC for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "Which Resilient Cloud Solutions principle is emphasized in AWS Certified DevOps Engineer – Professional when supporting a government agency?",
+    opts: [
+      "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified DevOps Engineer – Professional question on Monitoring & Logging. What concept should they review?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "For AWS Certified DevOps Engineer – Professional certification, Incident & Event Response knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A team at a media company with global users debates Security & Compliance options while studying AWS Certified DevOps Engineer – Professional. Which choice aligns with the exam guide?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "Which SDLC Automation capability is validated by AWS Certified DevOps Engineer – Professional for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "When evaluating Configuration Management & IaC tools for AWS Certified DevOps Engineer – Professional, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "A healthcare organization must document Resilient Cloud Solutions procedures for AWS Certified DevOps Engineer – Professional compliance. Which standard applies?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A AWS Certified DevOps Engineer – Professional instructor asks about Monitoring & Logging in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "Which Incident & Event Response metric best indicates AWS Certified DevOps Engineer – Professional readiness for a government agency?",
+    opts: [
+      "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Security & Compliance issue while preparing for AWS Certified DevOps Engineer – Professional. What is the first step?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "In AWS Certified DevOps Engineer – Professional, how should a manufacturing company modernizing IT handle a trade-off involving SDLC Automation?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "Which Configuration Management & IaC pattern is commonly tested on AWS Certified DevOps Engineer – Professional for scenarios involving a media company with global users?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "A multinational enterprise is preparing for AWS Certified DevOps Engineer – Professional and must strengthen Resilient Cloud Solutions. Which option is BEST?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "During a AWS Certified DevOps Engineer – Professional readiness review at a regulated financial institution, which Monitoring & Logging approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "A consultant advising a healthcare organization on AWS Certified DevOps Engineer – Professional recommends improvements to Incident & Event Response. What should they implement?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "Which Security & Compliance strategy is MOST appropriate when a high-traffic e-commerce platform adopts AWS Certified DevOps Engineer – Professional standards?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "An audit of a government agency reveals gaps in SDLC Automation for AWS Certified DevOps Engineer – Professional. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A SaaS startup scaling rapidly is designing a AWS Certified DevOps Engineer – Professional study plan focused on Configuration Management & IaC. Which resource topic is essential?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "When a manufacturing company modernizing IT implements AWS Certified DevOps Engineer – Professional controls for Resilient Cloud Solutions, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the resilient cloud solutions option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A AWS Certified DevOps Engineer – Professional practice exam scenario covers Monitoring & Logging for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design monitoring & logging using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "Which Incident & Event Response principle is emphasized in AWS Certified DevOps Engineer – Professional when supporting a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned incident & event response approach recommended in official exam objectives. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A regulated financial institution failed a mock AWS Certified DevOps Engineer – Professional question on Security & Compliance. What concept should they review?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for security & compliance as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "For AWS Certified DevOps Engineer – Professional certification, SDLC Automation knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard sdlc automation solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A team at a high-traffic e-commerce platform debates Configuration Management & IaC options while studying AWS Certified DevOps Engineer – Professional. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified configuration management & iac methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "Which Resilient Cloud Solutions capability is validated by AWS Certified DevOps Engineer – Professional for organizations such as a government agency?",
+    opts: [
+      "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the resilient cloud solutions control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "When evaluating Monitoring & Logging tools for AWS Certified DevOps Engineer – Professional, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure monitoring & logging according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "A manufacturing company modernizing IT must document Incident & Event Response procedures for AWS Certified DevOps Engineer – Professional compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Select the incident & event response option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified DevOps Engineer – Professional instructor asks about Security & Compliance in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design security & compliance using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "Which SDLC Automation metric best indicates AWS Certified DevOps Engineer – Professional readiness for a multinational enterprise?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned sdlc automation approach recommended in official exam objectives. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A regulated financial institution is troubleshooting a Configuration Management & IaC issue while preparing for AWS Certified DevOps Engineer – Professional. What is the first step?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for configuration management & iac as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "In AWS Certified DevOps Engineer – Professional, how should a healthcare organization handle a trade-off involving Resilient Cloud Solutions?",
+    opts: [
+      "Mix production and test resilient cloud solutions configurations in one environment",
+      "Store sensitive resilient cloud solutions credentials in plain text configuration files",
+      "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Skip resilient cloud solutions testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard resilient cloud solutions solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "Which Monitoring & Logging pattern is commonly tested on AWS Certified DevOps Engineer – Professional for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Store sensitive monitoring & logging credentials in plain text configuration files",
+      "Skip monitoring & logging testing before production rollout",
+      "Implement monitoring & logging without change management or rollback plans",
+      "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified monitoring & logging methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "A government agency is preparing for AWS Certified DevOps Engineer – Professional and must strengthen Incident & Event Response. Which option is BEST?",
+    opts: [
+      "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Skip incident & event response testing before production rollout",
+      "Implement incident & event response without change management or rollback plans",
+      "Use default incident & event response settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the incident & event response control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "During a AWS Certified DevOps Engineer – Professional readiness review at a SaaS startup scaling rapidly, which Security & Compliance approach meets certification objectives?",
+    opts: [
+      "Implement security & compliance without change management or rollback plans",
+      "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Use default security & compliance settings without hardening",
+      "Centralize all security & compliance decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure security & compliance according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "A consultant advising a manufacturing company modernizing IT on AWS Certified DevOps Engineer – Professional recommends improvements to SDLC Automation. What should they implement?",
+    opts: [
+      "Use default sdlc automation settings without hardening",
+      "Centralize all sdlc automation decisions without stakeholder review",
+      "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards",
+      "Deprecate sdlc automation controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the sdlc automation option that meets AWS Certified DevOps Engineer – Professional security and governance standards. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "Which Configuration Management & IaC strategy is MOST appropriate when a media company with global users adopts AWS Certified DevOps Engineer – Professional standards?",
+    opts: [
+      "Centralize all configuration management & iac decisions without stakeholder review",
+      "Deprecate configuration management & iac controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses configuration management & iac policies",
+      "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments",
+    ],
+    a: 3,
+    exp: "Design configuration management & iac using patterns validated in AWS Certified DevOps Engineer – Professional practice assessments. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Resilient Cloud Solutions ──
+  {
+    domain: "Resilient Cloud Solutions",
+    q: "An audit of a multinational enterprise reveals gaps in Resilient Cloud Solutions for AWS Certified DevOps Engineer – Professional. Which remediation is CORRECT?",
+    opts: [
+      "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives",
+      "Deprecate resilient cloud solutions controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses resilient cloud solutions policies",
+      "Disable monitoring for resilient cloud solutions to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the AWS Certified DevOps Engineer – Professional-aligned resilient cloud solutions approach recommended in official exam objectives. This is the recommended approach for the Resilient Cloud Solutions domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Monitoring & Logging ──
+  {
+    domain: "Monitoring & Logging",
+    q: "A regulated financial institution is designing a AWS Certified DevOps Engineer – Professional study plan focused on Monitoring & Logging. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses monitoring & logging policies",
+      "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge",
+      "Disable monitoring for monitoring & logging to improve performance",
+      "Grant excessive privileges that violate monitoring & logging least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for monitoring & logging as defined in the AWS Certified DevOps Engineer – Professional body of knowledge. This is the recommended approach for the Monitoring & Logging domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Incident & Event Response ──
+  {
+    domain: "Incident & Event Response",
+    q: "When a healthcare organization implements AWS Certified DevOps Engineer – Professional controls for Incident & Event Response, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for incident & event response to improve performance",
+      "Grant excessive privileges that violate incident & event response least-privilege principles",
+      "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements",
+      "Rely solely on manual processes with no incident & event response automation",
+    ],
+    a: 2,
+    exp: "Implement the standard incident & event response solution that satisfies AWS Certified DevOps Engineer – Professional domain requirements. This is the recommended approach for the Incident & Event Response domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Security & Compliance ──
+  {
+    domain: "Security & Compliance",
+    q: "A AWS Certified DevOps Engineer – Professional practice exam scenario covers Security & Compliance for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate security & compliance least-privilege principles",
+      "Rely solely on manual processes with no security & compliance automation",
+      "Ignore security & compliance compliance requirements for faster deployment",
+      "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates",
+    ],
+    a: 3,
+    exp: "Use the certified security & compliance methodology specified for AWS Certified DevOps Engineer – Professional candidates. This is the recommended approach for the Security & Compliance domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── SDLC Automation ──
+  {
+    domain: "SDLC Automation",
+    q: "Which SDLC Automation principle is emphasized in AWS Certified DevOps Engineer – Professional when supporting a government agency?",
+    opts: [
+      "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials",
+      "Rely solely on manual processes with no sdlc automation automation",
+      "Ignore sdlc automation compliance requirements for faster deployment",
+      "Mix production and test sdlc automation configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the sdlc automation control framework referenced in AWS Certified DevOps Engineer – Professional study materials. This is the recommended approach for the SDLC Automation domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
+
+  // ── Configuration Management & IaC ──
+  {
+    domain: "Configuration Management & IaC",
+    q: "A SaaS startup scaling rapidly failed a mock AWS Certified DevOps Engineer – Professional question on Configuration Management & IaC. What concept should they review?",
+    opts: [
+      "Ignore configuration management & iac compliance requirements for faster deployment",
+      "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations",
+      "Mix production and test configuration management & iac configurations in one environment",
+      "Store sensitive configuration management & iac credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure configuration management & iac according to AWS Certified DevOps Engineer – Professional exam blueprint recommendations. This is the recommended approach for the Configuration Management & IaC domain on the AWS Certified DevOps Engineer – Professional exam and reflects current certification objectives.",
+  },
 ];

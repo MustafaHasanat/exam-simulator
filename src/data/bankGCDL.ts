@@ -732,4 +732,566 @@ export const BANK_GCDL: Question[] = [
     a: 2,
     exp: 'Vertex AI Search and Grounding supports Retrieval-Augmented Generation (RAG), which grounds a generative model\'s responses in an organization\'s specific documents or data. This reduces hallucinations and ensures answers are based on authoritative internal content.',
   },
+
+  // ── Additional Cloud Digital Leader practice questions (40 added) ──
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "A government agency is preparing for Google Cloud Digital Leader and must strengthen With Data on Google Cloud. Which option is BEST?",
+    opts: [
+      "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials",
+      "Deprecate with data on google cloud controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses with data on google cloud policies",
+      "Disable monitoring for with data on google cloud to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "During a Google Cloud Digital Leader readiness review at a SaaS startup scaling rapidly, which Infrastructure & Application Modernization approach meets certification objectives?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure & application modernization policies",
+      "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations",
+      "Disable monitoring for infrastructure & application modernization to improve performance",
+      "Grant excessive privileges that violate infrastructure & application modernization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "A consultant advising a manufacturing company modernizing IT on Google Cloud Digital Leader recommends improvements to Google Cloud Security & Operations. What should they implement?",
+    opts: [
+      "Disable monitoring for google cloud security & operations to improve performance",
+      "Grant excessive privileges that violate google cloud security & operations least-privilege principles",
+      "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards",
+      "Rely solely on manual processes with no google cloud security & operations automation",
+    ],
+    a: 2,
+    exp: "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "Which Innovating with Google Cloud AI strategy is MOST appropriate when a media company with global users adopts Google Cloud Digital Leader standards?",
+    opts: [
+      "Grant excessive privileges that violate innovating with google cloud ai least-privilege principles",
+      "Rely solely on manual processes with no innovating with google cloud ai automation",
+      "Ignore innovating with google cloud ai compliance requirements for faster deployment",
+      "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments",
+    ],
+    a: 3,
+    exp: "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "An audit of a multinational enterprise reveals gaps in With Data on Google Cloud for Google Cloud Digital Leader. Which remediation is CORRECT?",
+    opts: [
+      "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives",
+      "Rely solely on manual processes with no with data on google cloud automation",
+      "Ignore with data on google cloud compliance requirements for faster deployment",
+      "Mix production and test with data on google cloud configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A regulated financial institution is designing a Google Cloud Digital Leader study plan focused on Infrastructure & Application Modernization. Which resource topic is essential?",
+    opts: [
+      "Ignore infrastructure & application modernization compliance requirements for faster deployment",
+      "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge",
+      "Mix production and test infrastructure & application modernization configurations in one environment",
+      "Store sensitive infrastructure & application modernization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "When a healthcare organization implements Google Cloud Digital Leader controls for Google Cloud Security & Operations, which practice reduces operational risk?",
+    opts: [
+      "Mix production and test google cloud security & operations configurations in one environment",
+      "Store sensitive google cloud security & operations credentials in plain text configuration files",
+      "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements",
+      "Skip google cloud security & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A Google Cloud Digital Leader practice exam scenario covers Innovating with Google Cloud AI for a high-traffic e-commerce platform. Which answer demonstrates mastery?",
+    opts: [
+      "Store sensitive innovating with google cloud ai credentials in plain text configuration files",
+      "Skip innovating with google cloud ai testing before production rollout",
+      "Implement innovating with google cloud ai without change management or rollback plans",
+      "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates",
+    ],
+    a: 3,
+    exp: "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud principle is emphasized in Google Cloud Digital Leader when supporting a government agency?",
+    opts: [
+      "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials",
+      "Skip with data on google cloud testing before production rollout",
+      "Implement with data on google cloud without change management or rollback plans",
+      "Use default with data on google cloud settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A SaaS startup scaling rapidly failed a mock Google Cloud Digital Leader question on Infrastructure & Application Modernization. What concept should they review?",
+    opts: [
+      "Implement infrastructure & application modernization without change management or rollback plans",
+      "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations",
+      "Use default infrastructure & application modernization settings without hardening",
+      "Centralize all infrastructure & application modernization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "For Google Cloud Digital Leader certification, Google Cloud Security & Operations knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    opts: [
+      "Use default google cloud security & operations settings without hardening",
+      "Centralize all google cloud security & operations decisions without stakeholder review",
+      "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards",
+      "Deprecate google cloud security & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A team at a media company with global users debates Innovating with Google Cloud AI options while studying Google Cloud Digital Leader. Which choice aligns with the exam guide?",
+    opts: [
+      "Centralize all innovating with google cloud ai decisions without stakeholder review",
+      "Deprecate innovating with google cloud ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses innovating with google cloud ai policies",
+      "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments",
+    ],
+    a: 3,
+    exp: "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud capability is validated by Google Cloud Digital Leader for organizations such as a multinational enterprise?",
+    opts: [
+      "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives",
+      "Deprecate with data on google cloud controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses with data on google cloud policies",
+      "Disable monitoring for with data on google cloud to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "When evaluating Infrastructure & Application Modernization tools for Google Cloud Digital Leader, a regulated financial institution should prioritize which criterion?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure & application modernization policies",
+      "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge",
+      "Disable monitoring for infrastructure & application modernization to improve performance",
+      "Grant excessive privileges that violate infrastructure & application modernization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "A healthcare organization must document Google Cloud Security & Operations procedures for Google Cloud Digital Leader compliance. Which standard applies?",
+    opts: [
+      "Disable monitoring for google cloud security & operations to improve performance",
+      "Grant excessive privileges that violate google cloud security & operations least-privilege principles",
+      "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements",
+      "Rely solely on manual processes with no google cloud security & operations automation",
+    ],
+    a: 2,
+    exp: "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A Google Cloud Digital Leader instructor asks about Innovating with Google Cloud AI in the context of a high-traffic e-commerce platform. What is the accurate response?",
+    opts: [
+      "Grant excessive privileges that violate innovating with google cloud ai least-privilege principles",
+      "Rely solely on manual processes with no innovating with google cloud ai automation",
+      "Ignore innovating with google cloud ai compliance requirements for faster deployment",
+      "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates",
+    ],
+    a: 3,
+    exp: "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud metric best indicates Google Cloud Digital Leader readiness for a government agency?",
+    opts: [
+      "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials",
+      "Rely solely on manual processes with no with data on google cloud automation",
+      "Ignore with data on google cloud compliance requirements for faster deployment",
+      "Mix production and test with data on google cloud configurations in one environment",
+    ],
+    a: 0,
+    exp: "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A SaaS startup scaling rapidly is troubleshooting a Infrastructure & Application Modernization issue while preparing for Google Cloud Digital Leader. What is the first step?",
+    opts: [
+      "Ignore infrastructure & application modernization compliance requirements for faster deployment",
+      "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations",
+      "Mix production and test infrastructure & application modernization configurations in one environment",
+      "Store sensitive infrastructure & application modernization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "In Google Cloud Digital Leader, how should a manufacturing company modernizing IT handle a trade-off involving Google Cloud Security & Operations?",
+    opts: [
+      "Mix production and test google cloud security & operations configurations in one environment",
+      "Store sensitive google cloud security & operations credentials in plain text configuration files",
+      "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards",
+      "Skip google cloud security & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "Which Innovating with Google Cloud AI pattern is commonly tested on Google Cloud Digital Leader for scenarios involving a media company with global users?",
+    opts: [
+      "Store sensitive innovating with google cloud ai credentials in plain text configuration files",
+      "Skip innovating with google cloud ai testing before production rollout",
+      "Implement innovating with google cloud ai without change management or rollback plans",
+      "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments",
+    ],
+    a: 3,
+    exp: "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "A multinational enterprise is preparing for Google Cloud Digital Leader and must strengthen With Data on Google Cloud. Which option is BEST?",
+    opts: [
+      "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives",
+      "Skip with data on google cloud testing before production rollout",
+      "Implement with data on google cloud without change management or rollback plans",
+      "Use default with data on google cloud settings without hardening",
+    ],
+    a: 0,
+    exp: "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "During a Google Cloud Digital Leader readiness review at a regulated financial institution, which Infrastructure & Application Modernization approach meets certification objectives?",
+    opts: [
+      "Implement infrastructure & application modernization without change management or rollback plans",
+      "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge",
+      "Use default infrastructure & application modernization settings without hardening",
+      "Centralize all infrastructure & application modernization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "A consultant advising a healthcare organization on Google Cloud Digital Leader recommends improvements to Google Cloud Security & Operations. What should they implement?",
+    opts: [
+      "Use default google cloud security & operations settings without hardening",
+      "Centralize all google cloud security & operations decisions without stakeholder review",
+      "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements",
+      "Deprecate google cloud security & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "Which Innovating with Google Cloud AI strategy is MOST appropriate when a high-traffic e-commerce platform adopts Google Cloud Digital Leader standards?",
+    opts: [
+      "Centralize all innovating with google cloud ai decisions without stakeholder review",
+      "Deprecate innovating with google cloud ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses innovating with google cloud ai policies",
+      "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates",
+    ],
+    a: 3,
+    exp: "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "An audit of a government agency reveals gaps in With Data on Google Cloud for Google Cloud Digital Leader. Which remediation is CORRECT?",
+    opts: [
+      "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials",
+      "Deprecate with data on google cloud controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses with data on google cloud policies",
+      "Disable monitoring for with data on google cloud to improve performance",
+    ],
+    a: 0,
+    exp: "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A SaaS startup scaling rapidly is designing a Google Cloud Digital Leader study plan focused on Infrastructure & Application Modernization. Which resource topic is essential?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure & application modernization policies",
+      "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations",
+      "Disable monitoring for infrastructure & application modernization to improve performance",
+      "Grant excessive privileges that violate infrastructure & application modernization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "When a manufacturing company modernizing IT implements Google Cloud Digital Leader controls for Google Cloud Security & Operations, which practice reduces operational risk?",
+    opts: [
+      "Disable monitoring for google cloud security & operations to improve performance",
+      "Grant excessive privileges that violate google cloud security & operations least-privilege principles",
+      "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards",
+      "Rely solely on manual processes with no google cloud security & operations automation",
+    ],
+    a: 2,
+    exp: "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A Google Cloud Digital Leader practice exam scenario covers Innovating with Google Cloud AI for a media company with global users. Which answer demonstrates mastery?",
+    opts: [
+      "Grant excessive privileges that violate innovating with google cloud ai least-privilege principles",
+      "Rely solely on manual processes with no innovating with google cloud ai automation",
+      "Ignore innovating with google cloud ai compliance requirements for faster deployment",
+      "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments",
+    ],
+    a: 3,
+    exp: "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud principle is emphasized in Google Cloud Digital Leader when supporting a multinational enterprise?",
+    opts: [
+      "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives",
+      "Rely solely on manual processes with no with data on google cloud automation",
+      "Ignore with data on google cloud compliance requirements for faster deployment",
+      "Mix production and test with data on google cloud configurations in one environment",
+    ],
+    a: 0,
+    exp: "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A regulated financial institution failed a mock Google Cloud Digital Leader question on Infrastructure & Application Modernization. What concept should they review?",
+    opts: [
+      "Ignore infrastructure & application modernization compliance requirements for faster deployment",
+      "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge",
+      "Mix production and test infrastructure & application modernization configurations in one environment",
+      "Store sensitive infrastructure & application modernization credentials in plain text configuration files",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "For Google Cloud Digital Leader certification, Google Cloud Security & Operations knowledge is tested through scenarios like a healthcare organization. Which solution fits?",
+    opts: [
+      "Mix production and test google cloud security & operations configurations in one environment",
+      "Store sensitive google cloud security & operations credentials in plain text configuration files",
+      "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements",
+      "Skip google cloud security & operations testing before production rollout",
+    ],
+    a: 2,
+    exp: "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A team at a high-traffic e-commerce platform debates Innovating with Google Cloud AI options while studying Google Cloud Digital Leader. Which choice aligns with the exam guide?",
+    opts: [
+      "Store sensitive innovating with google cloud ai credentials in plain text configuration files",
+      "Skip innovating with google cloud ai testing before production rollout",
+      "Implement innovating with google cloud ai without change management or rollback plans",
+      "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates",
+    ],
+    a: 3,
+    exp: "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud capability is validated by Google Cloud Digital Leader for organizations such as a government agency?",
+    opts: [
+      "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials",
+      "Skip with data on google cloud testing before production rollout",
+      "Implement with data on google cloud without change management or rollback plans",
+      "Use default with data on google cloud settings without hardening",
+    ],
+    a: 0,
+    exp: "Adopt the with data on google cloud control framework referenced in Google Cloud Digital Leader study materials. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "When evaluating Infrastructure & Application Modernization tools for Google Cloud Digital Leader, a SaaS startup scaling rapidly should prioritize which criterion?",
+    opts: [
+      "Implement infrastructure & application modernization without change management or rollback plans",
+      "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations",
+      "Use default infrastructure & application modernization settings without hardening",
+      "Centralize all infrastructure & application modernization decisions without stakeholder review",
+    ],
+    a: 1,
+    exp: "Configure infrastructure & application modernization according to Google Cloud Digital Leader exam blueprint recommendations. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "A manufacturing company modernizing IT must document Google Cloud Security & Operations procedures for Google Cloud Digital Leader compliance. Which standard applies?",
+    opts: [
+      "Use default google cloud security & operations settings without hardening",
+      "Centralize all google cloud security & operations decisions without stakeholder review",
+      "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards",
+      "Deprecate google cloud security & operations controls entirely to reduce complexity",
+    ],
+    a: 2,
+    exp: "Select the google cloud security & operations option that meets Google Cloud Digital Leader security and governance standards. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "A Google Cloud Digital Leader instructor asks about Innovating with Google Cloud AI in the context of a media company with global users. What is the accurate response?",
+    opts: [
+      "Centralize all innovating with google cloud ai decisions without stakeholder review",
+      "Deprecate innovating with google cloud ai controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses innovating with google cloud ai policies",
+      "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments",
+    ],
+    a: 3,
+    exp: "Design innovating with google cloud ai using patterns validated in Google Cloud Digital Leader practice assessments. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── With Data on Google Cloud ──
+  {
+    domain: "With Data on Google Cloud",
+    q: "Which With Data on Google Cloud metric best indicates Google Cloud Digital Leader readiness for a multinational enterprise?",
+    opts: [
+      "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives",
+      "Deprecate with data on google cloud controls entirely to reduce complexity",
+      "Use an undocumented workaround that bypasses with data on google cloud policies",
+      "Disable monitoring for with data on google cloud to improve performance",
+    ],
+    a: 0,
+    exp: "Apply the Google Cloud Digital Leader-aligned with data on google cloud approach recommended in official exam objectives. This is the recommended approach for the With Data on Google Cloud domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Infrastructure & Application Modernization ──
+  {
+    domain: "Infrastructure & Application Modernization",
+    q: "A regulated financial institution is troubleshooting a Infrastructure & Application Modernization issue while preparing for Google Cloud Digital Leader. What is the first step?",
+    opts: [
+      "Use an undocumented workaround that bypasses infrastructure & application modernization policies",
+      "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge",
+      "Disable monitoring for infrastructure & application modernization to improve performance",
+      "Grant excessive privileges that violate infrastructure & application modernization least-privilege principles",
+    ],
+    a: 1,
+    exp: "Follow industry best practices for infrastructure & application modernization as defined in the Google Cloud Digital Leader body of knowledge. This is the recommended approach for the Infrastructure & Application Modernization domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Google Cloud Security & Operations ──
+  {
+    domain: "Google Cloud Security & Operations",
+    q: "In Google Cloud Digital Leader, how should a healthcare organization handle a trade-off involving Google Cloud Security & Operations?",
+    opts: [
+      "Disable monitoring for google cloud security & operations to improve performance",
+      "Grant excessive privileges that violate google cloud security & operations least-privilege principles",
+      "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements",
+      "Rely solely on manual processes with no google cloud security & operations automation",
+    ],
+    a: 2,
+    exp: "Implement the standard google cloud security & operations solution that satisfies Google Cloud Digital Leader domain requirements. This is the recommended approach for the Google Cloud Security & Operations domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
+
+  // ── Innovating with Google Cloud AI ──
+  {
+    domain: "Innovating with Google Cloud AI",
+    q: "Which Innovating with Google Cloud AI pattern is commonly tested on Google Cloud Digital Leader for scenarios involving a high-traffic e-commerce platform?",
+    opts: [
+      "Grant excessive privileges that violate innovating with google cloud ai least-privilege principles",
+      "Rely solely on manual processes with no innovating with google cloud ai automation",
+      "Ignore innovating with google cloud ai compliance requirements for faster deployment",
+      "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates",
+    ],
+    a: 3,
+    exp: "Use the certified innovating with google cloud ai methodology specified for Google Cloud Digital Leader candidates. This is the recommended approach for the Innovating with Google Cloud AI domain on the Google Cloud Digital Leader exam and reflects current certification objectives.",
+  },
 ];
