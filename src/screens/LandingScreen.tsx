@@ -1,4 +1,5 @@
 import type { ExamConfig } from '../types';
+import { categoryStyle } from '../themes/categories';
 import styles from './LandingScreen.module.css';
 
 interface LandingScreenProps {
@@ -7,47 +8,19 @@ interface LandingScreenProps {
   onBack: () => void;
 }
 
-const THEME: Record<string, {
-  screen: string; badge: string; accent: string; metaVal: string;
-  startBtn: string; domainBar: string; registerBtn: string;
-}> = {
-  '101': {
-    screen: styles.screen101, badge: styles.badge101, accent: styles.accent101,
-    metaVal: styles.metaVal101, startBtn: styles.startBtn101,
-    domainBar: styles.domainBar101, registerBtn: styles.registerBtn101,
-  },
-  '102': {
-    screen: styles.screen102, badge: styles.badge102, accent: styles.accent102,
-    metaVal: styles.metaVal102, startBtn: styles.startBtn102,
-    domainBar: styles.domainBar102, registerBtn: styles.registerBtn102,
-  },
-  'SAA': {
-    screen: styles.screenSAA, badge: styles.badgeSAA, accent: styles.accentSAA,
-    metaVal: styles.metaValSAA, startBtn: styles.startBtnSAA,
-    domainBar: styles.domainBarSAA, registerBtn: styles.registerBtnSAA,
-  },
-  'SAP': {
-    screen: styles.screenSAP, badge: styles.badgeSAP, accent: styles.accentSAP,
-    metaVal: styles.metaValSAP, startBtn: styles.startBtnSAP,
-    domainBar: styles.domainBarSAP, registerBtn: styles.registerBtnSAP,
-  },
-};
-
 export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
-  const theme = THEME[config.id] ?? THEME['101'];
+  const catStyle = categoryStyle(config.provider);
 
   return (
-    <div className={`${styles.screen} ${theme.screen}`}>
+    <div className={styles.screen} style={catStyle}>
       <div className={styles.inner}>
 
-        {/* ── Back button ── */}
         <button className={styles.backBtn} onClick={onBack}>
           ← All Exams
         </button>
 
-        {/* ── Header block ── */}
         <div className={styles.headerBlock}>
-          <div className={`${styles.badge} ${theme.badge}`}>
+          <div className={styles.badge}>
             {config.provider} · {config.level}
           </div>
 
@@ -55,14 +28,13 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
             {config.fullName.split('–').map((part, i) => (
               i === 0
                 ? <span key={i}>{part.trim()}</span>
-                : <em key={i} className={theme.accent}>&nbsp;– {part.trim()}</em>
+                : <em key={i} className={styles.accent}>&nbsp;– {part.trim()}</em>
             ))}
           </h1>
 
           <p className={styles.sub}>{config.about}</p>
         </div>
 
-        {/* ── Stats grid ── */}
         <div className={styles.metaGrid}>
           {[
             { val: config.questions, lbl: 'Questions', icon: '❓' },
@@ -72,16 +44,13 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
           ].map(({ val, lbl, icon }) => (
             <div key={lbl} className={styles.metaBox}>
               <span className={styles.metaIcon}>{icon}</span>
-              <span className={`${styles.metaVal} ${theme.metaVal}`}>{val}</span>
+              <span className={styles.metaVal}>{val}</span>
               <span className={styles.metaLbl}>{lbl}</span>
             </div>
           ))}
         </div>
 
-        {/* ── Two-column detail panel ── */}
         <div className={styles.detailPanel}>
-
-          {/* Domain coverage */}
           <div className={styles.detailCard}>
             <h3 className={styles.detailTitle}>Exam Domains</h3>
             <div className={styles.domains}>
@@ -93,7 +62,7 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
                   </div>
                   <div className={styles.domainTrack}>
                     <div
-                      className={`${styles.domainFill} ${theme.domainBar}`}
+                      className={styles.domainFill}
                       style={{ width: `${d.weight}%` }}
                     />
                   </div>
@@ -102,7 +71,6 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
             </div>
           </div>
 
-          {/* Exam info */}
           <div className={styles.detailCard}>
             <h3 className={styles.detailTitle}>Exam Information</h3>
             <div className={styles.infoList}>
@@ -130,12 +98,11 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
               </div>
             </div>
 
-            {/* Register link */}
             <a
               href={config.registrationUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${styles.registerBtn} ${theme.registerBtn}`}
+              className={styles.registerBtn}
             >
               <span>Register for this Exam</span>
               <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +112,6 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
           </div>
         </div>
 
-        {/* ── Optional note ── */}
         {config.note && (
           <div className={styles.note}>
             <svg className={styles.noteIcon} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,15 +125,11 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
           </div>
         )}
 
-        {/* ── CTA ── */}
         <div className={styles.ctaRow}>
           <div className={styles.bankInfo}>
             {config.bank.length} questions in bank · {config.questions} drawn randomly per attempt
           </div>
-          <button
-            className={`${styles.startBtn} ${theme.startBtn}`}
-            onClick={onStart}
-          >
+          <button className={styles.startBtn} onClick={onStart}>
             Start Practice Exam
           </button>
         </div>

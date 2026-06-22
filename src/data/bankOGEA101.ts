@@ -1,6 +1,6 @@
 import type { Question } from '../types';
 
-export const BANK_101: Question[] = [
+export const BANK_OGEA_101: Question[] = [
   // ── DOMAIN: TOGAF Overview ──
   {
     domain: 'TOGAF Overview',

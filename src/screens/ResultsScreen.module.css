@@ -140,8 +140,7 @@
   transition: opacity 0.15s;
 }
 .restartBtn:hover { opacity: 0.9; }
-.restartBtn101 { background: linear-gradient(135deg, var(--accent2), var(--accent)); }
-.restartBtn102 { background: linear-gradient(135deg, var(--orange), var(--orange2)); }
+.restartBtn { background: linear-gradient(135deg, var(--cat-primary, var(--accent2)), var(--cat-secondary, var(--accent))); }
 
 .homeBtn {
   background: var(--surface);

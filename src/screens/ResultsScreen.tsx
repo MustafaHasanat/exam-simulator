@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import type { ExamResult, ExamConfig } from '../types';
 import { LETTERS, formatTime } from '../hooks/utils';
+import { categoryStyle } from '../themes/categories';
 import styles from './ResultsScreen.module.css';
 
 interface ResultsScreenProps {
@@ -12,7 +13,7 @@ interface ResultsScreenProps {
 
 export function ResultsScreen({ result, config, onRestart, onHome }: ResultsScreenProps) {
   const { questions, answers, timeUsed } = result;
-  const is102 = config.id === '102';
+  const catStyle = categoryStyle(config.provider);
   const total = questions.length;
 
   let correct = 0, wrong = 0, skipped = 0;
@@ -42,7 +43,8 @@ export function ResultsScreen({ result, config, onRestart, onHome }: ResultsScre
   const actionBtns = (
     <>
       <button
-        className={`${styles.restartBtn} ${is102 ? styles.restartBtn102 : styles.restartBtn101}`}
+        className={styles.restartBtn}
+        style={catStyle}
         onClick={onRestart}
       >
         🔄 New {config.label} Exam

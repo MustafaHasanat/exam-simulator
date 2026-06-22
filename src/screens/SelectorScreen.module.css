@@ -15,7 +15,6 @@
     var(--bg);
 }
 
-/* ── Hero section ── */
 .hero {
   width: 100%;
   max-width: 680px;
@@ -56,7 +55,6 @@
   line-height: 1.7;
 }
 
-/* ── Search bar ── */
 .searchWrap {
   position: relative;
   width: 100%;
@@ -76,9 +74,7 @@
   transition: color 0.2s;
 }
 
-.searchWrap:focus-within .searchIcon {
-  color: var(--accent);
-}
+.searchWrap:focus-within .searchIcon { color: var(--accent); }
 
 .searchInput {
   width: 100%;
@@ -116,7 +112,6 @@
 }
 .searchClear:hover { color: var(--text); }
 
-/* ── Provider groups ── */
 .groups {
   width: 100%;
   max-width: 1200px;
@@ -126,19 +121,17 @@
 }
 
 .providerSection {
+  border-left: 3px solid var(--cat-primary, var(--accent2));
+  padding-left: 20px;
+  opacity: 0.85;
   animation: fadeInSection 0.45s ease both;
 }
 
 @keyframes fadeInSection {
   from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0.85; transform: translateY(0); }
 }
 
-/* Provider colour accents on section left border */
-.sectionTOGAF { border-left: 3px solid rgba(124,92,191,0.4); padding-left: 20px; }
-.sectionAWS   { border-left: 3px solid rgba(255,153,0,0.45); padding-left: 20px; }
-
-/* ── Section header row ── */
 .sectionHeader {
   display: flex;
   align-items: center;
@@ -156,26 +149,17 @@
   border-radius: 4px;
   white-space: nowrap;
   flex-shrink: 0;
-}
-
-.badgeTOGAF {
-  color: var(--accent2);
-  background: rgba(124,92,191,0.12);
-  border: 1px solid rgba(124,92,191,0.3);
-}
-.badgeAWS {
-  color: var(--aws);
-  background: rgba(255,153,0,0.1);
-  border: 1px solid rgba(255,153,0,0.28);
+  color: var(--cat-primary, var(--accent2));
+  background: var(--cat-tint, rgba(124,92,191,0.12));
+  border: 1px solid color-mix(in srgb, var(--cat-primary, var(--accent2)) 30%, transparent);
 }
 
 .sectionLine {
   flex: 1;
   height: 1px;
   opacity: 0.3;
+  background: linear-gradient(90deg, var(--cat-primary, var(--accent2)), transparent);
 }
-.lineTOGAF { background: linear-gradient(90deg, var(--accent2), transparent); }
-.lineAWS   { background: linear-gradient(90deg, var(--aws), transparent); }
 
 .sectionCount {
   font-family: 'IBM Plex Mono', monospace;
@@ -185,7 +169,6 @@
   flex-shrink: 0;
 }
 
-/* ── Cards row ── */
 .cards {
   display: flex;
   gap: 18px;
@@ -204,7 +187,6 @@
   to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-/* ── Individual card ── */
 .card {
   height: 100%;
   background: var(--surface);
@@ -220,7 +202,6 @@
   flex-direction: column;
 }
 
-/* Animated shimmer overlay on hover */
 .card::after {
   content: '';
   position: absolute;
@@ -233,26 +214,21 @@
 }
 .card:hover::after { background-position: 0% 100%; }
 
-/* Colour accent strip on top */
 .card::before {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 3px;
   border-radius: 14px 14px 0 0;
+  background: linear-gradient(90deg, var(--cat-primary), var(--cat-secondary));
 }
-.card101::before { background: linear-gradient(90deg, var(--accent2), var(--accent)); }
-.card102::before { background: linear-gradient(90deg, var(--orange), var(--orange2)); }
-.cardSAA::before { background: linear-gradient(90deg, var(--aws), var(--aws2)); }
-.cardSAP::before { background: linear-gradient(90deg, var(--teal), var(--teal2)); }
 
-.card:hover { transform: translateY(-5px); box-shadow: 0 16px 48px rgba(0,0,0,0.45); }
-.card101:hover { border-color: rgba(0,212,255,0.5); }
-.card102:hover { border-color: rgba(245,158,11,0.5); }
-.cardSAA:hover { border-color: rgba(255,153,0,0.5); }
-.cardSAP:hover { border-color: rgba(0,180,160,0.5); }
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.45);
+  border-color: color-mix(in srgb, var(--cat-primary) 50%, transparent);
+}
 
-/* ── Level badge ── */
 .levelBadge {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 10px;
@@ -262,11 +238,10 @@
   padding: 3px 10px;
   border-radius: 3px;
   display: inline-block;
+  color: var(--cat-primary);
+  background: var(--cat-tint);
+  border: 1px solid color-mix(in srgb, var(--cat-primary) 22%, transparent);
 }
-.level101 { color: var(--accent);  background: rgba(0,212,255,0.08);  border: 1px solid rgba(0,212,255,0.22); }
-.level102 { color: var(--orange);  background: rgba(245,158,11,0.08); border: 1px solid rgba(245,158,11,0.22); }
-.levelSAA { color: var(--aws);     background: rgba(255,153,0,0.08);  border: 1px solid rgba(255,153,0,0.22); }
-.levelSAP { color: var(--teal);    background: rgba(0,180,160,0.08);  border: 1px solid rgba(0,180,160,0.22); }
 
 .code {
   font-size: 26px;
@@ -282,7 +257,6 @@
   line-height: 1.4;
 }
 
-/* ── Stats grid ── */
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -302,11 +276,8 @@
   font-size: 14px;
   font-weight: 600;
   display: block;
+  color: var(--cat-primary);
 }
-.statVal101 { color: var(--accent); }
-.statVal102 { color: var(--orange); }
-.statValSAA { color: var(--aws); }
-.statValSAP { color: var(--teal); }
 
 .statLbl {
   font-size: 9px;
@@ -325,7 +296,6 @@
   margin-bottom: 16px;
 }
 
-/* ── Card footer: price + button ── */
 .cardFooter {
   display: flex;
   align-items: center;
@@ -355,14 +325,11 @@
   cursor: pointer;
   transition: opacity 0.15s, transform 0.1s;
   letter-spacing: 0.02em;
+  background: linear-gradient(135deg, var(--cat-primary), var(--cat-secondary));
+  color: #000;
 }
 .cardBtn:hover { opacity: 0.88; transform: translateY(-1px); }
-.cardBtn101 { background: linear-gradient(135deg, var(--accent2), var(--accent)); color: #000; }
-.cardBtn102 { background: linear-gradient(135deg, var(--orange), var(--orange2)); color: #000; }
-.cardBtnSAA { background: linear-gradient(135deg, var(--aws), var(--aws2)); color: #000; }
-.cardBtnSAP { background: linear-gradient(135deg, var(--teal), var(--teal2)); color: #000; }
 
-/* ── Empty state ── */
 .empty {
   padding: 60px 20px;
   text-align: center;
@@ -371,28 +338,18 @@
 }
 .empty strong { color: var(--text); }
 
-/* ── Stats bar ── */
 .statsBar {
   margin-top: 52px;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
   color: var(--muted);
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
   opacity: 0.6;
 }
-.statSep {
-  margin: 0 4px;
-  opacity: 0.4;
-}
 
-/* ── Responsive ── */
 @media (max-width: 640px) {
   .screen { padding: 40px 16px 40px; }
   .cards  { flex-direction: column; }
   .cardWrapper { max-width: 100%; }
-  .sectionTOGAF, .sectionAWS { padding-left: 14px; }
+  .providerSection { padding-left: 14px; }
 }

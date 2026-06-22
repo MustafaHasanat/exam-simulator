@@ -8,35 +8,12 @@
   flex-direction: column;
   align-items: center;
   padding: 48px 20px 56px;
-}
-
-/* Per-provider backgrounds */
-.screen101 {
   background:
-    radial-gradient(ellipse at 70% 10%, rgba(124,92,191,0.14) 0%, transparent 55%),
-    radial-gradient(ellipse at 15% 85%, rgba(0,212,255,0.07) 0%, transparent 50%),
-    var(--bg);
-}
-.screen102 {
-  background:
-    radial-gradient(ellipse at 70% 10%, rgba(245,158,11,0.11) 0%, transparent 55%),
-    radial-gradient(ellipse at 15% 85%, rgba(255,107,107,0.05) 0%, transparent 50%),
-    var(--bg);
-}
-.screenSAA {
-  background:
-    radial-gradient(ellipse at 70% 10%, rgba(255,153,0,0.13) 0%, transparent 55%),
-    radial-gradient(ellipse at 15% 85%, rgba(255,202,40,0.05) 0%, transparent 50%),
-    var(--bg);
-}
-.screenSAP {
-  background:
-    radial-gradient(ellipse at 70% 10%, rgba(0,180,160,0.13) 0%, transparent 55%),
-    radial-gradient(ellipse at 15% 85%, rgba(0,229,204,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 10%, var(--cat-glow, rgba(124,92,191,0.14)) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 85%, rgba(0,0,0,0) 0%, transparent 50%),
     var(--bg);
 }
 
-/* ── Scrollable inner wrapper ── */
 .inner {
   width: 100%;
   max-width: 880px;
@@ -51,7 +28,6 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Back button ── */
 .backBtn {
   align-self: flex-start;
   background: none;
@@ -63,9 +39,8 @@
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s;
 }
-.backBtn:hover { border-color: var(--accent); color: var(--text); }
+.backBtn:hover { border-color: var(--cat-primary, var(--accent)); color: var(--text); }
 
-/* ── Header block ── */
 .headerBlock {
   display: flex;
   flex-direction: column;
@@ -81,11 +56,10 @@
   padding: 5px 14px;
   display: inline-block;
   align-self: flex-start;
+  color: var(--cat-primary, var(--accent2));
+  border: 1px solid color-mix(in srgb, var(--cat-primary, var(--accent2)) 35%, transparent);
+  background: var(--cat-tint, rgba(124,92,191,0.08));
 }
-.badge101 { color: var(--accent2); border: 1px solid rgba(124,92,191,0.35); background: rgba(124,92,191,0.08); }
-.badge102 { color: var(--orange);  border: 1px solid rgba(245,158,11,0.35); background: rgba(245,158,11,0.08); }
-.badgeSAA { color: var(--aws);     border: 1px solid rgba(255,153,0,0.35);  background: rgba(255,153,0,0.08); }
-.badgeSAP { color: var(--teal);    border: 1px solid rgba(0,180,160,0.35);  background: rgba(0,180,160,0.08); }
 
 .title {
   font-size: clamp(22px, 4vw, 36px);
@@ -93,10 +67,8 @@
   letter-spacing: -0.03em;
   line-height: 1.15;
 }
-.accent101 { color: var(--accent); }
-.accent102 { color: var(--orange); }
-.accentSAA { color: var(--aws); }
-.accentSAP { color: var(--teal); }
+
+.accent { color: var(--cat-primary, var(--accent)); }
 
 .sub {
   color: var(--muted);
@@ -105,7 +77,6 @@
   max-width: 720px;
 }
 
-/* ── Stats grid ── */
 .metaGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -135,11 +106,8 @@
   font-size: 20px;
   font-weight: 600;
   display: block;
+  color: var(--cat-primary, var(--accent));
 }
-.metaVal101 { color: var(--accent); }
-.metaVal102 { color: var(--orange); }
-.metaValSAA { color: var(--aws); }
-.metaValSAP { color: var(--teal); }
 
 .metaLbl {
   font-size: 10px;
@@ -149,7 +117,6 @@
   display: block;
 }
 
-/* ── Two-column detail panel ── */
 .detailPanel {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -175,7 +142,6 @@
   margin: 0;
 }
 
-/* Domains */
 .domains {
   display: flex;
   flex-direction: column;
@@ -220,17 +186,13 @@
   border-radius: 2px;
   transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   animation: growBar 0.7s ease both;
+  background: linear-gradient(90deg, var(--cat-primary), var(--cat-secondary));
 }
+
 @keyframes growBar {
   from { width: 0 !important; }
 }
 
-.domainBar101 { background: linear-gradient(90deg, var(--accent2), var(--accent)); }
-.domainBar102 { background: linear-gradient(90deg, var(--orange), var(--orange2)); }
-.domainBarSAA { background: linear-gradient(90deg, var(--aws), var(--aws2)); }
-.domainBarSAP { background: linear-gradient(90deg, var(--teal), var(--teal2)); }
-
-/* Info list */
 .infoList {
   display: flex;
   flex-direction: column;
@@ -267,7 +229,6 @@
   color: var(--green);
 }
 
-/* Register button */
 .registerBtn {
   display: flex;
   align-items: center;
@@ -280,17 +241,13 @@
   text-decoration: none;
   margin-top: auto;
   transition: opacity 0.15s, transform 0.12s;
-  border: none;
+  background: var(--cat-tint);
+  color: var(--cat-primary);
+  border: 1px solid color-mix(in srgb, var(--cat-primary) 32%, transparent);
 }
 .registerBtn:hover { opacity: 0.88; transform: translateY(-1px); }
 .registerBtn svg { width: 15px; height: 15px; flex-shrink: 0; }
 
-.registerBtn101 { background: rgba(124,92,191,0.15); color: var(--accent2); border: 1px solid rgba(124,92,191,0.35); }
-.registerBtn102 { background: rgba(245,158,11,0.12); color: var(--orange);  border: 1px solid rgba(245,158,11,0.32); }
-.registerBtnSAA { background: rgba(255,153,0,0.12);  color: var(--aws);     border: 1px solid rgba(255,153,0,0.32); }
-.registerBtnSAP { background: rgba(0,180,160,0.12);  color: var(--teal);    border: 1px solid rgba(0,180,160,0.32); }
-
-/* ── Note banner ── */
 .note {
   display: flex;
   align-items: flex-start;
@@ -312,7 +269,6 @@
   margin-top: 1px;
 }
 
-/* ── CTA row ── */
 .ctaRow {
   display: flex;
   align-items: center;
@@ -338,15 +294,12 @@
   cursor: pointer;
   letter-spacing: 0.02em;
   transition: opacity 0.15s, transform 0.1s;
+  background: linear-gradient(135deg, var(--cat-primary), var(--cat-secondary));
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--cat-primary) 22%, transparent);
 }
 .startBtn:hover { opacity: 0.9; transform: translateY(-2px); }
 .startBtn:active { transform: translateY(0); }
-.startBtn101 { background: linear-gradient(135deg, var(--accent2), var(--accent)); box-shadow: 0 4px 24px rgba(0,212,255,0.2); }
-.startBtn102 { background: linear-gradient(135deg, var(--orange), var(--orange2)); box-shadow: 0 4px 24px rgba(245,158,11,0.2); }
-.startBtnSAA { background: linear-gradient(135deg, var(--aws), var(--aws2));       box-shadow: 0 4px 24px rgba(255,153,0,0.22); }
-.startBtnSAP { background: linear-gradient(135deg, var(--teal), var(--teal2));     box-shadow: 0 4px 24px rgba(0,180,160,0.22); }
 
-/* ── Responsive ── */
 @media (max-width: 740px) {
   .metaGrid    { grid-template-columns: repeat(2, 1fr); }
   .detailPanel { grid-template-columns: 1fr; }

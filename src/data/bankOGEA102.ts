@@ -1,6 +1,6 @@
 import type { Question } from '../types';
 
-export const BANK_102: Question[] = [
+export const BANK_OGEA_102: Question[] = [
   // ── DOMAIN: ADM Application ──
   {
     domain: 'ADM Application',

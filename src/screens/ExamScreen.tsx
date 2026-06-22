@@ -3,6 +3,7 @@ import type { ExamConfig, Question, ExamResult } from '../types';
 import { useTimer } from '../hooks/useTimer';
 import { LETTERS } from '../hooks/utils';
 import { Modal, modalStyles } from '../components/Modal';
+import { categoryStyle } from '../themes/categories';
 import styles from './ExamScreen.module.css';
 
 interface ExamScreenProps {
@@ -18,7 +19,7 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [modal, setModal] = useState<ModalType>(null);
-  const is102 = config.id === '102';
+  const catStyle = categoryStyle(config.provider);
   const total = questions.length;
 
   const handleExpire = useCallback(() => setModal('timeout'), []);
@@ -61,11 +62,11 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
   const selectedOpt = answers[currentQ];
 
   return (
-    <div className={styles.screen}>
+    <div className={styles.screen} style={catStyle}>
       {/* ── Topbar ── */}
       <div className={styles.topbar}>
         <div className={styles.topLeft}>
-          <span className={`${styles.examLabel} ${is102 ? styles.examLabel102 : styles.examLabel101}`}>
+          <span className={styles.examLabel}>
             {config.label}
           </span>
           <span className={styles.qCounter}>
@@ -76,7 +77,7 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
         <div className={styles.topCenter}>
           <div className={styles.progressTrack}>
             <div
-              className={`${styles.progressFill} ${is102 ? styles.progressFill102 : styles.progressFill101}`}
+              className={styles.progressFill}
               style={{ width: `${((currentQ + 1) / total) * 100}%` }}
             />
           </div>
@@ -106,12 +107,8 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
         <div className={styles.options}>
           {q.opts.map((opt, oi) => {
             const selected = selectedOpt === oi;
-            const selectedClass = selected
-              ? is102 ? styles.optionSelected102 : styles.optionSelected101
-              : '';
-            const letterClass = selected
-              ? is102 ? styles.optLetterSelected102 : styles.optLetterSelected101
-              : '';
+            const selectedClass = selected ? styles.optionSelected : '';
+            const letterClass = selected ? styles.optLetterSelected : '';
             return (
               <button
                 key={oi}
@@ -145,7 +142,7 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
             </button>
           ) : (
             <button
-              className={`${styles.submitBtn} ${is102 ? styles.submitBtn102 : styles.submitBtn101}`}
+              className={styles.submitBtn}
               onClick={() => setModal('submit')}
             >
               Submit Exam
@@ -161,11 +158,7 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
           const isAnswered = answers[i] !== undefined && !isCurrent;
           const dotClass = [
             styles.dot,
-            isCurrent
-              ? is102 ? styles.dotCurrent102 : styles.dotCurrent101
-              : isAnswered
-              ? is102 ? styles.dotAnswered102 : styles.dotAnswered101
-              : '',
+            isCurrent ? styles.dotCurrent : isAnswered ? styles.dotAnswered : '',
           ]
             .filter(Boolean)
             .join(' ');
@@ -225,7 +218,8 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
                 Review More
               </button>
               <button
-                className={is102 ? modalStyles.btnPrimary102 : modalStyles.btnPrimary101}
+                className={modalStyles.btnPrimary}
+                style={catStyle}
                 onClick={() => finish(answers, timeUsed)}
               >
                 Submit Now
@@ -243,7 +237,8 @@ export function ExamScreen({ config, questions, onComplete, onCancel }: ExamScre
           body="Your time has ended. Your exam has been submitted automatically with your current answers."
           actions={
             <button
-              className={is102 ? modalStyles.btnPrimary102 : modalStyles.btnPrimary101}
+              className={modalStyles.btnPrimary}
+              style={catStyle}
               onClick={() => finish(answers, timeUsed)}
             >
               See My Results
