@@ -2,8 +2,8 @@ export interface Question {
   domain: string;
   scenario?: string;
   q: string;
-  opts: [string, string, string, string];
-  a: 0 | 1 | 2 | 3;
+  opts: string[];
+  a: number;
   exp: string;
 }
 

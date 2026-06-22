@@ -11,4 +11,4 @@ export function formatTime(seconds: number): string {
   return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
 }
 
-export const LETTERS = ['A', 'B', 'C', 'D'] as const;
+export const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'] as const;
