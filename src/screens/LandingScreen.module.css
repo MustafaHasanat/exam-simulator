@@ -1,0 +1,139 @@
+.screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.screen101 {
+  background:
+    radial-gradient(ellipse at 60% 20%, rgba(124,92,191,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(0,212,255,0.07) 0%, transparent 50%),
+    var(--bg);
+}
+
+.screen102 {
+  background:
+    radial-gradient(ellipse at 60% 20%, rgba(245,158,11,0.10) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(255,107,107,0.06) 0%, transparent 50%),
+    var(--bg);
+}
+
+.backBtn {
+  align-self: flex-start;
+  margin-bottom: 24px;
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.backBtn:hover { border-color: var(--accent); color: var(--text); }
+
+.badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 5px 14px;
+  margin-bottom: 24px;
+}
+.badge101 { color: var(--accent2); border: 1px solid rgba(124,92,191,0.35); background: rgba(124,92,191,0.08); }
+.badge102 { color: var(--orange); border: 1px solid rgba(245,158,11,0.35); background: rgba(245,158,11,0.08); }
+
+.title {
+  font-size: clamp(24px, 5vw, 42px);
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.accent101 { color: var(--accent); }
+.accent102 { color: var(--orange); }
+
+.sub {
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 36px;
+  max-width: 480px;
+}
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 36px;
+}
+
+.metaBox {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.metaVal {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+}
+.metaVal101 { color: var(--accent); }
+.metaVal102 { color: var(--orange); }
+
+.metaLbl {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-top: 4px;
+  display: block;
+}
+
+.startBtn {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 48px;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: opacity 0.15s, transform 0.1s;
+}
+.startBtn:hover { opacity: 0.9; transform: translateY(-1px); }
+.startBtn:active { transform: translateY(0); }
+.startBtn101 { background: linear-gradient(135deg, var(--accent2), var(--accent)); box-shadow: 0 4px 24px rgba(0,212,255,0.2); }
+.startBtn102 { background: linear-gradient(135deg, var(--orange), var(--orange2)); box-shadow: 0 4px 24px rgba(245,158,11,0.2); }
+
+.bankInfo {
+  margin-top: 18px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.note102 {
+  margin-top: 16px;
+  max-width: 480px;
+  background: rgba(245,158,11,0.07);
+  border: 1px solid rgba(245,158,11,0.2);
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+  text-align: center;
+}
+.note102 strong { color: var(--orange); }
