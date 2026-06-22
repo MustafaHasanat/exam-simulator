@@ -1,0 +1,116 @@
+/* ── Animated accent bar at very top ── */
+.accentBar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    var(--accent2) 0%,
+    var(--accent) 25%,
+    var(--aws) 50%,
+    var(--teal) 75%,
+    var(--accent2) 100%
+  );
+  background-size: 200% 100%;
+  animation: shiftBar 4s linear infinite;
+}
+
+@keyframes shiftBar {
+  0%   { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* ── Outer header shell ── */
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 200;
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  background: rgba(13, 17, 23, 0.75);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ── Inner layout ── */
+.inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ── Brand / logo ── */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.logoIcon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  animation: spinFloat 8s ease-in-out infinite;
+  filter: drop-shadow(0 0 6px rgba(0,212,255,0.35));
+}
+
+@keyframes spinFloat {
+  0%, 100% { transform: rotate(0deg) translateY(0px); }
+  25%       { transform: rotate(4deg) translateY(-1px); }
+  75%       { transform: rotate(-4deg) translateY(1px); }
+}
+
+.brandText {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.brandName {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.brandDot {
+  color: var(--border);
+  font-size: 14px;
+}
+
+.brandSub {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* ── Right pill counters ── */
+.right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pill {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .brandSub { display: none; }
+  .brandDot { display: none; }
+  .right    { display: none; }
+}

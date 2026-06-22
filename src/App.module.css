@@ -1,0 +1,19 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+/* pushes content below the fixed 58px header */
+.main {
+  flex: 1;
+  padding-top: 58px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* exam / results: no extra chrome, just fill space */
+.mainFocused {
+  padding-top: 58px;
+}

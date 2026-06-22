@@ -2,10 +2,13 @@ import { useState, useCallback } from 'react';
 import type { AppScreen, ExamResult, Question } from './types';
 import { EXAM_CONFIGS } from './data';
 import { pickRandom } from './hooks/utils';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import { SelectorScreen } from './screens/SelectorScreen';
 import { LandingScreen } from './screens/LandingScreen';
 import { ExamScreen } from './screens/ExamScreen';
 import { ResultsScreen } from './screens/ResultsScreen';
+import styles from './App.module.css';
 
 export default function App() {
   const [screen, setScreen] = useState<AppScreen>('selector');
@@ -48,40 +51,42 @@ export default function App() {
     setScreen('selector');
   }, []);
 
-  switch (screen) {
-    case 'selector':
-      return <SelectorScreen onSelectExam={handleSelectExam} />;
+  // Exam and Results are focused screens — show minimal chrome (header only)
+  const isFocusedScreen = screen === 'exam' || screen === 'results';
+  const showFooter = !isFocusedScreen;
 
-    case 'landing':
-      return (
-        <LandingScreen
-          config={config}
-          onStart={handleStartExam}
-          onBack={handleBackFromLanding}
-        />
-      );
-
-    case 'exam':
-      return (
-        <ExamScreen
-          config={config}
-          questions={activeQuestions}
-          onComplete={handleExamComplete}
-          onCancel={handleCancelExam}
-        />
-      );
-
-    case 'results':
-      return examResult ? (
-        <ResultsScreen
-          result={examResult}
-          config={config}
-          onRestart={handleRestartExam}
-          onHome={handleGoHome}
-        />
-      ) : null;
-
-    default:
-      return null;
-  }
+  return (
+    <div className={styles.layout}>
+      <Header />
+      <main className={`${styles.main} ${isFocusedScreen ? styles.mainFocused : ''}`}>
+        {screen === 'selector' && (
+          <SelectorScreen onSelectExam={handleSelectExam} />
+        )}
+        {screen === 'landing' && (
+          <LandingScreen
+            config={config}
+            onStart={handleStartExam}
+            onBack={handleBackFromLanding}
+          />
+        )}
+        {screen === 'exam' && (
+          <ExamScreen
+            config={config}
+            questions={activeQuestions}
+            onComplete={handleExamComplete}
+            onCancel={handleCancelExam}
+          />
+        )}
+        {screen === 'results' && examResult && (
+          <ResultsScreen
+            result={examResult}
+            config={config}
+            onRestart={handleRestartExam}
+            onHome={handleGoHome}
+          />
+        )}
+      </main>
+      {showFooter && <Footer />}
+    </div>
+  );
 }

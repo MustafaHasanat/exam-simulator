@@ -1,4 +1,4 @@
-export type ExamId = '101' | '102';
+export type ExamId = '101' | '102' | 'SAA' | 'SAP';
 
 export interface Question {
   domain: string;
@@ -7,6 +7,11 @@ export interface Question {
   opts: [string, string, string, string];
   a: 0 | 1 | 2 | 3;
   exp: string;
+}
+
+export interface ExamDomain {
+  name: string;
+  weight: number; // percent
 }
 
 export interface ExamConfig {
@@ -18,6 +23,15 @@ export interface ExamConfig {
   minutes: number;
   pass: number; // percent
   bank: Question[];
+  description: string;
+  note?: string;
+  // provider info
+  provider: string;
+  registrationUrl: string;
+  price: string;
+  prerequisites?: string;
+  examDomains: ExamDomain[];
+  about: string; // longer description for landing page
 }
 
 export type AppScreen = 'selector' | 'landing' | 'exam' | 'results';

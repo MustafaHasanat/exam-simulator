@@ -1,39 +1,76 @@
+/* ══════════════════════════════════════
+   LANDING SCREEN
+══════════════════════════════════════ */
+
 .screen {
-  min-height: 100vh;
+  min-height: calc(100vh - 58px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
+  padding: 48px 20px 56px;
 }
 
+/* Per-provider backgrounds */
 .screen101 {
   background:
-    radial-gradient(ellipse at 60% 20%, rgba(124,92,191,0.12) 0%, transparent 60%),
-    radial-gradient(ellipse at 20% 80%, rgba(0,212,255,0.07) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 10%, rgba(124,92,191,0.14) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 85%, rgba(0,212,255,0.07) 0%, transparent 50%),
     var(--bg);
 }
-
 .screen102 {
   background:
-    radial-gradient(ellipse at 60% 20%, rgba(245,158,11,0.10) 0%, transparent 60%),
-    radial-gradient(ellipse at 20% 80%, rgba(255,107,107,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 10%, rgba(245,158,11,0.11) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 85%, rgba(255,107,107,0.05) 0%, transparent 50%),
+    var(--bg);
+}
+.screenSAA {
+  background:
+    radial-gradient(ellipse at 70% 10%, rgba(255,153,0,0.13) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 85%, rgba(255,202,40,0.05) 0%, transparent 50%),
+    var(--bg);
+}
+.screenSAP {
+  background:
+    radial-gradient(ellipse at 70% 10%, rgba(0,180,160,0.13) 0%, transparent 55%),
+    radial-gradient(ellipse at 15% 85%, rgba(0,229,204,0.05) 0%, transparent 50%),
     var(--bg);
 }
 
+/* ── Scrollable inner wrapper ── */
+.inner {
+  width: 100%;
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  animation: pageIn 0.4s ease both;
+}
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Back button ── */
 .backBtn {
   align-self: flex-start;
-  margin-bottom: 24px;
   background: none;
   border: 1px solid var(--border);
   color: var(--muted);
   font-size: 12px;
-  padding: 6px 14px;
-  border-radius: 5px;
+  padding: 7px 16px;
+  border-radius: 6px;
   cursor: pointer;
   transition: border-color 0.15s, color 0.15s;
 }
 .backBtn:hover { border-color: var(--accent); color: var(--text); }
+
+/* ── Header block ── */
+.headerBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
 
 .badge {
   font-family: 'IBM Plex Mono', monospace;
@@ -42,63 +79,253 @@
   text-transform: uppercase;
   border-radius: 4px;
   padding: 5px 14px;
-  margin-bottom: 24px;
+  display: inline-block;
+  align-self: flex-start;
 }
 .badge101 { color: var(--accent2); border: 1px solid rgba(124,92,191,0.35); background: rgba(124,92,191,0.08); }
-.badge102 { color: var(--orange); border: 1px solid rgba(245,158,11,0.35); background: rgba(245,158,11,0.08); }
+.badge102 { color: var(--orange);  border: 1px solid rgba(245,158,11,0.35); background: rgba(245,158,11,0.08); }
+.badgeSAA { color: var(--aws);     border: 1px solid rgba(255,153,0,0.35);  background: rgba(255,153,0,0.08); }
+.badgeSAP { color: var(--teal);    border: 1px solid rgba(0,180,160,0.35);  background: rgba(0,180,160,0.08); }
 
 .title {
-  font-size: clamp(24px, 5vw, 42px);
+  font-size: clamp(22px, 4vw, 36px);
   font-weight: 700;
-  text-align: center;
   letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin-bottom: 10px;
+  line-height: 1.15;
 }
 .accent101 { color: var(--accent); }
 .accent102 { color: var(--orange); }
+.accentSAA { color: var(--aws); }
+.accentSAP { color: var(--teal); }
 
 .sub {
   color: var(--muted);
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 36px;
-  max-width: 480px;
+  font-size: 13px;
+  line-height: 1.75;
+  max-width: 720px;
 }
 
+/* ── Stats grid ── */
 .metaGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
-  width: 100%;
-  max-width: 500px;
-  margin-bottom: 36px;
 }
 
 .metaBox {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: 10px;
+  padding: 18px 12px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.metaIcon {
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 4px;
 }
 
 .metaVal {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   display: block;
 }
 .metaVal101 { color: var(--accent); }
 .metaVal102 { color: var(--orange); }
+.metaValSAA { color: var(--aws); }
+.metaValSAP { color: var(--teal); }
 
 .metaLbl {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
-  margin-top: 4px;
   display: block;
+}
+
+/* ── Two-column detail panel ── */
+.detailPanel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.detailCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.detailTitle {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Domains */
+.domains {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.domainRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.domainLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.domainName {
+  font-size: 12px;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.domainWeight {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+.domainTrack {
+  height: 4px;
+  background: var(--surface2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.domainFill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: growBar 0.7s ease both;
+}
+@keyframes growBar {
+  from { width: 0 !important; }
+}
+
+.domainBar101 { background: linear-gradient(90deg, var(--accent2), var(--accent)); }
+.domainBar102 { background: linear-gradient(90deg, var(--orange), var(--orange2)); }
+.domainBarSAA { background: linear-gradient(90deg, var(--aws), var(--aws2)); }
+.domainBarSAP { background: linear-gradient(90deg, var(--teal), var(--teal2)); }
+
+/* Info list */
+.infoList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.infoRow:last-child { border-bottom: none; }
+
+.infoLabel {
+  font-size: 12px;
+  color: var(--muted);
+  flex-shrink: 0;
+  font-weight: 500;
+}
+
+.infoValue {
+  font-size: 12px;
+  color: var(--text);
+  text-align: right;
+}
+
+.priceHighlight {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--green);
+}
+
+/* Register button */
+.registerBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+  transition: opacity 0.15s, transform 0.12s;
+  border: none;
+}
+.registerBtn:hover { opacity: 0.88; transform: translateY(-1px); }
+.registerBtn svg { width: 15px; height: 15px; flex-shrink: 0; }
+
+.registerBtn101 { background: rgba(124,92,191,0.15); color: var(--accent2); border: 1px solid rgba(124,92,191,0.35); }
+.registerBtn102 { background: rgba(245,158,11,0.12); color: var(--orange);  border: 1px solid rgba(245,158,11,0.32); }
+.registerBtnSAA { background: rgba(255,153,0,0.12);  color: var(--aws);     border: 1px solid rgba(255,153,0,0.32); }
+.registerBtnSAP { background: rgba(0,180,160,0.12);  color: var(--teal);    border: 1px solid rgba(0,180,160,0.32); }
+
+/* ── Note banner ── */
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(245,158,11,0.07);
+  border: 1px solid rgba(245,158,11,0.2);
+  border-radius: 8px;
+  padding: 14px 18px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.note strong { color: var(--orange); }
+.noteIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--orange);
+  margin-top: 1px;
+}
+
+/* ── CTA row ── */
+.ctaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.bankInfo {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
 }
 
 .startBtn {
@@ -106,34 +333,27 @@
   font-weight: 700;
   font-size: 15px;
   border: none;
-  border-radius: 8px;
-  padding: 16px 48px;
+  border-radius: 9px;
+  padding: 15px 40px;
   cursor: pointer;
   letter-spacing: 0.02em;
   transition: opacity 0.15s, transform 0.1s;
 }
-.startBtn:hover { opacity: 0.9; transform: translateY(-1px); }
+.startBtn:hover { opacity: 0.9; transform: translateY(-2px); }
 .startBtn:active { transform: translateY(0); }
 .startBtn101 { background: linear-gradient(135deg, var(--accent2), var(--accent)); box-shadow: 0 4px 24px rgba(0,212,255,0.2); }
 .startBtn102 { background: linear-gradient(135deg, var(--orange), var(--orange2)); box-shadow: 0 4px 24px rgba(245,158,11,0.2); }
+.startBtnSAA { background: linear-gradient(135deg, var(--aws), var(--aws2));       box-shadow: 0 4px 24px rgba(255,153,0,0.22); }
+.startBtnSAP { background: linear-gradient(135deg, var(--teal), var(--teal2));     box-shadow: 0 4px 24px rgba(0,180,160,0.22); }
 
-.bankInfo {
-  margin-top: 18px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 11px;
-  color: var(--muted);
+/* ── Responsive ── */
+@media (max-width: 740px) {
+  .metaGrid    { grid-template-columns: repeat(2, 1fr); }
+  .detailPanel { grid-template-columns: 1fr; }
 }
 
-.note102 {
-  margin-top: 16px;
-  max-width: 480px;
-  background: rgba(245,158,11,0.07);
-  border: 1px solid rgba(245,158,11,0.2);
-  border-radius: 6px;
-  padding: 12px 16px;
-  font-size: 12px;
-  color: var(--muted);
-  line-height: 1.6;
-  text-align: center;
+@media (max-width: 480px) {
+  .screen { padding: 32px 14px 40px; }
+  .ctaRow { flex-direction: column; align-items: stretch; }
+  .startBtn { width: 100%; text-align: center; }
 }
-.note102 strong { color: var(--orange); }
