@@ -6,6 +6,7 @@ import { SearchBar } from '../components/SearchBar';
 import searchStyles from '../components/SearchBar.module.css';
 import { CATEGORY_ORDER, categoryStyle, getCategoryTheme } from '../themes/categories';
 import type { ExamConfig } from '../types';
+import { isExamAvailable } from '../utils/contributeEmail';
 import styles from './SelectorScreen.module.css';
 
 interface SelectorScreenProps {
@@ -17,6 +18,8 @@ interface SelectorScreenProps {
 }
 
 function ExamCard({ cfg, onSelect }: { cfg: ExamConfig; onSelect: () => void }) {
+  const available = isExamAvailable(cfg);
+
   return (
     <div
       className={styles.card}
@@ -26,7 +29,12 @@ function ExamCard({ cfg, onSelect }: { cfg: ExamConfig; onSelect: () => void }) 
       tabIndex={0}
       onKeyDown={(e) => e.key === 'Enter' && onSelect()}
     >
-      <div className={styles.levelBadge}>{cfg.level}</div>
+      <div className={styles.cardBadges}>
+        <div className={styles.levelBadge}>{cfg.level}</div>
+        {!available && (
+          <div className={styles.comingSoonBadge}>Coming soon</div>
+        )}
+      </div>
       <div className={styles.code}>{cfg.label}</div>
       <div className={styles.name}>{cfg.fullName}</div>
 
@@ -47,8 +55,8 @@ function ExamCard({ cfg, onSelect }: { cfg: ExamConfig; onSelect: () => void }) 
 
       <div className={styles.cardFooter}>
         <span className={styles.priceTag}>{cfg.price}</span>
-        <button className={styles.cardBtn}>
-          Start {cfg.label} →
+        <button className={styles.cardBtn} disabled={!available}>
+          {available ? `Start ${cfg.label} →` : 'Coming soon'}
         </button>
       </div>
     </div>

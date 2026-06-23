@@ -5,13 +5,13 @@ export const BANK_OGEA_101: Question[] = [
   {
     domain: 'TOGAF Overview',
     q: 'What does the acronym TOGAF stand for?',
-    opts: ['The Open Group Architecture Framework', 'The Operational Governance and Architecture Framework', 'The Organisational Goal Alignment Framework', 'Technology Oriented Governance and Architecture Framework'],
+    opts: ['The Open Group Architecture Framework', 'The Operational Governance and Architecture Framework', 'The Organizational Goal Alignment Framework', 'Technology Oriented Governance and Architecture Framework'],
     a: 0,
     exp: 'TOGAF stands for The Open Group Architecture Framework. It is developed and maintained by The Open Group, a global technology consortium.',
   },
   {
     domain: 'TOGAF Overview',
-    q: 'Which organisation owns and maintains the TOGAF standard?',
+    q: 'Which organization owns and maintains the TOGAF standard?',
     opts: ['ISO', 'IEEE', 'The Open Group', 'Gartner'],
     a: 2,
     exp: 'The Open Group owns and maintains TOGAF. It is a global consortium that enables the achievement of business objectives through technology standards.',
@@ -19,9 +19,9 @@ export const BANK_OGEA_101: Question[] = [
   {
     domain: 'TOGAF Overview',
     q: 'According to TOGAF, what is the primary purpose of Enterprise Architecture?',
-    opts: ['To document IT infrastructure', 'To optimise fragmented legacy processes into an integrated environment responsive to change', 'To define software development processes', 'To manage vendor contracts'],
+    opts: ['To document IT infrastructure', 'To optimize fragmented legacy processes into an integrated environment responsive to change', 'To define software development processes', 'To manage vendor contracts'],
     a: 1,
-    exp: 'TOGAF defines EA as optimising fragmented legacy processes (manual and automated) into an integrated environment that is responsive to change and supports delivery of the business strategy.',
+    exp: 'TOGAF defines EA as optimizing fragmented legacy processes (manual and automated) into an integrated environment that is responsive to change and supports delivery of the business strategy.',
   },
   {
     domain: 'TOGAF Overview',

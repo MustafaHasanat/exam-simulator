@@ -297,8 +297,30 @@
   background: linear-gradient(135deg, var(--cat-primary), var(--cat-secondary));
   box-shadow: 0 4px 24px color-mix(in srgb, var(--cat-primary) 22%, transparent);
 }
-.startBtn:hover { opacity: 0.9; transform: translateY(-2px); }
-.startBtn:active { transform: translateY(0); }
+.startBtn:hover:not(:disabled) { opacity: 0.9; transform: translateY(-2px); }
+.startBtn:active:not(:disabled) { transform: translateY(0); }
+.startBtn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.ctaActions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.comingSoon {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
 @media (max-width: 740px) {
   .metaGrid    { grid-template-columns: repeat(2, 1fr); }

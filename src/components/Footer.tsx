@@ -1,3 +1,4 @@
+import { ContributeCta } from './ContributeCta';
 import { CATEGORY_ORDER, CATEGORY_THEMES } from '../themes/categories';
 import styles from './Footer.module.css';
 
@@ -6,6 +7,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.glow} />
       <div className={styles.inner}>
+        <ContributeCta />
         <div className={styles.providers}>
           {CATEGORY_ORDER.map((name, i) => {
             const theme = CATEGORY_THEMES[name];

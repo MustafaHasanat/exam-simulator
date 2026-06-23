@@ -1,0 +1,56 @@
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent, #7c5cbf) 8%, var(--surface2));
+  border: 1px solid color-mix(in srgb, var(--accent, #7c5cbf) 20%, var(--border));
+}
+
+.compact {
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text);
+  margin: 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, var(--accent, #7c5cbf), color-mix(in srgb, var(--accent, #7c5cbf) 70%, #fff));
+  transition: opacity 0.15s, transform 0.1s;
+}
+
+.btn svg {
+  width: 15px;
+  height: 15px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.compact .btn {
+  justify-content: center;
+}

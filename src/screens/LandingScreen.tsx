@@ -1,5 +1,7 @@
+import { ContributeCta } from '../components/ContributeCta';
 import type { ExamConfig } from '../types';
 import { categoryStyle } from '../themes/categories';
+import { isExamAvailable } from '../utils/contributeEmail';
 import styles from './LandingScreen.module.css';
 
 interface LandingScreenProps {
@@ -10,6 +12,7 @@ interface LandingScreenProps {
 
 export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
   const catStyle = categoryStyle(config.provider);
+  const available = isExamAvailable(config);
 
   return (
     <div className={styles.screen} style={catStyle}>
@@ -127,12 +130,27 @@ export function LandingScreen({ config, onStart, onBack }: LandingScreenProps) {
 
         <div className={styles.ctaRow}>
           <div className={styles.bankInfo}>
-            {config.bank.length} questions in bank · {config.questions} drawn randomly per attempt
+            {available
+              ? `${config.bank.length} questions in bank · ${config.questions} drawn randomly per attempt`
+              : 'Question bank coming soon'}
           </div>
-          <button className={styles.startBtn} onClick={onStart}>
-            Start Practice Exam
-          </button>
+          <div className={styles.ctaActions}>
+            <button
+              className={styles.startBtn}
+              onClick={onStart}
+              disabled={!available}
+            >
+              Start Practice Exam
+            </button>
+            {!available && (
+              <p className={styles.comingSoon}>Coming soon</p>
+            )}
+          </div>
         </div>
+
+        {!available && (
+          <ContributeCta examLabel={config.label} compact />
+        )}
 
       </div>
     </div>

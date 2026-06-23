@@ -2,6 +2,7 @@ import { useCallback, useMemo } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import { getExamByCode, examPath, resultPath } from '../routes/paths';
 import { pickRandom } from '../hooks/utils';
+import { isExamAvailable } from '../utils/contributeEmail';
 import { useExamLeaveGuard } from '../hooks/useExamLeaveGuard';
 import type { ExamResult } from '../types';
 import { ExamScreen } from '../screens/ExamScreen';
@@ -34,6 +35,10 @@ export function ExamSimulatorPage() {
 
   if (!config) {
     return <Navigate to="/" replace />;
+  }
+
+  if (!isExamAvailable(config)) {
+    return <Navigate to={examPath(config.id)} replace />;
   }
 
   return (
