@@ -84,6 +84,7 @@ import { BANK_CTALTA } from "./bankCTALTA";
 import { BANK_CTALTTA } from "./bankCTALTTA";
 import { BANK_CTALTAE } from "./bankCTALTAE";
 import { BANK_CTMAT } from "./bankCTMAT";
+import { BANK_CCAF } from "./bankCCAF";
 
 type ExamMeta = Omit<ExamConfig, "bank"> & { bankKey: keyof typeof BANKS };
 
@@ -172,6 +173,7 @@ const BANKS = {
     BANK_CTALTTA,
     BANK_CTALTAE,
     BANK_CTMAT,
+    BANK_CCAF,
 };
 
 const META: ExamMeta[] = [
@@ -2327,6 +2329,34 @@ const META: ExamMeta[] = [
             { name: "Testing in Agile Projects", weight: 30 },
             { name: "Agile Testing Methods & Techniques", weight: 30 },
             { name: "Tools in Agile Projects", weight: 15 },
+        ],
+    },
+
+    // ── Anthropic ──
+    {
+        id: "CCAF",
+        label: "CCA-F",
+        fullName: "Claude Certified Architect – Foundations",
+        level: "Foundations",
+        questions: 60,
+        minutes: 120,
+        pass: 72,
+        bankKey: "BANK_CCAF",
+        provider: "Anthropic",
+        registrationUrl:
+            "https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification",
+        price: "$125 USD",
+        prerequisites: "6+ months hands-on with Claude API, Agent SDK, Claude Code, and MCP recommended",
+        description:
+            "Validates practical judgment for production Claude systems: agentic loops, MCP tools, Claude Code workflows, structured output, and context management.",
+        about: "The Claude Certified Architect – Foundations (CCA-F) is Anthropic's official certification for developers who build production-grade applications with Claude. The proctored exam tests tradeoff decisions across the Claude API, Claude Agent SDK, Claude Code, and Model Context Protocol using scenario-based multiple-choice questions on a 1,000-point scale.",
+        note: "Scaled scoring: The real exam uses a 100–1,000 score with 720 required to pass. This simulator uses percentage scoring equivalent to a 72% pass mark.",
+        examDomains: [
+            { name: "Agentic Architecture & Orchestration", weight: 27 },
+            { name: "Tool Design & MCP Integration", weight: 18 },
+            { name: "Claude Code Configuration & Workflows", weight: 20 },
+            { name: "Prompt Engineering & Structured Output", weight: 20 },
+            { name: "Context Management & Reliability", weight: 15 },
         ],
     },
 ];

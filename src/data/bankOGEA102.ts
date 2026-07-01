@@ -571,159 +571,706 @@ export const BANK_OGEA_102: Question[] = [
     exp: "TOGAF's Building Blocks approach supports this analysis perfectly. The data warehouse capability is defined as an ABB (what is needed). Both the bespoke build and the COTS product are evaluated as potential SBBs (how it could be implemented), enabling objective comparison.",
   },
 
-  // ── Additional OGEA-102 practice questions (11 added) ──
-
-  // ── ADM Application ──
+  // ── DOMAIN: Architecture Governance ──
   {
-    domain: "ADM Application",
-    q: "A SaaS startup scaling rapidly failed a mock TOGAF® Enterprise Architecture Practitioner question on ADM Application. What concept should they review?",
+    domain: 'Architecture Governance',
+    scenario: 'An organisation has established an Architecture Board, but project teams routinely bypass it by getting direct approval from business sponsors. Architecture standards are being ignored.',
+    q: 'What structural change does TOGAF recommend to correct this governance failure?',
     opts: [
-      "Implement adm application without change management or rollback plans",
-      "Configure adm application according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations",
-      "Use default adm application settings without hardening",
-      "Centralize all adm application decisions without stakeholder review",
+      'Add more architects to the Architecture Board so it can process approvals faster',
+      'Embed architecture governance checkpoints into the official project lifecycle and investment approval process, so no project can be funded or progress without Architecture Board sign-off',
+      'Publish a memo from the CEO reminding project teams to follow architecture standards',
+      'Create a separate Shadow Architecture Board with faster approval turnaround',
     ],
     a: 1,
-    exp: "Configure adm application according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations. This is the recommended approach for the ADM Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    exp: 'Architecture governance is only effective when it is embedded in organisational processes — funding gates, project initiation, and delivery checkpoints. If business sponsors can bypass the Architecture Board, governance has no teeth. Embedding review into investment approval makes compliance structural, not optional.',
   },
-
-  // ── Stakeholder Management ──
   {
-    domain: "Stakeholder Management",
-    q: "For TOGAF® Enterprise Architecture Practitioner certification, Stakeholder Management knowledge is tested through scenarios like a manufacturing company modernizing IT. Which solution fits?",
+    domain: 'Architecture Governance',
+    scenario: 'The Architecture Board is reviewing a project that is already 80% built. The project was never submitted for architecture review. It uses an approved technology stack but integrates systems in a way that violates the enterprise integration architecture.',
+    q: 'What is the MOST appropriate Architecture Board response?',
     opts: [
-      "Use default stakeholder management settings without hardening",
-      "Centralize all stakeholder management decisions without stakeholder review",
-      "Select the stakeholder management option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards",
-      "Deprecate stakeholder management controls entirely to reduce complexity",
+      'Approve it — the project is too far along to change and uses approved technologies',
+      'Reject it entirely and require a full rebuild from scratch',
+      'Conduct a compliance review, document the integration violations, assess the risk, and determine whether to accept with conditions, require targeted remediation, or escalate based on the level of risk',
+      'Defer the decision until the project goes live to assess real-world impact',
     ],
     a: 2,
-    exp: "Select the stakeholder management option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards. This is the recommended approach for the Stakeholder Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    exp: 'A retrospective compliance review is the correct response. TOGAF governance is not punitive — the Board must assess risk pragmatically. At 80% completion, a targeted remediation plan (fixing the integration violations) is likely more appropriate than a full rejection, but this must be formally decided and documented.',
   },
-
-  // ── Architecture Content ──
   {
-    domain: "Architecture Content",
-    q: "A team at a media company with global users debates Architecture Content options while studying TOGAF® Enterprise Architecture Practitioner. Which choice aligns with the exam guide?",
+    domain: 'Architecture Governance',
+    scenario: 'A senior executive bypasses the Architecture Board and directly instructs an implementation team to use a non-approved cloud provider, citing competitive urgency.',
+    q: 'What should the Chief Architect do?',
     opts: [
-      "Centralize all architecture content decisions without stakeholder review",
-      "Deprecate architecture content controls entirely to reduce complexity",
-      "Use an undocumented workaround that bypasses architecture content policies",
-      "Design architecture content using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments",
+      'Accept the executive\'s instruction — executive authority overrides architecture governance',
+      'Immediately reject the instruction and threaten to escalate to the board of directors',
+      'Formally document the instruction as a change request, assess the risk and business case, and escalate to the Architecture Board for a formal dispensation decision — briefing the executive on the governance process',
+      'Quietly comply and update the architecture documentation retrospectively',
     ],
-    a: 3,
-    exp: "Design architecture content using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments. This is the recommended approach for the Architecture Content domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    a: 2,
+    exp: 'Architecture governance must be maintained even under executive pressure. The correct approach is to treat the instruction as a change request, process it formally through the governance process, and brief the executive on why this is necessary. A dispensation can be granted if the business case is valid — but it must be formally documented.',
   },
-
-  // ── Enterprise Continuum Application ──
   {
-    domain: "Enterprise Continuum Application",
-    q: "Which Enterprise Continuum Application capability is validated by TOGAF® Enterprise Architecture Practitioner for organizations such as a multinational enterprise?",
+    domain: 'Architecture Governance',
+    scenario: 'The Architecture Board wants to track all architecture decisions, waivers, dispensations, and compliance outcomes in a single location.',
+    q: 'Which TOGAF element provides this capability?',
     opts: [
-      "Apply the TOGAF® Enterprise Architecture Practitioner-aligned enterprise continuum application approach recommended in official exam objectives",
-      "Deprecate enterprise continuum application controls entirely to reduce complexity",
-      "Use an undocumented workaround that bypasses enterprise continuum application policies",
-      "Disable monitoring for enterprise continuum application to improve performance",
+      'The Standards Information Base',
+      'The Architecture Definition Document',
+      'The Governance Log — which records all governance decisions, dispensations, and compliance reviews',
+      'The Architecture Roadmap',
     ],
-    a: 0,
-    exp: "Apply the TOGAF® Enterprise Architecture Practitioner-aligned enterprise continuum application approach recommended in official exam objectives. This is the recommended approach for the Enterprise Continuum Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    a: 2,
+    exp: 'The Governance Log is the central record of all architecture governance activity — decisions made, dispensations granted, compliance review outcomes, and waivers issued. It provides the audit trail that demonstrates the governance function is operating effectively.',
   },
-
-  // ── Governance Application ──
   {
-    domain: "Governance Application",
-    q: "When evaluating Governance Application tools for TOGAF® Enterprise Architecture Practitioner, a regulated financial institution should prioritize which criterion?",
+    domain: 'Architecture Governance',
+    scenario: 'An organisation has an Architecture Board with representatives from IT only. Business leaders complain that architecture decisions consistently ignore business priorities.',
+    q: 'What does TOGAF recommend about Architecture Board composition?',
     opts: [
-      "Use an undocumented workaround that bypasses governance application policies",
-      "Follow industry best practices for governance application as defined in the TOGAF® Enterprise Architecture Practitioner body of knowledge",
-      "Disable monitoring for governance application to improve performance",
-      "Grant excessive privileges that violate governance application least-privilege principles",
+      'The Architecture Board should be exclusively technical — business leaders should not be involved in architecture decisions',
+      'The Architecture Board should include senior representatives from both business and IT, ensuring architecture decisions reflect business priorities and technical feasibility',
+      'Business concerns should be handled by a separate Business Architecture Committee with no connection to the Architecture Board',
+      'The Architecture Board is optional — organisations can choose to govern architecture through IT leadership alone',
     ],
     a: 1,
-    exp: "Follow industry best practices for governance application as defined in the TOGAF® Enterprise Architecture Practitioner body of knowledge. This is the recommended approach for the Governance Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    exp: 'TOGAF recommends that the Architecture Board include senior representatives from both business and IT domains. Architecture decisions have significant business implications. Excluding business leadership creates architectures that are technically sound but misaligned with business strategy — the core failure described in this scenario.',
   },
 
-  // ── Migration Planning ──
+  // ── DOMAIN: Architecture Partitioning and Reuse ──
   {
-    domain: "Migration Planning",
-    q: "A healthcare organization must document Migration Planning procedures for TOGAF® Enterprise Architecture Practitioner compliance. Which standard applies?",
+    domain: 'Architecture Partitioning and Reuse',
+    scenario: 'A large enterprise has 12 business units each running independent IT systems with no commonality. The enterprise architecture team has been asked to reduce duplication and create a more coherent technology landscape.',
+    q: 'Which TOGAF concept BEST supports identifying opportunities for sharing and reuse across business units?',
     opts: [
-      "Disable monitoring for migration planning to improve performance",
-      "Grant excessive privileges that violate migration planning least-privilege principles",
-      "Implement the standard migration planning solution that satisfies TOGAF® Enterprise Architecture Practitioner domain requirements",
-      "Rely solely on manual processes with no migration planning automation",
-    ],
-    a: 2,
-    exp: "Implement the standard migration planning solution that satisfies TOGAF® Enterprise Architecture Practitioner domain requirements. This is the recommended approach for the Migration Planning domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
-  },
-
-  // ── Requirements Management ──
-  {
-    domain: "Requirements Management",
-    q: "A TOGAF® Enterprise Architecture Practitioner instructor asks about Requirements Management in the context of a high-traffic e-commerce platform. What is the accurate response?",
-    opts: [
-      "Grant excessive privileges that violate requirements management least-privilege principles",
-      "Rely solely on manual processes with no requirements management automation",
-      "Ignore requirements management compliance requirements for faster deployment",
-      "Use the certified requirements management methodology specified for TOGAF® Enterprise Architecture Practitioner candidates",
-    ],
-    a: 3,
-    exp: "Use the certified requirements management methodology specified for TOGAF® Enterprise Architecture Practitioner candidates. This is the recommended approach for the Requirements Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
-  },
-
-  // ── Implementation Governance ──
-  {
-    domain: "Implementation Governance",
-    q: "Which Implementation Governance metric best indicates TOGAF® Enterprise Architecture Practitioner readiness for a government agency?",
-    opts: [
-      "Adopt the implementation governance control framework referenced in TOGAF® Enterprise Architecture Practitioner study materials",
-      "Rely solely on manual processes with no implementation governance automation",
-      "Ignore implementation governance compliance requirements for faster deployment",
-      "Mix production and test implementation governance configurations in one environment",
-    ],
-    a: 0,
-    exp: "Adopt the implementation governance control framework referenced in TOGAF® Enterprise Architecture Practitioner study materials. This is the recommended approach for the Implementation Governance domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
-  },
-
-  // ── Architecture Patterns ──
-  {
-    domain: "Architecture Patterns",
-    q: "A SaaS startup scaling rapidly is troubleshooting a Architecture Patterns issue while preparing for TOGAF® Enterprise Architecture Practitioner. What is the first step?",
-    opts: [
-      "Ignore architecture patterns compliance requirements for faster deployment",
-      "Configure architecture patterns according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations",
-      "Mix production and test architecture patterns configurations in one environment",
-      "Store sensitive architecture patterns credentials in plain text configuration files",
+      'The Governance Log — to record all existing systems and their owners',
+      'The Architecture Landscape in the Architecture Repository — which shows the current portfolio of architectures and identifies duplication and reuse opportunities',
+      'Transition Architectures — which define intermediate steps between current and target states',
+      'Phase H Architecture Change Management — which manages changes to existing architectures',
     ],
     a: 1,
-    exp: "Configure architecture patterns according to TOGAF® Enterprise Architecture Practitioner exam blueprint recommendations. This is the recommended approach for the Architecture Patterns domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    exp: 'The Architecture Landscape in the Architecture Repository provides a view of all existing architectures across the enterprise at strategic, segment, and capability levels. Comparing these identifies duplication and reuse opportunities — the foundation for rationalisation across business units.',
   },
-
-  // ── ADM Application ──
   {
-    domain: "ADM Application",
-    q: "In TOGAF® Enterprise Architecture Practitioner, how should a manufacturing company modernizing IT handle a trade-off involving ADM Application?",
+    domain: 'Architecture Partitioning and Reuse',
+    scenario: 'A global enterprise has divided its architecture into three levels: an enterprise-wide strategic architecture, regional architectures for each continent, and project-level architectures for individual capabilities.',
+    q: 'What TOGAF concept does this structure reflect?',
     opts: [
-      "Mix production and test adm application configurations in one environment",
-      "Store sensitive adm application credentials in plain text configuration files",
-      "Select the adm application option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards",
-      "Skip adm application testing before production rollout",
+      'The Enterprise Continuum — which classifies architectures from generic to specific',
+      'Architecture Partitioning — which organises architectures at Strategic, Segment, and Capability levels',
+      'The Architecture Roadmap — which sequences architecture delivery',
+      'The Solutions Continuum — which classifies solution assets from generic to specific',
+    ],
+    a: 1,
+    exp: 'Architecture Partitioning divides the enterprise architecture into manageable parts: Strategic Architecture (enterprise-wide direction), Segment Architecture (regional or business domain), and Capability Architecture (specific capabilities or projects). This structure enables federated governance and appropriate delegation.',
+  },
+  {
+    domain: 'Architecture Partitioning and Reuse',
+    scenario: 'A shared services organisation has developed a reusable identity and access management (IAM) architecture that is used by 8 different business unit architectures.',
+    q: 'How should this reusable architecture be classified and stored according to TOGAF?',
+    opts: [
+      'As a deliverable in one business unit\'s Architecture Definition Document',
+      'As an Organisation-Specific Architecture in the Architecture Repository, available to all business units through the Architecture Repository',
+      'In the Governance Log as an approved architectural decision',
+      'In the Standards Information Base as a mandatory technology standard',
+    ],
+    a: 1,
+    exp: 'Reusable architecture assets are stored in the Architecture Repository at the appropriate level of the Enterprise Continuum — in this case, Organisation-Specific Architecture. Storing it there makes it discoverable and accessible to other teams, enabling formal reuse across business units.',
+  },
+  {
+    domain: 'Architecture Partitioning and Reuse',
+    scenario: 'Two separate programme teams are both defining architectures for customer data management. The enterprise architecture team discovers this halfway through both programmes.',
+    q: 'What is the MOST appropriate TOGAF response?',
+    opts: [
+      'Let both programmes complete independently and resolve the conflict during integration testing',
+      'Cancel one programme and direct its budget to the other',
+      'Pause both programmes, identify the overlapping architecture scope, define a shared Customer Data Architecture at the Segment level, and redirect both programmes to build on that shared foundation',
+      'Create a committee to review the conflict with no authority to make binding decisions',
     ],
     a: 2,
-    exp: "Select the adm application option that meets TOGAF® Enterprise Architecture Practitioner security and governance standards. This is the recommended approach for the ADM Application domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    exp: 'Overlapping architecture work across programmes represents a partitioning failure. The correct response is to define the shared scope as a Segment Architecture, resolve the overlap, and have both programmes build on the shared foundation. This delivers economies of scale and prevents conflicting implementations.',
   },
 
-  // ── Stakeholder Management ──
+  // ── DOMAIN: Architecture Views and Viewpoints ──
   {
-    domain: "Stakeholder Management",
-    q: "Which Stakeholder Management pattern is commonly tested on TOGAF® Enterprise Architecture Practitioner for scenarios involving a media company with global users?",
+    domain: 'Architecture Views and Viewpoints',
+    scenario: 'The Head of Security wants to understand how customer data flows through the system and where it is stored. The Head of Operations wants to understand which services depend on which infrastructure components.',
+    q: 'What does TOGAF recommend to address these two different needs?',
     opts: [
-      "Store sensitive stakeholder management credentials in plain text configuration files",
-      "Skip stakeholder management testing before production rollout",
-      "Implement stakeholder management without change management or rollback plans",
-      "Design stakeholder management using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments",
+      'Create one comprehensive architecture diagram that includes all information for both stakeholders',
+      'Create separate Architecture Views tailored to each stakeholder\'s concern — a data flow/security view for the Head of Security, and a service/infrastructure dependency view for Operations',
+      'Provide both stakeholders with the full Architecture Definition Document',
+      'Let each stakeholder create their own view from the architecture documentation',
     ],
-    a: 3,
-    exp: "Design stakeholder management using patterns validated in TOGAF® Enterprise Architecture Practitioner practice assessments. This is the recommended approach for the Stakeholder Management domain on the TOGAF® Enterprise Architecture Practitioner exam and reflects current certification objectives.",
+    a: 1,
+    exp: 'TOGAF\'s view-based approach creates separate Architecture Views for different stakeholder concerns. Different Viewpoints (frameworks for constructing views) are applied to produce views that address specific concerns. One view cannot effectively address two very different stakeholder needs.',
+  },
+  {
+    domain: 'Architecture Views and Viewpoints',
+    scenario: 'An architecture team is selecting which Architecture Viewpoints to use for a new programme. They are considering using the 4+1 View Model.',
+    q: 'What is the relationship between the 4+1 View Model and TOGAF Architecture Viewpoints?',
+    opts: [
+      'The 4+1 View Model is incompatible with TOGAF and must not be used',
+      'TOGAF mandates the use of a specific set of viewpoints — 4+1 is not one of them',
+      'TOGAF allows organisations to use established viewpoint frameworks such as 4+1 as the basis for their Architecture Viewpoints — TOGAF does not mandate specific viewpoints',
+      'The 4+1 View Model replaces the need for TOGAF Architecture Viewpoints entirely',
+    ],
+    a: 2,
+    exp: 'TOGAF does not mandate specific viewpoints. It provides a framework for defining and using viewpoints. Established frameworks like 4+1 (Logical, Process, Physical, Development, Scenario) can be adopted as the basis for Architecture Viewpoints, adapted to the organisation\'s needs.',
+  },
+  {
+    domain: 'Architecture Views and Viewpoints',
+    scenario: 'An architect creates a diagram showing the Target Architecture\'s application layer. A business stakeholder reviews it and says they cannot understand what the diagram means for their business processes.',
+    q: 'What has the architect failed to do?',
+    opts: [
+      'Use the correct diagramming tool',
+      'Select or apply an appropriate Viewpoint for the business stakeholder audience — the application diagram is an IT-centric view not suited to business stakeholders',
+      'Obtain Architecture Board approval before sharing diagrams',
+      'Create the diagram in sufficient technical detail',
+    ],
+    a: 1,
+    exp: 'The architect has selected a Viewpoint appropriate for IT professionals, not business stakeholders. For business stakeholders, a Business Architecture View showing business process flows, services, and capabilities would be more appropriate. The Viewpoint selection must match the audience\'s concerns.',
+  },
+  {
+    domain: 'Architecture Views and Viewpoints',
+    scenario: 'A regulatory body requires the organisation to demonstrate how the architecture ensures data privacy compliance. The architecture team needs to produce a view that shows data classification, storage locations, access controls, and data flows.',
+    q: 'How should the architecture team approach creating this view?',
+    opts: [
+      'Extract relevant sections from the Architecture Definition Document and paste them into a report',
+      'Define a Compliance Viewpoint that addresses the regulator\'s specific concerns, then create an Architecture View from the existing architecture artefacts using that Viewpoint',
+      'Create a completely separate architecture engagement focused solely on data privacy',
+      'Refer the regulator to the Standards Information Base for compliance documentation',
+    ],
+    a: 1,
+    exp: 'A Viewpoint is defined based on the stakeholder\'s concerns (regulatory compliance). The View is then created by applying the Viewpoint to the existing architecture artefacts — drawing out the relevant information. This avoids duplication and ensures the view is derived from the authoritative architecture.',
+  },
+
+  // ── DOMAIN: Business Scenarios ──
+  {
+    domain: 'Business Scenarios',
+    scenario: 'An organisation is starting Phase A of the ADM. The business problem is poorly understood and business leaders disagree on what needs to be solved. The architecture team needs to clarify the problem before defining any architecture.',
+    q: 'Which TOGAF technique is MOST appropriate at this point?',
+    opts: [
+      'Begin defining the Target Architecture based on best-guess assumptions',
+      'Use the Business Scenario technique to elicit, understand, and agree on the business problem before any architecture work begins',
+      'Conduct a detailed technical assessment of the current IT landscape first',
+      'Issue a Statement of Architecture Work immediately to force agreement on scope',
+    ],
+    a: 1,
+    exp: 'The Business Scenario technique is specifically designed to elicit and clarify a business problem or opportunity. It defines the problem, the actors and roles involved, the desired business outcomes, and the constraints. It is the ideal tool when business leaders disagree on the problem definition.',
+  },
+  {
+    domain: 'Business Scenarios',
+    scenario: 'A Business Scenario has been developed. It describes: an online retailer losing customers due to slow checkout; actors including customers, payment systems, and logistics partners; desired outcomes of a 40% reduction in checkout abandonment rate; and constraints including a budget cap and existing payment provider contracts.',
+    q: 'What is the PRIMARY purpose of this Business Scenario in the ADM?',
+    opts: [
+      'It is a project plan that the implementation team should follow directly',
+      'It establishes the business context and requirements that the Architecture Vision and subsequent ADM phases must address',
+      'It replaces the Architecture Requirements Specification for this engagement',
+      'It is a communication tool for external stakeholders only',
+    ],
+    a: 1,
+    exp: 'The Business Scenario establishes the business context — what problem must be solved, who is affected, what success looks like, and what constraints apply. It drives the Architecture Vision and informs requirements across all ADM phases. It does not replace the Architecture Requirements Specification but feeds into it.',
+  },
+  {
+    domain: 'Business Scenarios',
+    scenario: 'During the development of a Business Scenario, the architecture team discovers that different business units have fundamentally different definitions of what constitutes a "customer".',
+    q: 'What should the architecture team do with this finding?',
+    opts: [
+      'Pick one definition and proceed — resolving semantic disputes is not an architecture concern',
+      'Document the conflicting definitions in the Business Scenario, escalate to business leadership for resolution, and ensure the agreed definition is reflected in the architecture\'s data definitions',
+      'Create separate architectures for each business unit based on their own customer definition',
+      'Defer this issue to the implementation team to resolve during data migration',
+    ],
+    a: 1,
+    exp: 'Conflicting business concepts like the definition of "customer" are fundamental architectural issues — they affect data architecture, integration, reporting, and business process design. The Business Scenario should document the conflict, escalate for resolution, and the agreed definition becomes a cornerstone of the data architecture.',
+  },
+  {
+    domain: 'Business Scenarios',
+    scenario: 'A completed Business Scenario identifies that a legacy claims processing system is causing 35% of customer complaints and costs £2m per year in manual rework.',
+    q: 'How does this Business Scenario feed into the ADM?',
+    opts: [
+      'It triggers a project to replace the legacy system, bypassing the ADM',
+      'It provides the business context and justification for the Architecture Vision in Phase A, and the identified problem drives architecture requirements across Phases B, C, and D',
+      'It is stored in the Architecture Repository but not referenced in any ADM phase directly',
+      'It is used only in Phase E to evaluate solution options',
+    ],
+    a: 1,
+    exp: 'The Business Scenario directly feeds Phase A by establishing why the architecture is needed and what business outcomes it must achieve. The identified problem (legacy system causing complaints and cost) drives requirements in Phase B (business process redesign), Phase C (application replacement), and Phase D (technology platform).',
+  },
+
+  // ── DOMAIN: Risk and Opportunity Management ──
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'During Phase A, the architecture team identifies that a key technical dependency — the organisation\'s mainframe — may be retired by its vendor in 3 years. The Target Architecture timeline is 5 years.',
+    q: 'How should this risk be handled in TOGAF terms?',
+    opts: [
+      'Ignore it — the vendor retirement is uncertain and may not happen',
+      'Halt the entire architecture engagement until the vendor confirms their roadmap',
+      'Document the risk in the Risk Register, assess its likelihood and impact, and ensure the architecture addresses mainframe dependency reduction as a priority in the Architecture Roadmap',
+      'Immediately escalate to the board of directors as a catastrophic risk requiring emergency action',
+    ],
+    a: 2,
+    exp: 'TOGAF requires risks to be identified, assessed, and managed. Vendor end-of-life risk for a key technical dependency should be documented in the Risk Register with likelihood and impact assessment. The architecture should then prioritise reducing that dependency — this turns a risk into a driver for good architecture decisions.',
+  },
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'The architecture team has identified a significant opportunity: a new cloud-based analytics platform could provide real-time customer insights that would give the business a competitive advantage.',
+    q: 'How does TOGAF recommend handling architecture opportunities?',
+    opts: [
+      'Opportunities should only be recorded after formal business approval — the architecture team should not proactively identify them',
+      'Opportunities should be documented alongside risks, assessed for feasibility and value, and considered when defining the Target Architecture in Phase A and Phase E',
+      'Opportunities are outside the scope of enterprise architecture and should be handled by the business strategy team',
+      'Opportunities should be implemented immediately without going through the ADM process',
+    ],
+    a: 1,
+    exp: 'TOGAF treats opportunities as counterparts to risks. Both are identified and assessed during the ADM. Opportunities inform the Target Architecture — if an opportunity is feasible and valuable, it should be incorporated. Phase E (Opportunities and Solutions) specifically evaluates how opportunities can be realised.',
+  },
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'A Risk Assessment identifies a critical risk: the proposed Target Architecture depends on a single cloud provider, creating vendor lock-in that could affect the organisation for 10+ years.',
+    q: 'What architecture response does TOGAF support?',
+    opts: [
+      'Accept the risk and proceed — vendor lock-in is an operational concern not an architecture concern',
+      'Cancel the cloud programme entirely to avoid the risk',
+      'Address the risk through architecture design decisions — such as defining cloud-agnostic ABBs, using open APIs, and designing portability as an architectural principle — and document the residual risk in the Risk Register',
+      'Record the risk but take no action — risk management is the CTO\'s responsibility',
+    ],
+    a: 2,
+    exp: 'TOGAF risk management is proactive — identified risks should influence architecture design decisions. Vendor lock-in risk is a classic architecture concern addressed through cloud-agnostic design patterns, open standards, and portability principles. Residual risk (after design mitigations) is documented in the Risk Register.',
+  },
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'The Architecture Board classifies a risk as Initial Risk Level 4 (High). After applying architecture mitigations such as redundancy, multi-region deployment, and automated failover, the residual risk is assessed as Level 2 (Low).',
+    q: 'What does this risk classification process demonstrate?',
+    opts: [
+      'That the risk has been eliminated and no further monitoring is needed',
+      'That architecture decisions have reduced the risk to an acceptable level — the residual risk should be documented in the Risk Register and monitored',
+      'That the architecture team has exceeded its mandate by making operational decisions',
+      'That the initial risk assessment was wrong and should be revised downward from the start',
+    ],
+    a: 1,
+    exp: 'TOGAF risk management tracks both Initial Risk (before mitigation) and Residual Risk (after mitigation). Architecture decisions that reduce risk from High to Low demonstrate architecture value. The residual risk is documented in the Risk Register and monitored throughout the programme lifecycle.',
+  },
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'An organisation is deciding whether to proceed with a large-scale architecture transformation. The transformation offers high business value but carries significant delivery risk. Some board members want to wait until risks are lower.',
+    q: 'What TOGAF guidance helps inform this decision?',
+    opts: [
+      'TOGAF recommends always accepting high-value opportunities regardless of risk',
+      'TOGAF recommends always waiting until risks are at an acceptable level before proceeding',
+      'The risk and opportunity analysis — weighing the cost of inaction (lost opportunity) against the cost of action (delivery risk) — informs the business case; Transition Architectures can be used to reduce risk by breaking the transformation into manageable increments',
+      'Risk decisions are business decisions outside the scope of enterprise architecture',
+    ],
+    a: 2,
+    exp: 'TOGAF risk management includes assessing the cost of inaction — delaying transformation also carries risk (competitive disadvantage, technical debt accumulation). Transition Architectures reduce delivery risk by breaking large transformations into smaller, deliverable increments, making the overall risk profile more manageable.',
+  },
+
+  // ── Additional ADM Application scenarios ──
+  {
+    domain: 'ADM Application',
+    scenario: 'An organisation uses TOGAF but has also adopted SAFe (Scaled Agile Framework) for its delivery teams. The Product Owner for a strategic capability asks whether they still need to go through the ADM for their Feature-level work.',
+    q: 'What is the MOST appropriate answer?',
+    opts: [
+      'SAFe replaces TOGAF for agile organisations — no ADM involvement is needed',
+      'Every Feature must go through a complete ADM cycle regardless of size',
+      'The ADM and SAFe operate at different levels — the ADM governs the architecture at programme/strategic level, while SAFe governs feature delivery. Architecture constraints from the ADM flow into SAFe backlogs as Enablers and architectural guardrails',
+      'The Product Owner should manage architecture decisions independently within their SAFe team',
+    ],
+    a: 2,
+    exp: 'TOGAF and SAFe are complementary. The ADM operates at the strategic and programme level, establishing architectural direction, constraints, and standards. SAFe delivers features within those constraints. Architecture guidance flows into SAFe as Enablers, architectural runway, and non-functional requirements.',
+  },
+  {
+    domain: 'ADM Application',
+    scenario: 'During Phase E, the architecture team has identified three possible solution configurations that each realise the Target Architecture but with different cost, risk, and time-to-value profiles.',
+    q: 'What is the PRIMARY output of Phase E regarding these options?',
+    opts: [
+      'A detailed project plan for implementing the cheapest option',
+      'An Architecture Requirements Specification updated with solution constraints',
+      'A set of evaluated solution options — including a recommended preferred option — presented to stakeholders for decision',
+      'A Technology Architecture updated to reflect all three options simultaneously',
+    ],
+    a: 2,
+    exp: 'Phase E (Opportunities and Solutions) evaluates alternative approaches to realising the Target Architecture and produces a recommended preferred option. The team evaluates cost, risk, time-to-value, and strategic fit, then presents stakeholders with an informed recommendation — not just a list of options.',
+  },
+  {
+    domain: 'ADM Application',
+    scenario: 'Phase B has produced a Target Business Architecture. Before moving to Phase C, a senior architect suggests skipping Phase C (Information Systems Architecture) to save time and go directly to Phase D Technology Architecture.',
+    q: 'What is the risk of this approach?',
+    opts: [
+      'No risk — Phase C is optional and can always be skipped',
+      'The risk is that without understanding the required information systems and data architecture, the Technology Architecture in Phase D may not support the applications and data needs of the Target Business Architecture',
+      'The only risk is a governance compliance issue — the architecture will still be technically sound',
+      'Phase C is only relevant for organisations with large data warehouses, so skipping it for other organisations is acceptable'],
+    a: 1,
+    exp: 'The ADM phases are logically sequential because each builds on the previous. Skipping Phase C means the Technology Architecture in Phase D is developed without knowing what applications and data capabilities it must support. This creates a significant risk of misaligned infrastructure that cannot support the business architecture\'s requirements.',
+  },
+  {
+    domain: 'ADM Application',
+    scenario: 'An organisation has completed Phases A through D and is entering Phase E. The architecture team has 47 identified gaps between the Baseline and Target Architecture across all four domains.',
+    q: 'What is the main purpose of Phase E in this context?',
+    opts: [
+      'To create detailed technical specifications for each of the 47 gaps',
+      'To identify and group the work needed to close the gaps into logical work packages and projects, then determine how to sequence them into Transition Architectures',
+      'To revisit Phase A and confirm the Architecture Vision is still valid',
+      'To write the Architecture Compliance Reports for the implementation phase',
+    ],
+    a: 1,
+    exp: 'Phase E (Opportunities and Solutions) takes the gaps identified in previous phases and organises the work needed to close them. Gaps are grouped into work packages, projects are identified, dependencies are mapped, and the approach to sequencing them into Transition Architectures is determined.',
+  },
+
+  // ── DOMAIN: Stakeholder Management (additional) ──
+  {
+    domain: 'Stakeholder Management',
+    scenario: 'The architecture team is planning their stakeholder engagement for Phase B. They have identified 28 stakeholders across the business. Some are very influential but rarely available; others are available but have limited decision-making authority.',
+    q: 'What TOGAF technique helps the team plan appropriate engagement levels for each stakeholder?',
+    opts: [
+      'The Architecture Requirements Specification — which maps requirements to stakeholders',
+      'The Stakeholder Map — which classifies stakeholders by power/interest and informs tailored engagement strategies',
+      'The Architecture Definition Document — which documents all stakeholder concerns',
+      'The Implementation and Migration Plan — which schedules stakeholder review sessions',
+    ],
+    a: 1,
+    exp: 'The Stakeholder Map (or Power/Interest Grid) is the TOGAF technique for planning stakeholder engagement. Classifying stakeholders by power and interest enables the team to define appropriate engagement strategies — manage closely (high power/high interest), keep satisfied (high power/low interest), keep informed (low power/high interest), monitor (low power/low interest).',
+  },
+  {
+    domain: 'Stakeholder Management',
+    scenario: 'An organisation is implementing a major ERP system. The end-users (1,200 employees) are not represented in any architecture review sessions. The architecture is being driven entirely by the IT team and vendor.',
+    q: 'What concern does TOGAF raise about this situation?',
+    opts: [
+      'No concern — end-users are not architecture stakeholders',
+      'End-users are key stakeholders whose concerns about usability, process change, and training must be captured in the architecture; failing to engage them risks delivering a technically compliant but practically unusable system',
+      'End-users should be consulted only during User Acceptance Testing, not during architecture development',
+      'The IT team and vendor have sufficient insight into end-user needs without direct engagement',
+    ],
+    a: 1,
+    exp: 'TOGAF identifies all parties affected by the architecture as stakeholders. End-users are a critical stakeholder group whose concerns (usability, process change, training, productivity impact) must be captured and addressed in the architecture. Excluding them is a common cause of technically successful but practically failed implementations.',
+  },
+  {
+    domain: 'Stakeholder Management',
+    scenario: 'The Communications Plan for the architecture programme was created at the start of Phase A. It is now Phase D and two new senior stakeholders have joined the programme — a new CFO and a new Head of Digital.',
+    q: 'What action is required?',
+    opts: [
+      'No action — the Communications Plan was approved and should not be changed mid-programme',
+      'Update the Stakeholder Map and Communications Plan to include the new stakeholders, assess their concerns and level of interest, and tailor communication to their needs',
+      'Brief the new stakeholders informally and continue with the existing Communications Plan unchanged',
+      'Wait until the next ADM cycle to update the Stakeholder Map',
+    ],
+    a: 1,
+    exp: 'The Stakeholder Map and Communications Plan are living documents that must be maintained throughout the ADM. When significant new stakeholders join (especially at senior level), they must be added to the Stakeholder Map, their concerns assessed, and the Communications Plan updated to engage them appropriately.',
+  },
+
+  // ── DOMAIN: Migration Planning (additional) ──
+  {
+    domain: 'Migration Planning',
+    scenario: 'The organisation\'s Architecture Roadmap shows 18 projects. Finance has confirmed that only £15m is available over the next 3 years, but the total estimated cost is £28m. The architecture team must adjust the roadmap.',
+    q: 'What is the TOGAF-recommended approach to managing this budget constraint?',
+    opts: [
+      'Reduce the scope of the Target Architecture to fit the budget by eliminating capabilities',
+      'Apply for additional budget and refuse to adjust the roadmap until full funding is confirmed',
+      'Prioritise work packages based on business value, dependencies, and strategic fit; identify quick wins; and define Transition Architectures within the funding envelope, with lower-priority projects deferred or removed',
+      'Split the budget equally across all 18 projects and let each project manage its own scope reduction',
+    ],
+    a: 2,
+    exp: 'Phase F and the Architecture Roadmap must reflect realistic constraints including budget. The correct approach is to prioritise the highest-value, highest-priority work packages within the funding envelope, sequence them into achievable Transition Architectures, and formally defer or descope lower-priority items through governance.',
+  },
+  {
+    domain: 'Migration Planning',
+    scenario: 'Two work packages in the Architecture Roadmap are technically independent but both are competing for the same pool of specialist architects, creating a resource constraint.',
+    q: 'How should the architecture team address this in the Migration Plan?',
+    opts: [
+      'Run both work packages simultaneously and let the architects manage their own capacity',
+      'Sequence the work packages to account for the resource constraint, adjusting the timeline so that specialist architect capacity is not over-allocated across concurrent work',
+      'Outsource one of the work packages to avoid the internal resource constraint',
+      'Remove the work package that is lower priority to resolve the constraint permanently',
+    ],
+    a: 1,
+    exp: 'The Migration Plan must reflect realistic delivery constraints, including resource availability. Technical independence does not mean operational independence. If specialist capacity is limited, the plan must sequence the work to match available capacity — even if this extends the overall timeline.',
+  },
+
+  // ── DOMAIN: Architecture Content Framework (additional) ──
+  {
+    domain: 'Architecture Content',
+    scenario: 'An architect is working on the Architecture Definition Document and needs to show which applications support which business processes, and which servers host which applications.',
+    q: 'Which combination of TOGAF artefact types BEST addresses both of these cross-domain relationships?',
+    opts: [
+      'Two separate diagrams — one for business processes and one for servers',
+      'A Business Process/Application matrix and an Application/Technology matrix — cross-domain matrices showing the relationships between architecture elements',
+      'A single Architecture Principles document covering both concerns',
+      'A text description in the Architecture Definition Document narrative section',
+    ],
+    a: 1,
+    exp: 'Cross-domain matrices (such as Business Process/Application and Application/Technology matrices) are the most effective TOGAF artefacts for showing relationships between elements in different architecture domains. They are queryable, precise, and readily updated — more effective than narrative descriptions or single complex diagrams.',
+  },
+  {
+    domain: 'Architecture Content',
+    scenario: 'During Phase C, an architect is documenting the application portfolio. They need to record each application\'s name, owner, business function supported, technology platform, and status (current, target, decommission).',
+    q: 'Which TOGAF artefact is designed for this purpose?',
+    opts: [
+      'Architecture Principles catalogue',
+      'Application Portfolio Catalogue — an application-level catalogue recording key attributes of each application in the portfolio',
+      'Technology Standards Catalogue from the Standards Information Base',
+      'Architecture Roadmap showing application transition states',
+    ],
+    a: 1,
+    exp: 'The Application Portfolio Catalogue is the TOGAF artefact for recording application-level information including ownership, function, platform, and lifecycle status. It provides the inventory foundation for Application Architecture and supports gap analysis and roadmap development.',
+  },
+  {
+    domain: 'Architecture Content',
+    scenario: 'The architecture team needs to show how the organisation\'s information assets flow between business processes, identifying where sensitive customer data is created, processed, stored, and transmitted.',
+    q: 'Which TOGAF artefact BEST captures this?',
+    opts: [
+      'Technology Architecture Network Diagram',
+      'Application Communication Diagram',
+      'Data Flow Diagram — a Phase C (Data Architecture) artefact showing information flows between processes and systems',
+      'Business Process Model from Phase B',
+    ],
+    a: 2,
+    exp: 'A Data Flow Diagram (developed in Phase C: Data Architecture) shows how information assets move between business processes, systems, and actors. It is the key artefact for understanding data provenance, data handling, and compliance with data protection requirements.',
+  },
+
+  // ── DOMAIN: Enterprise Continuum (additional) ──
+  {
+    domain: 'Enterprise Continuum Application',
+    scenario: 'An organisation is about to begin a cloud migration architecture. The architecture team wants to identify whether The Open Group or other industry bodies have published relevant reference architectures for cloud migration.',
+    q: 'At which level of the Architecture Continuum would such reference architectures most likely be found?',
+    opts: [
+      'Foundation Architecture — the most generic level applicable to all IT systems',
+      'Organisation-Specific Architecture — tailored to this particular organisation',
+      'Industry Architecture — reference architectures applicable across technology-adopting industries, including cloud migration frameworks',
+      'Solutions Continuum only — as cloud products are specific solution implementations',
+    ],
+    a: 2,
+    exp: 'Industry Architecture level contains reference architectures and patterns developed for use across an industry or technology domain. Cloud migration frameworks developed by organisations like The Open Group, cloud providers, or industry consortia sit at this level — specific enough to be useful, generic enough to be broadly applicable.',
+  },
+  {
+    domain: 'Enterprise Continuum Application',
+    scenario: 'The architecture team discovers that a valuable integration architecture pattern — developed and proven internally three years ago — has never been made available to other teams. Several teams have independently developed similar but inconsistent integration approaches.',
+    q: 'What does this situation represent from a TOGAF perspective, and what is the remedy?',
+    opts: [
+      'This is acceptable — different teams should use different integration approaches for flexibility',
+      'This represents a failure to populate the Architecture Repository. The pattern should be published to the Reference Library with appropriate metadata so it can be discovered and reused by all teams',
+      'The pattern is too old to be relevant — teams should develop fresh integration approaches',
+      'This is a project management failure, not an architecture concern',
+    ],
+    a: 1,
+    exp: 'Failure to capture and share proven architecture assets in the Architecture Repository prevents organisational learning and drives duplication. The remedy is to document the pattern and publish it to the Reference Library with metadata enabling discoverability. The Architecture Repository exists specifically to prevent this kind of value loss.',
+  },
+
+  // ── DOMAIN: Implementation Governance (additional) ──
+  {
+    domain: 'Implementation Governance',
+    scenario: 'An Architecture Contract has been established between the architecture team and an implementation project. The contract specifies that no third-party APIs outside the approved API Catalogue may be used. The project team has identified a highly capable but non-approved API that would save 3 months of development.',
+    q: 'What is the correct process?',
+    opts: [
+      'Allow the project team to use the API immediately since the time saving justifies it',
+      'Reject the use of the API as the Architecture Contract is non-negotiable once signed',
+      'Assess the API against the approval criteria, raise a formal change request for Architecture Board review, and if approved, update the Architecture Contract and the API Catalogue',
+      'Add the API to the Catalogue immediately and inform the Architecture Board retrospectively',
+    ],
+    a: 2,
+    exp: 'Architecture Contracts are formal governance instruments but they can be updated through the proper change process. The project team should submit a formal change request, the API should be assessed against approval criteria (security, support, licensing, standards compliance), and the Architecture Board should make a formal decision — not the project team unilaterally.',
+  },
+  {
+    domain: 'Implementation Governance',
+    scenario: 'An organisation has outsourced the development of a major system component to an external vendor. The vendor is not familiar with TOGAF or the organisation\'s Architecture Contract obligations.',
+    q: 'How should the architecture team address this situation?',
+    opts: [
+      'Exempt the vendor from Architecture Contract obligations as they are an external party',
+      'Ensure the Architecture Contract obligations are incorporated into the commercial contract with the vendor, and conduct vendor architecture briefings and compliance reviews as part of vendor management',
+      'Trust the vendor to deliver a compliant solution without formal architecture oversight',
+      'Wait for delivery and conduct a compliance review only at the point of final acceptance',
+    ],
+    a: 1,
+    exp: 'Outsourcing does not exempt a delivery from architecture governance. Architecture Contract obligations must be reflected in commercial contracts with vendors, and the architecture team must provide briefings and conduct compliance reviews throughout the engagement. External delivery carries the same architecture compliance obligations as internal delivery.',
+  },
+
+  // ── DOMAIN: Requirements Management (additional) ──
+  {
+    domain: 'Requirements Management',
+    scenario: 'During Phase D, the infrastructure team raises a new constraint: the organisation\'s data centre cannot support the cooling requirements of the proposed high-performance computing cluster in the Target Architecture.',
+    q: 'What is the TOGAF-correct response to this newly discovered constraint?',
+    opts: [
+      'Ignore the constraint — data centre operations are not an architecture concern',
+      'Add the constraint to the Requirements Repository, assess its impact on the Target Technology Architecture, and determine whether the architecture needs to be revised (e.g., use cloud HPC instead) or the data centre needs to be upgraded',
+      'Cancel the high-performance computing requirement entirely without analysis',
+      'Move the HPC requirement to a future ADM cycle without addressing it in the current engagement',
+    ],
+    a: 1,
+    exp: 'Newly discovered constraints are a normal ADM occurrence managed through Requirements Management. The constraint is documented in the Requirements Repository, its impact on the Target Architecture is assessed, and options (revise architecture, upgrade infrastructure, use cloud) are evaluated. The architecture decision is made formally and documented.',
+  },
+  {
+    domain: 'Requirements Management',
+    scenario: 'The organisation\'s architecture team has documented 120 requirements across all domains. The Architecture Board asks: "How do we know which requirements are mandatory for the architecture to be considered successful, versus which are desirable enhancements?"',
+    q: 'How does TOGAF support this distinction?',
+    opts: [
+      'All requirements are equally mandatory — no distinction should be made',
+      'Requirements should be classified by type and priority (e.g., mandatory/conditional/desirable) in the Architecture Requirements Specification, so compliance assessments can distinguish must-have from nice-to-have',
+      'The Architecture Board should vote on which requirements they personally prefer',
+      'Only requirements raised by senior stakeholders are mandatory; all others are desirable',
+    ],
+    a: 1,
+    exp: 'The Architecture Requirements Specification classifies requirements by type and priority. This enables compliance assessments to distinguish between mandatory requirements (must be met for the architecture to be considered compliant) and conditional or desirable requirements (should be met where possible). This is essential for practical governance.',
+  },
+
+  // ── DOMAIN: ADM Application (additional) ──
+  {
+    domain: 'ADM Application',
+    scenario: 'An organisation is conducting Phase C: Information Systems Architecture. The team has completed the Application Architecture but the Data Architecture is taking much longer than planned. The programme sponsor wants to skip the Data Architecture and proceed directly to Phase D.',
+    q: 'What risk does skipping the Data Architecture create?',
+    opts: [
+      'No significant risk — Data Architecture can always be added later without impact',
+      'Phase D Technology Architecture may not support the correct data storage, processing, and integration requirements, leading to costly rework once data needs are understood',
+      'The only risk is a documentation gap — the architecture will still function correctly',
+      'Skipping Data Architecture is a TOGAF best practice for faster programme delivery',
+    ],
+    a: 1,
+    exp: 'Data Architecture defines what data the organisation needs, how it is structured, and how it flows. Without this, Phase D Technology Architecture cannot correctly specify data storage, database technologies, integration patterns, or data processing infrastructure. Proceeding without it risks technology choices that cannot support the actual data requirements.',
+  },
+  {
+    domain: 'ADM Application',
+    scenario: 'During Phase G, the architecture team receives a formal Architecture Compliance Review request from an implementation project. The team is already overcommitted with other governance activities.',
+    q: 'What does TOGAF governance require the team to do?',
+    opts: [
+      'Defer the review indefinitely until capacity becomes available',
+      'Delegate the review to the project manager to self-assess and report back',
+      'Prioritise the review based on project risk and value, potentially using a lighter-touch review approach (such as a checklist-based review) if the project is lower risk, but ensuring the review is conducted and documented',
+      'Approve the project without review to avoid delaying delivery',
+    ],
+    a: 2,
+    exp: 'Architecture governance is a core responsibility that cannot simply be deferred or delegated to the project being governed. However, TOGAF supports proportionate governance — a risk-based, lighter-touch review (checklist, attestation, or brief interview) is appropriate for lower-risk projects. The review must still be conducted and documented.',
+  },
+
+  // ── DOMAIN: Architecture Governance (additional) ──
+  {
+    domain: 'Architecture Governance',
+    scenario: 'The Architecture Board has approved a dispensation allowing a project to use a non-standard database technology for 18 months, with a mandatory review at the end of the period.',
+    q: 'What should happen at the 18-month review?',
+    opts: [
+      'The dispensation automatically extends — no action needed',
+      'The project is automatically required to migrate to a standard database at that point',
+      'The Architecture Board reviews the situation: the non-standard technology may be normalised into the Standards Information Base, the dispensation extended with new conditions, or the project required to migrate — based on the current business context and risk assessment',
+      'The dispensation review is a formality with no real consequence',
+    ],
+    a: 2,
+    exp: 'A dispensation is a time-limited formal exception. The mandatory review is a real governance checkpoint. The Architecture Board assesses the situation: if the technology has proven its value and gained industry adoption, it may be added to the SIB. If circumstances have changed, the dispensation may be extended or migration required. The outcome must be formally decided and documented.',
+  },
+  {
+    domain: 'Architecture Governance',
+    scenario: 'An organisation wants to ensure that lessons learned from each architecture engagement are captured and fed back into future architecture work.',
+    q: 'Which TOGAF mechanism supports this organisational learning?',
+    opts: [
+      'The Governance Log — which records decisions but not lessons learned',
+      'Formal Architecture Review sessions at the end of each ADM cycle, with findings captured in the Architecture Repository Reference Library for use in future engagements',
+      'Individual architects are responsible for remembering lessons — no formal mechanism is needed',
+      'The Standards Information Base — which should be updated after every project',
+    ],
+    a: 1,
+    exp: 'TOGAF supports organisational learning through post-ADM reviews. Lessons learned are formally documented and stored in the Architecture Repository Reference Library, where they can be referenced by future architecture engagements. This is a key maturity practice that distinguishes ad hoc architecture from a managed architecture function.',
+  },
+
+  // ── DOMAIN: Business Scenarios (additional) ──
+  {
+    domain: 'Business Scenarios',
+    scenario: 'A Business Scenario workshop has been completed for a new government digital services programme. The scenario document identifies that citizens (the primary actors) currently experience an average of 4.2 hours to complete a government service application. The desired outcome is to reduce this to under 20 minutes.',
+    q: 'How does this measurable outcome target influence the subsequent ADM phases?',
+    opts: [
+      'It provides a success metric only — the architecture does not need to be designed specifically to achieve it',
+      'It establishes a measurable architecture requirement (service completion time under 20 minutes) that drives design decisions in Phase B (process redesign), Phase C (application capability), and Phase D (technology platform performance)',
+      'It is only relevant to Phase G where delivery is measured against outcomes',
+      'It sets a project management KPI but has no direct impact on architecture design decisions',
+    ],
+    a: 1,
+    exp: 'Measurable outcomes from the Business Scenario directly feed architecture requirements. A 20-minute service completion target drives Phase B to redesign business processes for speed, Phase C to specify applications that eliminate manual steps, and Phase D to specify a technology platform with the performance characteristics needed to meet the target.',
+  },
+
+  // ── DOMAIN: Risk and Opportunity Management (additional) ──
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'The architecture team has completed a Risk Assessment for the Target Architecture. They have identified 6 risks, of which 2 are classified as Critical (High probability, High impact). The programme sponsor wants to proceed immediately with implementation.',
+    q: 'What is the appropriate governance response to the Critical risks?',
+    opts: [
+      'Proceed immediately — the sponsor has the authority to accept all risks',
+      'Cancel the programme until all risks are reduced to Low',
+      'Present the Critical risks to the Architecture Board with recommended mitigations and formally record the sponsor\'s risk acceptance decision in the Governance Log before proceeding',
+      'Reclassify the Critical risks as Medium to avoid escalation',
+    ],
+    a: 2,
+    exp: 'Critical risks must be formally escalated to the Architecture Board (or appropriate governance authority) for review. Mitigations should be recommended. If the sponsor wishes to proceed accepting the residual risk, this acceptance must be formally recorded in the Governance Log — it cannot be an informal verbal acceptance.',
+  },
+  {
+    domain: 'Risk and Opportunity Management',
+    scenario: 'An architect identifies that a planned technology choice creates a significant security risk: the proposed off-the-shelf application does not support multi-factor authentication, which is required by the organisation\'s security policy.',
+    q: 'At which ADM phase should this risk ideally have been identified?',
+    opts: [
+      'Phase G — during implementation governance when the application is being configured',
+      'Phase H — when the security incident actually occurs in production',
+      'Phase D — during Technology Architecture development, where technology choices are assessed against the Standards Information Base including the security policy standard',
+      'Phase E — during Opportunities and Solutions when alternatives are evaluated',
+    ],
+    a: 2,
+    exp: 'Security requirements and policy compliance (including MFA requirements) should be assessed during Phase D when technology choices are being made. The Standards Information Base holds the security policy. Assessing proposed technology choices against the SIB in Phase D — before commitments are made — is the correct point for this risk identification.',
+  },
+
+  // ── DOMAIN: Architecture Partitioning and Reuse (additional) ──
+  {
+    domain: 'Architecture Partitioning and Reuse',
+    scenario: 'A large public sector organisation has a central IT function and eight semi-autonomous government agencies, each with their own IT delivery capability. The organisation wants to implement a federated architecture governance model.',
+    q: 'How does TOGAF Architecture Partitioning support a federated governance model?',
+    opts: [
+      'Architecture Partitioning requires all architecture decisions to be centralised — it does not support federation',
+      'Architecture Partitioning allows the central function to own the Strategic Architecture (policies, principles, standards) while agencies own their Segment Architectures, with governance ensuring agency architectures conform to the strategic framework',
+      'Architecture Partitioning means each agency operates completely independently with no central oversight',
+      'Architecture Partitioning is only relevant to large commercial enterprises, not public sector organisations',
+    ],
+    a: 1,
+    exp: 'Architecture Partitioning explicitly supports federated governance. The central function establishes the Strategic Architecture (enterprise-wide policies, principles, and standards). Each agency develops its Segment Architecture within that framework. The Architecture Board governs conformance between agency architectures and the enterprise framework, enabling autonomy within boundaries.',
+  },
+
+  // ── DOMAIN: Migration Planning (additional) ──
+  {
+    domain: 'Migration Planning',
+    scenario: 'The Architecture Roadmap has been baselined and signed off. Three months into implementation, a major cloud provider announces a new managed AI service that could significantly reduce the cost and complexity of the proposed data analytics work package.',
+    q: 'What is the TOGAF process for responding to this opportunity?',
+    opts: [
+      'The roadmap is baselined — no changes are permitted until the next ADM cycle',
+      'The implementation team should immediately adopt the new service without architecture review',
+      'Raise an Architecture Change Request through Phase H, assess the impact on the affected work package and any dependencies, and if the opportunity is validated, update the Architecture Roadmap through the formal change process',
+      'The opportunity should be noted but deferred to the next full ADM cycle starting from Phase A',
+    ],
+    a: 2,
+    exp: 'Phase H: Architecture Change Management handles exactly this type of situation — external technology change creating a new opportunity. A formal change request is raised, the opportunity is assessed for business value, cost, and impact on the roadmap, and if approved, the Architecture Roadmap is updated through the formal change process. Baselines can be updated — but only formally.',
+  },
+
+  // ── DOMAIN: Architecture Views and Viewpoints (additional) ──
+  {
+    domain: 'Architecture Views and Viewpoints',
+    scenario: 'An organisation is documenting its Target Architecture. A team member suggests that producing multiple views from the same underlying architecture model is inefficient and recommends creating one comprehensive view instead.',
+    q: 'What is the flaw in this reasoning?',
+    opts: [
+      'There is no flaw — a single comprehensive view is always the most efficient approach',
+      'Multiple views are required by TOGAF regulation and cannot be avoided regardless of efficiency',
+      'A single view attempting to address all stakeholder concerns becomes incomprehensibly complex and fails to address any individual stakeholder\'s concerns effectively; different audiences need views tailored to their specific concerns, derived from the same underlying model to ensure consistency',
+      'Multiple views are needed because different stakeholders use different diagramming tools',
+    ],
+    a: 2,
+    exp: 'The power of the view-based approach is that different views address different concerns while remaining consistent because they are all derived from the same underlying architecture model. A single comprehensive view becomes unreadable and fails all audiences. Tailored views are more effective precisely because they focus on what each stakeholder needs to know.',
+  },
+
+  // ── DOMAIN: Architecture Governance (additional) ──
+  {
+    domain: 'Architecture Governance',
+    scenario: 'An organisation is establishing its Architecture Governance Framework for the first time as part of the Preliminary Phase. The CIO asks what the key components of the framework should be.',
+    q: 'Which set of components does TOGAF identify as essential for an Architecture Governance Framework?',
+    opts: [
+      'Architecture documents, project plans, and a technology standards list',
+      'Architecture principles, an Architecture Board, governance processes (compliance reviews, change management, dispensations), and the Architecture Repository',
+      'An org chart showing the architecture team structure, their job descriptions, and a project tracking tool',
+      'A set of architecture patterns, an approved technology list, and a vendor management process',
+    ],
+    a: 1,
+    exp: 'TOGAF defines the Architecture Governance Framework as comprising: Architecture Principles (guiding decision-making), the Architecture Board (governing authority), governance processes (compliance reviews, change management, dispensation), and the Architecture Repository (central store of architecture assets and decisions). These four elements together enable effective architecture governance.',
   },
 ];
+
