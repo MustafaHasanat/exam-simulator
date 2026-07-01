@@ -123,6 +123,14 @@ export const CATEGORY_THEMES: Record<string, CategoryTheme> = {
     glow: 'rgba(0,98,155,0.13)',
     tint: 'rgba(0,98,155,0.12)',
   },
+  'Anthropic': {
+    slug: 'anthropic',
+    label: 'Anthropic',
+    primary: '#d97757',
+    secondary: '#e8b4a0',
+    glow: 'rgba(217,119,87,0.13)',
+    tint: 'rgba(217,119,87,0.12)',
+  },
 };
 
 /** Ordered list for selector screen grouping */
@@ -141,6 +149,7 @@ export const CATEGORY_ORDER = [
   'Data & Analytics',
   'Linux',
   'ISTQB',
+  'Anthropic',
 ] as const;
 
 export function getCategoryTheme(provider: string): CategoryTheme {
